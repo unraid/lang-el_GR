@@ -1,24 +1,24 @@
-Current elected master=
-is current local master browser=
-Local master=
-Monitor local master election=
-please wait, obtaining=
-Workgroup=
+Current elected master=Τρέχων εκλεγμένος master
+is current local master browser=είναι ο τρέχων local master browser
+Local master=Local master
+Monitor local master election=Παρακολούθηση εκλογής local master
+please wait, obtaining=περιμένετε, λήψη
+Workgroup=Workgroup
 
 :smb_workgroup_plug:
-> Enter your local network Workgroup name. Usually this is "WORKGROUP".
+> Εισαγάγετε το όνομα Workgroup του τοπικού σας δικτύου. Συνήθως είναι "WORKGROUP".
 :end
 
 :smb_master_plug:
-> If set to 'Yes' then the server will fully participate in browser elections, and in the absense
-> of other servers, will usually become the local Master Browser.
+> Αν οριστεί 'Ναι', ο διακομιστής θα συμμετέχει πλήρως στις εκλογές browser και, αν δεν υπάρχουν
+> άλλοι διακομιστές, συνήθως θα γίνει ο τοπικός Master Browser.
 :end
 
 :smb_master_election_plug:
-> Enable or disable background monitoring of the local master election.
-> The result of the monitoring is displayed in the header at the top-right position.
+> Ενεργοποίηση ή απενεργοποίηση της παρακολούθησης της εκλογής local master στο παρασκήνιο.
+> Το αποτέλεσμα της παρακολούθησης εμφανίζεται στην κεφαλίδα, πάνω δεξιά.
 :end
 
 :smb_master_current_plug:
-> Shows in real-time the current elected local master browser.
+> Δείχνει σε πραγματικό χρόνο τον τρέχοντα εκλεγμένο local master browser.
 :end

@@ -1,31 +1,31 @@
-Automatic theming=
-Bing API key=
-Bing=
-City name=
-Country name=
-Day theme=
-Geocoding service=
-Google API key=
-Google=
-MapQuest API key=
-MapQuest=
-Night theme=
-No geographical coordinates found for the given address=
-Please adjust=
-Postal code=
-See=
-Street address=
-this site=
-to obtain a Bing API key=
-to obtain a Google API key=
-to obtain a MapQuest API key=
+Automatic theming=Αυτόματο θέμα
+Bing API key=Bing API key
+Bing=Bing
+City name=Όνομα πόλης
+Country name=Όνομα χώρας
+Day theme=Θέμα ημέρας
+Geocoding service=Υπηρεσία geocoding
+Google API key=Google API key
+Google=Google
+MapQuest API key=MapQuest API key
+MapQuest=MapQuest
+Night theme=Θέμα νύχτας
+No geographical coordinates found for the given address=Δεν βρέθηκαν γεωγραφικές συντεταγμένες για τη διεύθυνση που δόθηκε
+Please adjust=Προσαρμόστε τη
+Postal code=Ταχυδρομικός κώδικας
+See=Δείτε
+Street address=Διεύθυνση
+this site=αυτόν τον ιστότοπο
+to obtain a Bing API key=για να λάβετε Bing API key
+to obtain a Google API key=για να λάβετε Google API key
+to obtain a MapQuest API key=για να λάβετε MapQuest API key
 
 :day_night_plug:
-> Enter your address information (street, city, country) which is used to calculate the sunrise and sunset times of your location.
+> Εισαγάγετε τα στοιχεία της διεύθυνσής σας (οδός, πόλη, χώρα), που χρησιμοποιούνται για τον υπολογισμό των ωρών ανατολής και δύσης του ηλίου στην τοποθεσία σας.
 >
-> A geocoding service is used to convert your address to geographical (latitude and longitude) coordinates.<br>
-> You need to register with one of the available services and get a unique API key to make use of their service.
+> Μια υπηρεσία geocoding μετατρέπει τη διεύθυνσή σας σε γεωγραφικές συντεταγμένες (γεωγραφικό πλάτος και μήκος).<br>
+> Πρέπει να εγγραφείτε σε μία από τις διαθέσιμες υπηρεσίες και να λάβετε μοναδικό API key για να τη χρησιμοποιήσετε.
 >
-> The **day** theme is selected between sunrise and sunset<br>
-> The **night** theme is selected between sunset and sunrise
+> Το θέμα **ημέρας** επιλέγεται μεταξύ ανατολής και δύσης<br>
+> Το θέμα **νύχτας** επιλέγεται μεταξύ δύσης και ανατολής
 :end

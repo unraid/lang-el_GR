@@ -1,85 +1,85 @@
-30 seconds=
-1 minute=
-2 minutes=
-5 minutes=
-10 minutes=
-30 minutes=
-1 hour=
-2 hours=
-Bits per second=
-Bytes per second=
-CPU graph scaling=
-Disk Stats=
-Ethernet interface=
-Four=
-Header menu=
-Initial graphing mode=
-Initial real-time sliding window=
-Last day=
-Last 2 days=
-Last 3 days=
-Last week=
-Last 2 weeks=
-Last 3 weeks=
-Last month=
-Network graph display unit=
-Opening page=
-Pair=
-Placement of Stats menu=
-Position of disk utilization percentage=
-Real-time=
-Show disk size=
-Since start=
-Single=
-Storage=
-System graphs view per row=
-System Stats=
-Three=
-Tools menu=
-Viewable system graphs=
+30 seconds=30 δευτερόλεπτα
+1 minute=1 λεπτό
+2 minutes=2 λεπτά
+5 minutes=5 λεπτά
+10 minutes=10 λεπτά
+30 minutes=30 λεπτά
+1 hour=1 ώρα
+2 hours=2 ώρες
+Bits per second=Bits ανά δευτερόλεπτο
+Bytes per second=Bytes ανά δευτερόλεπτο
+CPU graph scaling=Κλίμακα γραφήματος CPU
+Disk Stats=Στατιστικά Δίσκων
+Ethernet interface=Διεπαφή Ethernet
+Four=Τέσσερα
+Header menu=Μενού κεφαλίδας
+Initial graphing mode=Αρχική λειτουργία γραφήματος
+Initial real-time sliding window=Αρχικό κυλιόμενο παράθυρο πραγματικού χρόνου
+Last day=Τελευταία ημέρα
+Last 2 days=Τελευταίες 2 ημέρες
+Last 3 days=Τελευταίες 3 ημέρες
+Last week=Τελευταία εβδομάδα
+Last 2 weeks=Τελευταίες 2 εβδομάδες
+Last 3 weeks=Τελευταίες 3 εβδομάδες
+Last month=Τελευταίος μήνας
+Network graph display unit=Μονάδα γραφήματος δικτύου
+Opening page=Αρχική σελίδα
+Pair=Ζεύγος
+Placement of Stats menu=Θέση μενού Στατιστικών
+Position of disk utilization percentage=Θέση ποσοστού χρήσης δίσκου
+Real-time=Πραγματικός χρόνος
+Show disk size=Εμφάνιση μεγέθους δίσκου
+Since start=Από την εκκίνηση
+Single=Ένα
+Storage=Αποθήκευση
+System graphs view per row=Γραφήματα συστήματος ανά γραμμή
+System Stats=Στατιστικά Συστήματος
+Three=Τρία
+Tools menu=Μενού Εργαλείων
+Viewable system graphs=Ορατά γραφήματα συστήματος
 
 :stats_utilization_plug:
-> The disk utilization percentage number can be positioned either at the start (left) or at the end (right) of the bar.
+> Ο αριθμός ποσοστού χρήσης δίσκου μπορεί να τοποθετηθεί είτε στην αρχή (αριστερά) είτε στο τέλος (δεξιά) της μπάρας.
 >
-> Left will align all numbers, while right lets the number float depending on its value.
+> Αριστερά στοιχίζονται όλοι οι αριθμοί, ενώ δεξιά ο αριθμός μετακινείται ανάλογα με την τιμή του.
 :end
 
 :stats_graphs_plug:
-> Select which system information needs to be displayed. Internally all information is always gathered and stored.
+> Επιλέξτε ποιες πληροφορίες συστήματος θα εμφανίζονται. Εσωτερικά, όλες οι πληροφορίες συλλέγονται και αποθηκεύονται πάντα.
 >
-> This setting only affects what is being displayed.
+> Αυτή η ρύθμιση επηρεάζει μόνο το τι εμφανίζεται.
 :end
 
 :stats_scaling_plug:
-> Select the CPU graph scaling to be automatic or fixed at 100%.
+> Επιλέξτε αν η κλίμακα του γραφήματος CPU θα είναι αυτόματη ή σταθερή στο 100%.
 :end
 
 :stats_view_plug:
-> Select how many graphs will be displayed in a single row. The width is automatically adjusted to the number of graphs and the screen resolution.
+> Επιλέξτε πόσα γραφήματα θα εμφανίζονται σε μία γραμμή. Το πλάτος προσαρμόζεται αυτόματα στον αριθμό γραφημάτων και στην ανάλυση της οθόνης.
 >
-> Graph samples are internally done with a one minute interval, this setting does not change the resolution, just the width of a graph.
+> Τα δείγματα των γραφημάτων λαμβάνονται εσωτερικά ανά ένα λεπτό· αυτή η ρύθμιση δεν αλλάζει την ανάλυση, μόνο το πλάτος του γραφήματος.
 :end
 
 :stats_disk_size_plug:
-> Show the size of each disk at the right side of the disk usage graph. Size is always displayed using the highest possible unit.
+> Εμφανίζει το μέγεθος κάθε δίσκου στη δεξιά πλευρά του γραφήματος χρήσης δίσκων. Το μέγεθος εμφανίζεται πάντα με τη μεγαλύτερη δυνατή μονάδα.
 :end
 
 :stats_ethernet_plug:
-> When more than one interface is present then select the interface to be displayed. Internally statistics of all available interfaces is kept.
+> Όταν υπάρχουν περισσότερες διεπαφές, επιλέξτε τη διεπαφή που θα εμφανίζεται. Εσωτερικά τηρούνται στατιστικά για όλες τις διαθέσιμες διεπαφές.
 :end
 
 :stats_unit_plug:
-> Select how interface (network) speeds are displayed, common is bits per second.
+> Επιλέξτε πώς εμφανίζονται οι ταχύτητες διεπαφών (δικτύου)· το συνηθέστερο είναι bits ανά δευτερόλεπτο.
 :end
 
 :stats_initial_plug:
-> The system graphs can be viewed over different periods, select here the initial period. On the system stats page itself this can be changed to any of the other choices.
+> Τα γραφήματα συστήματος μπορούν να προβληθούν για διάφορες περιόδους· επιλέξτε εδώ την αρχική περίοδο. Στην ίδια τη σελίδα στατιστικών συστήματος μπορείτε να την αλλάξετε σε οποιαδήποτε άλλη επιλογή.
 >
-> Internally information is kept with a monthly rotating mechanism. Each day is stored in a separate file.
+> Εσωτερικά οι πληροφορίες τηρούνται με μηνιαία εναλλαγή. Κάθε ημέρα αποθηκεύεται σε ξεχωριστό αρχείο.
 :end
 
 :stats_realtime_plug:
-> Real-time graphing is done in a sliding window fashion. E.g. 5 minutes are first filled and next start to slide with each new sample added at the end.
+> Τα γραφήματα πραγματικού χρόνου λειτουργούν με κυλιόμενο παράθυρο. Π.χ. πρώτα γεμίζουν 5 λεπτά και μετά το παράθυρο κυλά με κάθε νέο δείγμα που προστίθεται στο τέλος.
 >
-> This setting sets the initial duration of the sliding window, it can be changed on the system stats page itself.
+> Αυτή η ρύθμιση ορίζει την αρχική διάρκεια του κυλιόμενου παραθύρου· μπορεί να αλλάξει στην ίδια τη σελίδα στατιστικών συστήματος.
 :end

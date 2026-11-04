@@ -1,5 +1,5 @@
-Aborted - export file not found=
-Import=
-Build up-to-date=
-Export up-to-date=
-Operation aborted=
+Aborted - export file not found=Ματαιώθηκε - το αρχείο εξαγωγής δεν βρέθηκε
+Import=Εισαγωγή
+Build up-to-date=Build ενημερωμένο
+Export up-to-date=Εξαγωγή ενημερωμένη
+Operation aborted=Η εργασία ματαιώθηκε

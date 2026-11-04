@@ -4,456 +4,456 @@
 
 ; Parity Check Settings Page
 
-Parity Check Tuning=
-automatic=
-Basic=
-below critical disk temperature threshold=
-below warning disk temperature threshold=
-CAUTION=
-Click to show parity-check history=
-Data Rebuild=
-Debug=
-Disk Clear=
-Donate to plugin author=DONATE
-entry in %s format=
-High disk temperatures can shutdown server=
-Increment frequency=
-Increment pause time=
-Increment resume time=
-No parity check entries found in syslog=
-ParityRead-Check History=Parity/Read-Check History
-Parity Check=
-Parity Check Tuning logging=
-Parity Sync=
-Pause an array operation at=
-Pause and Resume array operations if disks overheat=
-Read Check=
-Requires Unraid 67 or later=Requires Unraid 6.7 or later
-Resume an array operation at=
-Resume parity checks on next array start=
-Resume running Array operations on next array start=
-Run %s %s in increments=
-scheduled=
-Send notifications for Pause or Resume of increments=
-Send notifications for temperature related Pause or Resume=
-Shutdown server at=
-Syslog only=
-Syslog and Flash=
-Flash only=
-Testing=
-Unscheduled=
-Use increments for %s %s=
-Use increments for disk Clear operations=
-Use increments for Parity-SyncData Rebuild operations=Use increments for Parity-Sync/Data Rebuild operations
-You require a parity disk present for this option to be relevant=
+Parity Check Tuning=Parity Check Tuning
+automatic=αυτόματο
+Basic=Βασικό
+below critical disk temperature threshold=κάτω από το κρίσιμο όριο θερμοκρασίας δίσκου
+below warning disk temperature threshold=κάτω από το όριο προειδοποίησης θερμοκρασίας δίσκου
+CAUTION=ΠΡΟΣΟΧΗ
+Click to show parity-check history=Κλικ για εμφάνιση ιστορικού parity-check
+Data Rebuild=Data Rebuild
+Debug=Debug
+Disk Clear=Disk Clear
+Donate to plugin author=ΔΩΡΕΑ
+entry in %s format=εγγραφή σε μορφή %s
+High disk temperatures can shutdown server=Οι υψηλές θερμοκρασίες δίσκων μπορεί να τερματίσουν τον διακομιστή
+Increment frequency=Συχνότητα τμημάτων
+Increment pause time=Ώρα παύσης τμήματος
+Increment resume time=Ώρα συνέχισης τμήματος
+No parity check entries found in syslog=Δεν βρέθηκαν εγγραφές parity check στο syslog
+ParityRead-Check History=Ιστορικό Parity/Read-Check
+Parity Check=Parity Check
+Parity Check Tuning logging=Καταγραφή Parity Check Tuning
+Parity Sync=Parity Sync
+Pause an array operation at=Παύση λειτουργίας array στις
+Pause and Resume array operations if disks overheat=Παύση και συνέχιση λειτουργιών array αν υπερθερμανθούν οι δίσκοι
+Read Check=Read Check
+Requires Unraid 67 or later=Απαιτεί Unraid 6.7 ή νεότερο
+Resume an array operation at=Συνέχιση λειτουργίας array στις
+Resume parity checks on next array start=Συνέχιση parity checks στην επόμενη εκκίνηση του array
+Resume running Array operations on next array start=Συνέχιση λειτουργιών Array στην επόμενη εκκίνηση του array
+Run %s %s in increments=Εκτέλεση %s %s σε τμήματα
+scheduled=προγραμματισμένο
+Send notifications for Pause or Resume of increments=Αποστολή ειδοποιήσεων για Παύση ή Συνέχιση τμημάτων
+Send notifications for temperature related Pause or Resume=Αποστολή ειδοποιήσεων για Παύση ή Συνέχιση λόγω θερμοκρασίας
+Shutdown server at=Τερματισμός διακομιστή στους
+Syslog only=Μόνο Syslog
+Syslog and Flash=Syslog και Flash
+Flash only=Μόνο Flash
+Testing=Testing
+Unscheduled=Μη προγραμματισμένο
+Use increments for %s %s=Χρήση τμημάτων για %s %s
+Use increments for disk Clear operations=Χρήση τμημάτων για λειτουργίες Disk Clear
+Use increments for Parity-SyncData Rebuild operations=Χρήση τμημάτων για λειτουργίες Parity-Sync/Data Rebuild
+You require a parity disk present for this option to be relevant=Χρειάζεται δίσκος parity για να έχει νόημα αυτή η επιλογή
 
 ; Parity Problems Assistant page
 
-Parity Problems Assistant=
+Parity Problems Assistant=Parity Problems Assistant
 
 ; page intro text
 
 :parityProblems_intro_plug:
-The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin.<p/>
-The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future.
-**(feedback is welcomed on the basic concept and ideas for improvement)**.<p/>
-The idea is that this assistant can be used after a parity check or read check has reported problems and logged the details of any problem sectors to the syslog.
-In many cases such errors can be due to external factors such as cabling or the power supply rather than the actual disks.<p/>
-It is also not uncommon, particularly on **Ryzen/ThreadRipper** based systems, to get random parity errors if the RAM is overclocked
-(an XMP profile **is** an overclock),
-and the motherboard/CPU combination may also impose limits that are lower than the RAM is capable of supporting.<p/>
-If you think you have rectified whatever caused the problems to occur then you can use this assistant to run a partial check over a narrow range to see if the problem still occurs.
-This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk.<p/>
-**IMPORTANT**:  This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved.
+Ο **Parity Problems Assistant** είναι μέρος του plugin **Parity Check Tuning**.<p/>
+Η τρέχουσα κατάσταση είναι **ΠΕΙΡΑΜΑΤΙΚΗ** και είναι πάντα πιθανό αυτός ο βοηθός να αφαιρεθεί στο μέλλον.
+**(τα σχόλια για τη βασική ιδέα και προτάσεις βελτίωσης είναι ευπρόσδεκτα)**.<p/>
+Η ιδέα είναι ότι ο βοηθός μπορεί να χρησιμοποιηθεί αφού ένα parity check ή read check αναφέρει προβλήματα και καταγράψει στο syslog λεπτομέρειες για τους προβληματικούς τομείς.
+Σε πολλές περιπτώσεις τέτοια σφάλματα οφείλονται σε εξωτερικούς παράγοντες, όπως καλώδια ή τροφοδοτικό, και όχι στους ίδιους τους δίσκους.<p/>
+Επίσης δεν είναι ασυνήθιστο, ιδίως σε συστήματα **Ryzen/ThreadRipper**, να εμφανίζονται τυχαία σφάλματα parity αν η RAM είναι overclocked
+(ένα προφίλ XMP **είναι** overclock),
+και ο συνδυασμός μητρικής/CPU μπορεί επίσης να επιβάλλει όρια χαμηλότερα από όσα υποστηρίζει η RAM.<p/>
+Αν πιστεύετε ότι έχετε διορθώσει την αιτία των προβλημάτων, μπορείτε να χρησιμοποιήσετε αυτόν τον βοηθό για μερικό έλεγχο σε στενό εύρος, ώστε να δείτε αν το πρόβλημα εξακολουθεί να εμφανίζεται.
+Αυτό μπορεί να είναι πολύ γρηγορότερο από ένα πλήρες parity check ή read check για να δείτε αν λύσατε το πρόβλημα, ή από έναν εκτεταμένο έλεγχο SMART του δίσκου.<p/>
+**ΣΗΜΑΝΤΙΚΟ**: Αυτός ο βοηθός δεν πρέπει ποτέ να χρησιμοποιείται αντί για πλήρες parity check, όταν πιστεύετε ότι το πρόβλημα λύθηκε.
 :end
 
 ; fields
 
-Click to show Error Sectors from syslog=
-End point for check=
-Method used to specify start and stop points=
-Only read checks can be performed=
-percent=
-Percentage=
-sector=
-Sector Numbers=
-Show Sector Numbers=
-Start Check=
-Start point for check=
-Write Corrections to Parity=
+Click to show Error Sectors from syslog=Κλικ για εμφάνιση τομέων με σφάλματα από το syslog
+End point for check=Σημείο τέλους ελέγχου
+Method used to specify start and stop points=Μέθοδος ορισμού σημείων έναρξης και τέλους
+Only read checks can be performed=Μπορούν να εκτελεστούν μόνο read checks
+percent=τοις εκατό
+Percentage=Ποσοστό
+sector=τομέας
+Sector Numbers=Αριθμοί Τομέων
+Show Sector Numbers=Εμφάνιση Αριθμών Τομέων
+Start Check=Έναρξη Ελέγχου
+Start point for check=Σημείο έναρξης ελέγχου
+Write Corrections to Parity=Εγγραφή Διορθώσεων στο Parity
 
 ; PHP file messages
 
-Analyze results from an array operation=
-Array being shutdown due to drive overheating=
-Array operation will not be restarted=
-Array operation restarted=
-Array shutdown=
-Cancel a running parity check=
-Correcting=
-Detected a change to the disk configuration=
-Drives cooled down=
-Elapsed Time=
-ERROR=
-Following drives overheated=
-IMPORTANT=
-Increments=
-Non-Correcting=
-Pause a running array operation=
-Resume a paused array operation=
-Sent notification=
-Show the status of a running parity check=
-Shutdown=
-Start a correcting parity check=Start a correcting Parity-Check
-Start a parity check with scheduled settings=Start a Parity-Check with scheduled settings
-Starting Shutdown=
-Unclean shutdown detected=
-Unknown action=
-Unrecognized option=
-Usage=
-where action is one of=
+Analyze results from an array operation=Ανάλυση αποτελεσμάτων λειτουργίας array
+Array being shutdown due to drive overheating=Το array τερματίζεται λόγω υπερθέρμανσης δίσκων
+Array operation will not be restarted=Η λειτουργία array δεν θα επανεκκινηθεί
+Array operation restarted=Η λειτουργία array επανεκκινήθηκε
+Array shutdown=Τερματισμός array
+Cancel a running parity check=Ακύρωση parity check σε εξέλιξη
+Correcting=Με διόρθωση
+Detected a change to the disk configuration=Εντοπίστηκε αλλαγή στη διαμόρφωση δίσκων
+Drives cooled down=Οι δίσκοι κρύωσαν
+Elapsed Time=Χρόνος που Πέρασε
+ERROR=ΣΦΑΛΜΑ
+Following drives overheated=Οι παρακάτω δίσκοι υπερθερμάνθηκαν
+IMPORTANT=ΣΗΜΑΝΤΙΚΟ
+Increments=Τμήματα
+Non-Correcting=Χωρίς διόρθωση
+Pause a running array operation=Παύση λειτουργίας array σε εξέλιξη
+Resume a paused array operation=Συνέχιση λειτουργίας array σε παύση
+Sent notification=Στάλθηκε ειδοποίηση
+Show the status of a running parity check=Εμφάνιση κατάστασης parity check σε εξέλιξη
+Shutdown=Τερματισμός
+Start a correcting parity check=Έναρξη Parity-Check με διόρθωση
+Start a parity check with scheduled settings=Έναρξη Parity-Check με τις προγραμματισμένες ρυθμίσεις
+Starting Shutdown=Έναρξη Τερματισμού
+Unclean shutdown detected=Εντοπίστηκε μη ομαλός τερματισμός
+Unknown action=Άγνωστη ενέργεια
+Unrecognized option=Μη αναγνωρίσιμη επιλογή
+Usage=Χρήση
+where action is one of=όπου η ενέργεια είναι μία από
 
 ; Notifications
 
-aborted due to Unclean shutdown=
-array stopping so progress will be lost=
+aborted due to Unclean shutdown=ματαιώθηκε λόγω μη ομαλού τερματισμού
+array stopping so progress will be lost=το array σταματά, οπότε η πρόοδος θα χαθεί
 
 ; The type of array operation (parity check, clear, rebuild) will be appended to the following text
 
-Automatic Unraid=Automatic Unraid
-Average Speed=
-completed=
-Correcting Parity Check=
-Drives cooled down=
-errors=
-finished=
-Increments=
-NonCorrecting Parity Check=Non-Correcting Parity-Check
-Pause=
-Paused=
-Resume=
-Resumed=
-Runtime=
-Scheduled pause=
-Unclean shutdown detected=
-will be started=
+Automatic Unraid=Αυτόματο Unraid
+Average Speed=Μέση Ταχύτητα
+completed=ολοκληρώθηκε
+Correcting Parity Check=Parity Check με Διόρθωση
+Drives cooled down=Οι δίσκοι κρύωσαν
+errors=σφάλματα
+finished=τελείωσε
+Increments=Τμήματα
+NonCorrecting Parity Check=Parity-Check χωρίς Διόρθωση
+Pause=Παύση
+Paused=Σε παύση
+Resume=Συνέχιση
+Resumed=Συνεχίστηκε
+Runtime=Χρόνος εκτέλεσης
+Scheduled pause=Προγραμματισμένη παύση
+Unclean shutdown detected=Εντοπίστηκε μη ομαλός τερματισμός
+will be started=θα ξεκινήσει
 
 ; Swal warnings
 
-A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=
-At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=
-Are you sure you have not got these the wrong way around=
-Before you can set this option to Yes you must first have enabled system notifications=
-Click on the crontab link to get more details on valid formats=
-Debug mode can generate frequent additional log entries in the syslog file so do not leave debug mode active if you are not interested in this information=
-Debug mode is intended to give users a feel for when the plugin is active=
-Do not leave this active if you are not interested in this information=
-Do you really want Debug logging mode=
-Do you really want Testing logging mode=
-Do you really want to log to the flash drive=
-Do you really want this=
-Error in custom entry=
-extra time that will elapse before the system is once again in a protected state=
-Logging to the flash drive can cause a lot additional writes thus potentially shortening its lifetime=
-Notifications not enabled=
-On most systems a disk Clear operation does not adversely affect performance so typically this option is left disabled=
-Only enable this option if the operation is adversely affecting system use and you are not worried about the extra time that will elapse before the system is once again in a protected state=
-Pause and Resume times=
-Pausing a disk Clear operation extends the time before the disk is successfully added to the array and becomes ready for formatting and then used for data storage=
-Pausing an operation that is building parity or rebuilding a failed disk has a level of risk as your array is not back in a protected state until=
-Temperature Pause and Resume=
-Testing mode is normally only used by the plugin author or when gathering evidence of a suspected bug in the plugin=
-Testing mode is very verbose and generates a lot of additional log entries so you do not want it enabled unless this is really necessary=
-The Pause and Resume times would give an increment length of more than 12 hours which is unusual=
-The Resume value must be greater than the Pause one for the heat related Pause and Resume to work correctly as they are both subtracted from the disk temperature warning value when calculating the desired temperature=
-The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the Unraid level=
-This might affect array integrity=
-Unusually large value=
+A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=Μια εγγραφή crontab πρέπει να έχει 5 τιμές χωρισμένες με κενά, που ορίζουν λεπτά, ώρα, ημέρα του μήνα, μήνα και ημέρα της εβδομάδας
+At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=Προς το παρόν δεν υπάρχει μηχανισμός που να εμποδίζει τη συνεχή αύξηση του αρχείου, οπότε πρέπει να το διαχειρίζεστε χειροκίνητα
+Are you sure you have not got these the wrong way around=Είστε σίγουροι ότι δεν τα έχετε ανάποδα;
+Before you can set this option to Yes you must first have enabled system notifications=Για να ορίσετε αυτή την επιλογή σε Ναι, πρέπει πρώτα να έχετε ενεργοποιήσει τις ειδοποιήσεις συστήματος
+Click on the crontab link to get more details on valid formats=Κάντε κλικ στον σύνδεσμο crontab για λεπτομέρειες σχετικά με τις έγκυρες μορφές
+Debug mode can generate frequent additional log entries in the syslog file so do not leave debug mode active if you are not interested in this information=Η λειτουργία debug μπορεί να δημιουργεί συχνά πρόσθετες εγγραφές στο syslog, οπότε μην την αφήνετε ενεργή αν δεν σας ενδιαφέρουν αυτές οι πληροφορίες
+Debug mode is intended to give users a feel for when the plugin is active=Η λειτουργία debug προορίζεται να δείχνει στους χρήστες πότε το plugin είναι ενεργό
+Do not leave this active if you are not interested in this information=Μην το αφήνετε ενεργό αν δεν σας ενδιαφέρουν αυτές οι πληροφορίες
+Do you really want Debug logging mode=Θέλετε πραγματικά λειτουργία καταγραφής Debug;
+Do you really want Testing logging mode=Θέλετε πραγματικά λειτουργία καταγραφής Testing;
+Do you really want to log to the flash drive=Θέλετε πραγματικά καταγραφή στη συσκευή flash;
+Do you really want this=Το θέλετε πραγματικά;
+Error in custom entry=Σφάλμα στην προσαρμοσμένη εγγραφή
+extra time that will elapse before the system is once again in a protected state=επιπλέον χρόνο που θα περάσει μέχρι το σύστημα να είναι ξανά σε προστατευμένη κατάσταση
+Logging to the flash drive can cause a lot additional writes thus potentially shortening its lifetime=Η καταγραφή στη συσκευή flash μπορεί να προκαλέσει πολλές επιπλέον εγγραφές και να μειώσει τη διάρκεια ζωής της
+Notifications not enabled=Οι ειδοποιήσεις δεν είναι ενεργές
+On most systems a disk Clear operation does not adversely affect performance so typically this option is left disabled=Στα περισσότερα συστήματα το Disk Clear δεν επηρεάζει αρνητικά την απόδοση, οπότε συνήθως αυτή η επιλογή μένει ανενεργή
+Only enable this option if the operation is adversely affecting system use and you are not worried about the extra time that will elapse before the system is once again in a protected state=Ενεργοποιήστε αυτή την επιλογή μόνο αν η λειτουργία επηρεάζει αρνητικά τη χρήση του συστήματος και δεν σας ανησυχεί ο επιπλέον χρόνος μέχρι το σύστημα να είναι ξανά σε προστατευμένη κατάσταση
+Pause and Resume times=Ώρες παύσης και συνέχισης
+Pausing a disk Clear operation extends the time before the disk is successfully added to the array and becomes ready for formatting and then used for data storage=Η παύση ενός Disk Clear επεκτείνει τον χρόνο μέχρι ο δίσκος να προστεθεί επιτυχώς στο array και να είναι έτοιμος για διαμόρφωση και αποθήκευση δεδομένων
+Pausing an operation that is building parity or rebuilding a failed disk has a level of risk as your array is not back in a protected state until=Η παύση μιας λειτουργίας που δημιουργεί parity ή επαναδομεί χαλασμένο δίσκο έχει κάποιο ρίσκο, καθώς το array δεν επιστρέφει σε προστατευμένη κατάσταση μέχρι
+Temperature Pause and Resume=Παύση και Συνέχιση Λόγω Θερμοκρασίας
+Testing mode is normally only used by the plugin author or when gathering evidence of a suspected bug in the plugin=Η λειτουργία Testing χρησιμοποιείται συνήθως μόνο από τον δημιουργό του plugin ή για συλλογή στοιχείων για πιθανό σφάλμα στο plugin
+Testing mode is very verbose and generates a lot of additional log entries so you do not want it enabled unless this is really necessary=Η λειτουργία Testing είναι πολύ φλύαρη και δημιουργεί πολλές πρόσθετες εγγραφές log, οπότε μην την ενεργοποιείτε αν δεν είναι πραγματικά απαραίτητο
+The Pause and Resume times would give an increment length of more than 12 hours which is unusual=Οι ώρες παύσης και συνέχισης δίνουν διάρκεια τμήματος μεγαλύτερη από 12 ώρες, κάτι ασυνήθιστο
+The Resume value must be greater than the Pause one for the heat related Pause and Resume to work correctly as they are both subtracted from the disk temperature warning value when calculating the desired temperature=Η τιμή Συνέχισης πρέπει να είναι μεγαλύτερη από την τιμή Παύσης για να λειτουργεί σωστά η παύση και συνέχιση λόγω θερμοκρασίας, αφού και οι δύο αφαιρούνται από την τιμή προειδοποίησης θερμοκρασίας δίσκου για τον υπολογισμό της επιθυμητής θερμοκρασίας
+The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the Unraid level=Η τιμή που ορίσατε φαίνεται ασυνήθιστα μεγάλη, καθώς δεν είναι απόλυτη τιμή αλλά σχετική με το επίπεδο Προειδοποίησης θερμοκρασίας δίσκων του Unraid
+This might affect array integrity=Αυτό μπορεί να επηρεάσει την ακεραιότητα του array
+Unusually large value=Ασυνήθιστα μεγάλη τιμή
 
 ; Syslog messages (with debug logging disabled)
 
-%s Cancelled=
-Array not started so no action taken=
-as drives now cooled down=
-Following drives overheated=
-Only able to start a Read-Check due to number of disabled drives=
+%s Cancelled=%s Ακυρώθηκε
+Array not started so no action taken=Το array δεν έχει ξεκινήσει, οπότε δεν έγινε καμία ενέργεια
+as drives now cooled down=καθώς οι δίσκοι κρύωσαν
+Following drives overheated=Οι παρακάτω δίσκοι υπερθερμάνθηκαν
+Only able to start a Read-Check due to number of disabled drives=Μπορεί να ξεκινήσει μόνο Read-Check λόγω του αριθμού απενεργοποιημένων δίσκων
 
 ; Syslog messages (with debug logging enabled)
 ; (probably not worth translating these as they are mainly of use to the plugin developer)
 
-appears to be a regular scheduled check=
-%s cancel request sent %s=
-already running=
-array drives=
-Array operation paused but drives not cooled enough to resume=
-Array operation paused but not for temperature related reason=
-Array stopping=
-Array stopping while %s was in progress %s=
-but no action currently taken on started event=
-but no parity check was in progress when array stopped=
-Cancel request=
-cool=
-created cron entries for running increments=
-created cron entry for monitoring disk temperatures=
-Detected that array has not yet been started=
-Detected that array has just been started=
-detected that mdcmd had been called from %s with command %s=
-ERROR=
-hot=
-Loading progress file %s=
-No action specified=
-No array operation currently in progress=
-No cron events for this plugin are needed=
-No drives appear to have reached shutdown threshold=
-Not allowed as %s already running=
-Option not currently recognized=
-Parity check appears to be paused=
-Parity Check was in progress when array stopped at %s=
-Pause of=
-Pause request=
-Removed existing state file %s=
-Resume request=
-so no further action to take=
-Temperature monitoring switched off=
-Unscheduled array operation in progress=
-using scheduled mode of %s=
-warm=
-with all array drives below temperature threshold for a Pause=
+appears to be a regular scheduled check=φαίνεται να είναι κανονικός προγραμματισμένος έλεγχος
+%s cancel request sent %s=%s αίτημα ακύρωσης στάλθηκε %s
+already running=εκτελείται ήδη
+array drives=δίσκοι array
+Array operation paused but drives not cooled enough to resume=Η λειτουργία array είναι σε παύση, αλλά οι δίσκοι δεν κρύωσαν αρκετά για συνέχιση
+Array operation paused but not for temperature related reason=Η λειτουργία array είναι σε παύση, αλλά όχι λόγω θερμοκρασίας
+Array stopping=Το array σταματά
+Array stopping while %s was in progress %s=Το array σταματά ενώ ήταν σε εξέλιξη το %s %s
+but no action currently taken on started event=αλλά προς το παρόν δεν γίνεται ενέργεια στο γεγονός εκκίνησης
+but no parity check was in progress when array stopped=αλλά δεν ήταν σε εξέλιξη parity check όταν σταμάτησε το array
+Cancel request=Αίτημα ακύρωσης
+cool=κρύο
+created cron entries for running increments=δημιουργήθηκαν εγγραφές cron για εκτέλεση τμημάτων
+created cron entry for monitoring disk temperatures=δημιουργήθηκε εγγραφή cron για παρακολούθηση θερμοκρασιών δίσκων
+Detected that array has not yet been started=Εντοπίστηκε ότι το array δεν έχει ξεκινήσει ακόμα
+Detected that array has just been started=Εντοπίστηκε ότι το array μόλις ξεκίνησε
+detected that mdcmd had been called from %s with command %s=εντοπίστηκε ότι το mdcmd κλήθηκε από %s με εντολή %s
+ERROR=ΣΦΑΛΜΑ
+hot=ζεστό
+Loading progress file %s=Φόρτωση αρχείου προόδου %s
+No action specified=Δεν ορίστηκε ενέργεια
+No array operation currently in progress=Καμία λειτουργία array σε εξέλιξη
+No cron events for this plugin are needed=Δεν χρειάζονται γεγονότα cron για αυτό το plugin
+No drives appear to have reached shutdown threshold=Κανένας δίσκος δεν φαίνεται να έφτασε το όριο τερματισμού
+Not allowed as %s already running=Δεν επιτρέπεται, καθώς το %s εκτελείται ήδη
+Option not currently recognized=Η επιλογή δεν αναγνωρίζεται προς το παρόν
+Parity check appears to be paused=Το parity check φαίνεται να είναι σε παύση
+Parity Check was in progress when array stopped at %s=Το Parity Check ήταν σε εξέλιξη όταν σταμάτησε το array στο %s
+Pause of=Παύση του
+Pause request=Αίτημα παύσης
+Removed existing state file %s=Αφαιρέθηκε το υπάρχον αρχείο κατάστασης %s
+Resume request=Αίτημα συνέχισης
+so no further action to take=οπότε δεν απαιτείται άλλη ενέργεια
+Temperature monitoring switched off=Η παρακολούθηση θερμοκρασίας απενεργοποιήθηκε
+Unscheduled array operation in progress=Μη προγραμματισμένη λειτουργία array σε εξέλιξη
+using scheduled mode of %s=με προγραμματισμένη λειτουργία %s
+warm=ζεστό
+with all array drives below temperature threshold for a Pause=με όλους τους δίσκους του array κάτω από το όριο θερμοκρασίας για Παύση
 
 ; Syslog messages (with testing logging enabled)
 ; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
 
-analyze previous progress before starting new one=
-Array not started so no action taken=
-Drive %s%s appears to be critical=
-Plugin temperature settings=
-shutdown %s=
-Shutdown not actioned as running in TESTING mode=
-updated cron settings are in %s=
+analyze previous progress before starting new one=ανάλυση προηγούμενης προόδου πριν την έναρξη νέας
+Array not started so no action taken=Το array δεν έχει ξεκινήσει, οπότε δεν έγινε καμία ενέργεια
+Drive %s%s appears to be critical=Ο δίσκος %s%s φαίνεται να είναι σε κρίσιμη κατάσταση
+Plugin temperature settings=Ρυθμίσεις θερμοκρασίας plugin
+shutdown %s=τερματισμός %s
+Shutdown not actioned as running in TESTING mode=Ο τερματισμός δεν εκτελέστηκε, καθώς εκτελείται σε λειτουργία TESTING
+updated cron settings are in %s=οι ενημερωμένες ρυθμίσεις cron είναι στο %s
 
 ; PART 2 - TEXT Blocks ant HELP text
 
-End point for check=
-Method used to specify start and stop points=
+End point for check=Σημείο τέλους ελέγχου
+Method used to specify start and stop points=Μέθοδος ορισμού σημείων έναρξης και τέλους
 
 ; Help text on settings page
 ; These could perhaps be left in English to keep translation task easier)
 
 :parity_tune_explain_plug:
-> The main purpose of this plugin is to allow you to limit array operations such as parity checks to running at times that will not inconvenience you.
+> Ο κύριος σκοπός αυτού του plugin είναι να σας επιτρέπει να περιορίζετε λειτουργίες του array, όπως τα parity checks, σε ώρες που δεν σας ενοχλούν.
 >
->If you have set this to **No** then you get the default system behavior of parity checks running without a break to completion unless you manually stop/pause/cancel them.
+>Αν το έχετε ορίσει **Όχι**, ισχύει η προεπιλεγμένη συμπεριφορά του συστήματος: τα parity checks εκτελούνται χωρίς διακοπή μέχρι την ολοκλήρωση, εκτός αν τα σταματήσετε/θέσετε σε παύση/ακυρώσετε χειροκίνητα.
 >
->Setting this option to **Yes** specifies that parity checks should be run in increments spread over several days.
-> As an example of what this plugin can do assume
->You have a parity check you have scheduled to start on the first of every month at midnight
->* Your past experience has shown that if the parity check runs uninterrupted it takes 30 hours to complete.
->* You set this plugin to use 3 hour increments starting at midnight and finishing at 3.00 A.M.
->* The parity check will now actually take 10 days elapsed time (10 x 3 = 30) so the parity check will complete on 10th of the month.
->* You have scheduled these increments to run starting at midnight and finishing at 3:00 A.M. when you know the system is not being used.
->* You are not worried about this increased elapsed time and will welcome the increased system responsiveness during normal use.
->* The rest of the month this plugin will do nothing as there is no active parity check in progress when the start time for an increment comes around.
+>Η ρύθμιση **Ναι** ορίζει ότι τα parity checks εκτελούνται σε τμήματα, κατανεμημένα σε αρκετές ημέρες.
+> Ως παράδειγμα του τι μπορεί να κάνει αυτό το plugin, υποθέστε ότι
+>Έχετε προγραμματίσει ένα parity check να ξεκινά την πρώτη κάθε μήνα τα μεσάνυχτα
+>* Από την εμπειρία σας, όταν το parity check εκτελείται χωρίς διακοπή, χρειάζεται 30 ώρες για να ολοκληρωθεί.
+>* Ρυθμίζετε το plugin να χρησιμοποιεί τμήματα 3 ωρών, από τα μεσάνυχτα έως τις 3.00 π.μ.
+>* Το parity check θα διαρκέσει πλέον συνολικά 10 ημέρες (10 x 3 = 30), οπότε θα ολοκληρωθεί στις 10 του μήνα.
+>* Έχετε προγραμματίσει αυτά τα τμήματα να εκτελούνται από τα μεσάνυχτα έως τις 3:00 π.μ., όταν ξέρετε ότι το σύστημα δεν χρησιμοποιείται.
+>* Δεν σας ανησυχεί αυτός ο μεγαλύτερος συνολικός χρόνος και προτιμάτε την καλύτερη απόκριση του συστήματος στην κανονική χρήση.
+>* Τον υπόλοιπο μήνα το plugin δεν κάνει τίποτα, καθώς δεν υπάρχει ενεργό parity check όταν έρχεται η ώρα έναρξης ενός τμήματος.
 >
->**CAUTION:**  If the array is stopped while an array operation is incomplete then the progress so far is lost and it can only be restarted from the beginning
+>**ΠΡΟΣΟΧΗ:** Αν το array σταματήσει ενώ μια λειτουργία array δεν έχει ολοκληρωθεί, η πρόοδος χάνεται και μπορεί να ξεκινήσει μόνο από την αρχή
 :end
 
 :parity_tune_increments_plug:
->Setting this option to **Yes** specifies that parity checks should be run in increments spread over several days.
+>Η ρύθμιση **Ναι** ορίζει ότι τα parity checks εκτελούνται σε τμήματα, κατανεμημένα σε αρκετές ημέρες.
 >
->If you have set this to **No** then you get the default system behavior of parity checks running without a break to completion unless you manually stop/pause/cancel them.
+>Αν το έχετε ορίσει **Όχι**, ισχύει η προεπιλεγμένη συμπεριφορά του συστήματος: τα parity checks εκτελούνται χωρίς διακοπή μέχρι την ολοκλήρωση, εκτός αν τα σταματήσετε/θέσετε σε παύση/ακυρώσετε χειροκίνητα.
 >
->**CAUTION:**  The default Unraid behavior is that if the array is stopped while an array operation is incomplete then the progress so far is lost and it can only be restarted from the beginning.
+>**ΠΡΟΣΟΧΗ:** Η προεπιλεγμένη συμπεριφορά του Unraid είναι ότι αν το array σταματήσει ενώ μια λειτουργία array δεν έχει ολοκληρωθεί, η πρόοδος χάνεται και μπορεί να ξεκινήσει μόνο από την αρχή.
 :end
 
 :parity_tune_frequency_plug:
-> The frequency at which parity check increments should be run.
+> Η συχνότητα εκτέλεσης των τμημάτων του parity check.
 >
-> In normal operation it is expected that the <strong>Daily</strong> option will be the one that most users will want to use so this is the default.
-> To support any user looking for other frequencies there is the option to set up <strong>Custom</strong> schedules which will allow for more complicated schedules for the Pause and Resume times.
-> When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.
+> Στην κανονική λειτουργία αναμένεται ότι οι περισσότεροι χρήστες θα θέλουν την επιλογή <strong>Ημερήσια</strong>, γι' αυτό είναι η προεπιλογή.
+> Για χρήστες που θέλουν άλλες συχνότητες, υπάρχει η επιλογή <strong>Προσαρμοσμένο</strong> πρόγραμμα, που επιτρέπει πιο σύνθετα προγράμματα για τις ώρες Παύσης και Συνέχισης.
+> Με αυτή την επιλογή μπορείτε να ορίσετε την ώρα όπως στο εργαλείο <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> του Linux.
 :end
 
 :parity_tune_manual_plug:
-> Should parity checks that are started manually also be run in increments?
+> Να εκτελούνται σε τμήματα και τα parity checks που ξεκινούν χειροκίνητα;
 >
-> It is quite likely that you will want such a check to run to completion without interruption and if so leave this option set to **No**.
-> With this option set to **Yes** then if you manually start a Parity Check from the Main page and then manually Pause the check, this will result in the check being run in increments between the scheduled times until the Parity Check completes.
+> Είναι πολύ πιθανό να θέλετε ένας τέτοιος έλεγχος να ολοκληρώνεται χωρίς διακοπή· σε αυτή την περίπτωση αφήστε την επιλογή **Όχι**.
+> Με την επιλογή **Ναι**, αν ξεκινήσετε χειροκίνητα ένα Parity Check από τη σελίδα Κύρια και μετά το θέσετε χειροκίνητα σε Παύση, ο έλεγχος θα εκτελείται σε τμήματα στις προγραμματισμένες ώρες μέχρι να ολοκληρωθεί.
 :end
 
 :parity_tune_automatic_plug:
-> If the Unraid system is not shut down cleanly, then the next time the array is started Unraid will automatically start a non-correcting parity-check (or a read-check if you have no parity disk). This can happen for a wide variety of reasons ranging from power loss; hardware issues; and software issues. The automatic check is run because if there are any parity errors this can compromise the ability to recover from an array drive failure at a later date so you want to get back to having valid parity as soon as is practical.
+> Αν το σύστημα Unraid δεν τερματιστεί ομαλά, την επόμενη φορά που θα ξεκινήσει το array το Unraid θα ξεκινήσει αυτόματα ένα parity-check χωρίς διόρθωση (ή read-check αν δεν έχετε δίσκο parity). Αυτό μπορεί να συμβεί για πολλούς λόγους, από διακοπή ρεύματος έως προβλήματα υλικού ή λογισμικού. Ο αυτόματος έλεγχος εκτελείται επειδή τυχόν σφάλματα parity μπορεί να θέσουν σε κίνδυνο τη δυνατότητα ανάκτησης από μελλοντική βλάβη δίσκου του array, οπότε θέλετε να έχετε ξανά έγκυρο parity το συντομότερο δυνατό.
 >
-> If this option is set, the check will be allowed to run for a few minutes ... and then be automatically paused (if outside the time specified for increments). The remainder of the check will subsequently be run in increments according to the defined time slots.
+> Αν είναι ενεργή αυτή η επιλογή, ο έλεγχος θα εκτελεστεί για λίγα λεπτά ... και μετά θα τεθεί αυτόματα σε παύση (αν είναι εκτός του χρόνου των τμημάτων). Το υπόλοιπο του ελέγχου θα εκτελεστεί στη συνέχεια σε τμήματα, σύμφωνα με τα ορισμένα χρονικά διαστήματα.
 :end
 
 :parity_tune_resume_plug:
-> The time at which a paused parity check should be resumed.
-> If no parity check is currently paused when this time comes around then no action will be taken.
+> Η ώρα όπου ένα parity check σε παύση θα συνεχιστεί.
+> Αν δεν υπάρχει parity check σε παύση όταν έρθει αυτή η ώρα, δεν θα γίνει καμία ενέργεια.
 >
->Typically this time would be set to be the start of an idle period overnight. An appropriate value might be to use the same time that you have specified for a scheduled parity check to start.
+>Συνήθως αυτή η ώρα ορίζεται στην αρχή μιας νυχτερινής περιόδου αδράνειας. Κατάλληλη τιμή μπορεί να είναι η ίδια ώρα που έχετε ορίσει για την έναρξη του προγραμματισμένου parity check.
 >
->If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
+>Αν η περίοδος τμημάτων έχει οριστεί σε **Προσαρμοσμένο**, τα πεδία ωρών/λεπτών αποκρύπτονται και μπορείτε να ορίσετε την ώρα σε μορφή <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a>.
 :end
 
 :parity_tune_pause_plug:
-> The time at which a running parity check should be paused. Typically, this would be set to be a time when you want other activity to not be affected by a running parity check.
->If no parity check is actively running when this time comes around, then no action will be taken.
+> Η ώρα όπου ένα parity check σε εξέλιξη θα τεθεί σε παύση. Συνήθως ορίζεται σε ώρα όπου δεν θέλετε άλλες δραστηριότητες να επηρεάζονται από το parity check.
+>Αν δεν εκτελείται parity check όταν έρθει αυτή η ώρα, δεν θα γίνει καμία ενέργεια.
 >
->Normally you want to make sure that this time is set to be after the time that you schedule regular parity checks to run. The first increment will then be from when the regular parity check is scheduled to start up to the time you have specified for the increment to end.
+>Κανονικά πρέπει αυτή η ώρα να είναι μετά την ώρα που προγραμματίζετε τα τακτικά parity checks. Το πρώτο τμήμα θα είναι τότε από την προγραμματισμένη έναρξη του τακτικού parity check έως την ώρα που έχετε ορίσει για το τέλος του τμήματος.
 >
->If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
+>Αν η περίοδος τμημάτων έχει οριστεί σε **Προσαρμοσμένο**, τα πεδία ωρών/λεπτών αποκρύπτονται και μπορείτε να ορίσετε την ώρα σε μορφή <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a>.
 >
->You also want to make sure that the time allocated to running increments is sufficient to expect the parity check to run to completion before the next check is scheduled to start. Since most people only schedule parity checks to run infrequently (e.g. Monthly or Quarterly) then this is unlikely to be an issue but it is something to take into consideration.
+>Βεβαιωθείτε επίσης ότι ο χρόνος που δίνετε στα τμήματα αρκεί ώστε το parity check να ολοκληρωθεί πριν την προγραμματισμένη έναρξη του επόμενου ελέγχου. Επειδή οι περισσότεροι προγραμματίζουν parity checks σπάνια (π.χ. μηνιαία ή τριμηνιαία), αυτό μάλλον δεν θα είναι πρόβλημα, αλλά πρέπει να το λάβετε υπόψη.
 :end
 
 :parity_tune_notify_plug:
-> Setting this option to <strong>Yes</strong> means that you will be sent a notification every time the plugin Pauses or Resumes an array operation.
->If you would rather not get such notifications then leave this option set to **No**.
->The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
+> Η επιλογή <strong>Ναι</strong> σημαίνει ότι θα λαμβάνετε ειδοποίηση κάθε φορά που το plugin θέτει σε Παύση ή Συνεχίζει μια λειτουργία array.
+>Αν δεν θέλετε τέτοιες ειδοποιήσεις, αφήστε την επιλογή **Όχι**.
+>Η ειδοποίηση στέλνεται ως μήνυμα κατηγορίας **Σημείωση** στους παραλήπτες που ορίζονται στο *<a href="Settings/Notifications">Ρυθμίσεις->Ρυθμίσεις ειδοποιήσεων</a>*.
 :end
 
 :parity_tune_allops_plug:
-> Should operations that involve building new parity or rebuilding a failed disk be run using increments?
+> Να εκτελούνται σε τμήματα οι λειτουργίες που δημιουργούν νέο parity ή επαναδομούν χαλασμένο δίσκο;
 >
->This type of check will only be run if there is potentially some issue with your array and action is being taken to get it back into a protected state.
+>Αυτός ο τύπος ελέγχου εκτελείται μόνο αν υπάρχει πιθανό πρόβλημα στο array και γίνονται ενέργειες για να επανέλθει σε προστατευμένη κατάσταση.
 >
->**IMPORTANT**: Until this operation completes your array is not fully protected so it is assumed that most people will want this option left at **No**.
-> Do not select **Yes** unless you are absolutely certain that is what you want.
+>**ΣΗΜΑΝΤΙΚΟ**: Μέχρι να ολοκληρωθεί αυτή η λειτουργία, το array σας δεν είναι πλήρως προστατευμένο, οπότε θεωρείται ότι οι περισσότεροι θα θέλουν την επιλογή **Όχι**.
+> Μην επιλέξετε **Ναι** αν δεν είστε απόλυτα σίγουροι ότι αυτό θέλετε.
 :end
 
 :parity_tune_clear_plug:
-> Should 'Disk Clear' operations be run using increments?
+> Να εκτελούνται σε τμήματα οι λειτουργίες 'Disk Clear';
 >
-> A 'Disk Clear' operation occurs when you add a new drive (that has not been pre-cleared using the Pre-clear plugin) to an array that is parity protected. The clear process writes zeros to every sector on the new disk so that it can be added to the array without affecting existing parity. Until the clear operation has completed you cannot format the disk in Unraid and start using it for storing data.
+> Το 'Disk Clear' γίνεται όταν προσθέτετε νέο δίσκο (που δεν έχει γίνει pre-clear με το plugin Pre-clear) σε array με προστασία parity. Η εκκαθάριση γράφει μηδενικά σε κάθε τομέα του νέου δίσκου, ώστε να μπορεί να προστεθεί στο array χωρίς να επηρεαστεί το υπάρχον parity. Μέχρι να ολοκληρωθεί η εκκαθάριση, δεν μπορείτε να διαμορφώσετε τον δίσκο στο Unraid και να τον χρησιμοποιήσετε για αποθήκευση δεδομένων.
 >
-> Since until the Clear operation completes the disk will not be available for use, it is likely that most people will want this option left at **No**.
-> In addition, a Clear operation tends not to put much of a load on the system so is less likely to impact performance in normal daily use.
+> Επειδή ο δίσκος δεν είναι διαθέσιμος μέχρι να ολοκληρωθεί το Clear, είναι πιθανό οι περισσότεροι να θέλουν την επιλογή **Όχι**.
+> Επιπλέον, το Clear συνήθως δεν επιβαρύνει πολύ το σύστημα, οπότε είναι λιγότερο πιθανό να επηρεάσει την απόδοση στην καθημερινή χρήση.
 :end
 
 :parity_tune_restart_plug:
-> Unraid will normally abandon a parity-check if the system is shutdown, rebooted or the array is stopped (with the only option being to restart the parity-check from the beginning).
-> Setting this option allows parity-checks to be restarted by this plugin from the point they had reached as long as the following criteria are met:
->* The array was shutdown tidily.
->* The user must not have made any changes to the array configuration.
+> Κανονικά το Unraid εγκαταλείπει ένα parity-check αν το σύστημα τερματιστεί, επανεκκινηθεί ή σταματήσει το array (με μόνη επιλογή την επανεκκίνηση του parity-check από την αρχή).
+> Αυτή η επιλογή επιτρέπει στο plugin να συνεχίζει τα parity-checks από το σημείο όπου είχαν φτάσει, εφόσον ισχύουν τα εξής:
+>* Το array τερματίστηκε ομαλά.
+>* Ο χρήστης δεν έκανε αλλαγές στη διαμόρφωση του array.
 >
->As long as these criteria are met then when the array is next started the operation is resumed from the point previously reached.
+>Εφόσον ισχύουν αυτά, όταν ξεκινήσει ξανά το array η λειτουργία συνεχίζεται από το σημείο όπου είχε φτάσει.
 >
->**NOTES:**
->* If the array operation was within the time set for a scheduled increment to be running then on restarting the array operation it will be set to be paused if now outside the time set for running increments.
->* If the array operation was manually paused then the restarted array operation will also be paused.
->* If you want to use this feature by simply stopping the array without immediately using the **Reboot** or **Shutdown** buttons then you first need to manually **Pause** the array operation before using the **Stop** button. If you do this and successfully stop the array, then the array operation will now be resumed if you simply **Start** the array again, and also on the next array start after **Reboot** or **Shutdown**.
+>**ΣΗΜΕΙΩΣΕΙΣ:**
+>* Αν η λειτουργία array βρισκόταν μέσα στον χρόνο ενός προγραμματισμένου τμήματος, κατά την επανεκκίνησή της θα τεθεί σε παύση αν είναι πλέον εκτός του χρόνου των τμημάτων.
+>* Αν η λειτουργία array είχε τεθεί χειροκίνητα σε παύση, η λειτουργία που επανεκκινείται θα είναι επίσης σε παύση.
+>* Αν θέλετε να χρησιμοποιήσετε αυτή τη λειτουργία απλώς σταματώντας το array, χωρίς να πατήσετε αμέσως τα κουμπιά **Επανεκκίνηση** ή **Τερματισμός**, πρέπει πρώτα να θέσετε χειροκίνητα σε **Παύση** τη λειτουργία array πριν πατήσετε **Διακοπή**. Αν το κάνετε και το array σταματήσει επιτυχώς, η λειτουργία θα συνεχιστεί όταν απλώς **Εκκινήσετε** ξανά το array, καθώς και στην επόμενη εκκίνηση μετά από **Επανεκκίνηση** ή **Τερματισμό**.
 :end
 
 :parity_tune_hot_plug:
-> Pause an array operation (Parity-Check, Parity-Sync/Disk Rebuild, Disk Clear) if the disk temperatures exceeds the limits you have set.
+> Παύση μιας λειτουργίας array (Parity-Check, Parity-Sync/Disk Rebuild, Disk Clear) αν οι θερμοκρασίες δίσκων ξεπεράσουν τα όρια που έχετε ορίσει.
 >
->The temperatures are checked against the thresholds set for the Warning disk temperature levels. If a threshold has been defined for an individual drive (accessed by clicking on the drive in the Main tab) then this is the value used. If not the global setting (set via *Settings → Display Settings*) will be used. It is assumed that normally you would want the array operation to be paused before the value set at the Unraid level as the Warning Threshold.
+>Οι θερμοκρασίες συγκρίνονται με τα όρια Προειδοποίησης θερμοκρασίας δίσκων. Αν έχει οριστεί όριο για συγκεκριμένο δίσκο (πατώντας στον δίσκο στην καρτέλα Κύρια), χρησιμοποιείται αυτή η τιμή. Διαφορετικά χρησιμοποιείται η γενική ρύθμιση (στο *Ρυθμίσεις → Ρυθμίσεις εμφάνισης*). Θεωρείται ότι κανονικά θέλετε η λειτουργία array να τεθεί σε παύση πριν από την τιμή Προειδοποίησης του Unraid.
 >
->A much better solution is to improve the cooling in your case so that the disks never overheat. In practice this may not always prove practical.
+>Πολύ καλύτερη λύση είναι να βελτιώσετε την ψύξη στο κουτί σας ώστε οι δίσκοι να μην υπερθερμαίνονται ποτέ. Στην πράξη αυτό δεν είναι πάντα εφικτό.
 >
->If the array operation was part of running an increment then it will not be resumed outside the time allotted for the increment. If the array operation was initiated for any other reason then the Pause/Resume behavior on temperature is always active.
+>Αν η λειτουργία array ήταν μέρος ενός τμήματος, δεν θα συνεχιστεί εκτός του χρόνου του τμήματος. Αν η λειτουργία ξεκίνησε για οποιονδήποτε άλλο λόγο, η Παύση/Συνέχιση λόγω θερμοκρασίας είναι πάντα ενεργή.
 :end
 
 :parity_tune_warn_plug:
-> This value indicates how close to the value set for the Warning Disk Temperature Threshold a disks temperature is allowed to reach before a **pause** of a running array operation is triggered. If an explicit threshold has been defined for an individual drive then this is the value used. If not the global setting will be used.
+> Αυτή η τιμή δείχνει πόσο κοντά στο Όριο προειδοποίησης θερμοκρασίας δίσκου επιτρέπεται να φτάσει η θερμοκρασία ενός δίσκου πριν ενεργοποιηθεί **παύση** της λειτουργίας array. Αν έχει οριστεί ρητό όριο για συγκεκριμένο δίσκο, χρησιμοποιείται αυτή η τιμή. Διαφορετικά χρησιμοποιείται η γενική ρύθμιση.
 >
-> You normally want a small positive value to trigger the pause before Unraid gets around to sending you a notification that the temperature warning threshold has been reached for a disk.
+> Κανονικά θέλετε μια μικρή θετική τιμή, ώστε η παύση να γίνεται πριν το Unraid σας στείλει ειδοποίηση ότι ένας δίσκος έφτασε το όριο προειδοποίησης θερμοκρασίας.
 >
-> As an example if the Warning threshold for a drive is 50°C then setting a pause value of 5 would cause the plugin to pause the operation if that drive reached 45°C (50°-5°).
+> Για παράδειγμα, αν το όριο Προειδοποίησης ενός δίσκου είναι 50°C, η τιμή παύσης 5 θα κάνει το plugin να θέσει σε παύση τη λειτουργία όταν ο δίσκος φτάσει τους 45°C (50°-5°).
 >
->If there is no active array operation then no action will be taken even if disk temperatures exceed the specified threshold.
+>Αν δεν υπάρχει ενεργή λειτουργία array, δεν θα γίνει καμία ενέργεια ακόμα κι αν οι θερμοκρασίες δίσκων ξεπεράσουν το όριο.
 >
-> If there is no running array operation then no action will be taken.
+> Αν δεν εκτελείται λειτουργία array, δεν θα γίνει καμία ενέργεια.
 :end
 
 :parity_tune_low_plug:
-> This value indicates how much below the Warning temperature threshold of a drive must reach before a **resume** of an array operation is issued.
+> Αυτή η τιμή δείχνει πόσο κάτω από το όριο Προειδοποίησης θερμοκρασίας πρέπει να φτάσει ένας δίσκος πριν δοθεί **συνέχιση** της λειτουργίας array.
 >
->You need to get a good balance between array operations being resumed too soon (and thus quickly reaching the level to initiate another pause) and wasting a lot of time.
+>Πρέπει να βρείτε μια καλή ισορροπία ανάμεσα στη συνέχιση των λειτουργιών πολύ νωρίς (που θα οδηγήσει γρήγορα σε νέα παύση) και στη σπατάλη πολύ χρόνου.
 >
->If a disk ever gets spun down the temperature is not readily available so it will be assumed that this criteria has been met
+>Αν ένας δίσκος κάνει spin down, η θερμοκρασία του δεν είναι διαθέσιμη, οπότε θεωρείται ότι η συνθήκη ικανοποιείται
 >
->If there is no paused array operation then no action will be taken.
+>Αν δεν υπάρχει λειτουργία array σε παύση, δεν θα γίνει καμία ενέργεια.
 :end
 
 :parity_tune_temp_notify_plug:
-> Setting this option to **Yes** means that you will be sent a notification every time the plugin Pauses or Resumes an array operation due to the temperature of your drives.<br>If you would rather not get such notifications then leave this option set to **No**. The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
+> Η επιλογή **Ναι** σημαίνει ότι θα λαμβάνετε ειδοποίηση κάθε φορά που το plugin θέτει σε Παύση ή Συνεχίζει μια λειτουργία array λόγω της θερμοκρασίας των δίσκων σας.<br>Αν δεν θέλετε τέτοιες ειδοποιήσεις, αφήστε την επιλογή **Όχι**. Η ειδοποίηση στέλνεται ως μήνυμα κατηγορίας **Σημείωση** στους παραλήπτες που ορίζονται στο *<a href="Settings/Notifications">Ρυθμίσεις->Ρυθμίσεις ειδοποιήσεων</a>*.
 :end
 
 :parity_tune_shutdown_plug:
-> If set to **Yes** then automatically start a tidy shutdown of the server if any disk in the array or a cache pool reach the defined temperature threshold.
-> The temperatures are checked against the thresholds set for the **Critical** disk temperature levels. If a Critical temperature has been defined for an individual drive (accessed by clicking on the drive in the Main tab) then this is the value used. If not, the global setting (*<a href="Settings/DisplaySettings">Settings->Display Settings</a>*) will be used.
+> Αν οριστεί **Ναι**, ξεκινά αυτόματα ομαλός τερματισμός του διακομιστή όταν οποιοσδήποτε δίσκος του array ή ενός cache pool φτάσει το ορισμένο όριο θερμοκρασίας.
+> Οι θερμοκρασίες συγκρίνονται με τα **Κρίσιμα** όρια θερμοκρασίας δίσκων. Αν έχει οριστεί Κρίσιμη θερμοκρασία για συγκεκριμένο δίσκο (πατώντας στον δίσκο στην καρτέλα Κύρια), χρησιμοποιείται αυτή η τιμή. Διαφορετικά χρησιμοποιείται η γενική ρύθμιση (*<a href="Settings/DisplaySettings">Ρυθμίσεις->Ρυθμίσεις εμφάνισης</a>*).
 >
-> This option is intended to be triggered if the system’s cooling is insufficient or has failed. The idea is to perform a tidy shutdown before disks are damaged by severe overheating. The shutdown that is triggered is functionally the same as pressing the Shutdown button on the Main page of the Unraid GUI. If notifications are enabled, one will be sent to indicate that this has happened.
+> Η επιλογή προορίζεται για την περίπτωση όπου η ψύξη του συστήματος δεν επαρκεί ή έχει αποτύχει. Η ιδέα είναι να γίνει ομαλός τερματισμός πριν οι δίσκοι πάθουν ζημιά από σοβαρή υπερθέρμανση. Ο τερματισμός που ενεργοποιείται είναι λειτουργικά ίδιος με το πάτημα του κουμπιού Τερματισμός στη σελίδα Κύρια του Unraid GUI. Αν οι ειδοποιήσεις είναι ενεργές, θα σταλεί ειδοποίηση ότι συνέβη αυτό.
 >
-> When the server is started up again after such a shutdown then when the array is started you will be notified that a temperature related shutdown happened in case you were not aware of the reason.
+> Όταν ο διακομιστής ξεκινήσει ξανά μετά από τέτοιον τερματισμό, κατά την εκκίνηση του array θα ενημερωθείτε ότι έγινε τερματισμός λόγω θερμοκρασίας, σε περίπτωση που δεν γνωρίζατε τον λόγο.
 >
-> **CAUTION:** If the array is stopped while an array operation is incomplete then the progress so far is lost and it can only be restarted from the beginning.
+> **ΠΡΟΣΟΧΗ:** Αν το array σταματήσει ενώ μια λειτουργία array δεν έχει ολοκληρωθεί, η πρόοδος χάνεται και μπορεί να ξεκινήσει μόνο από την αρχή.
 :end
 
 :parity_tune_critical_plug:
-> This value indicates how close to the value set for the Critical Disk Temperature Threshold a disks temperature is allowed to reach before a shutdown of the server is triggered.
-> You may want a small positive value to trigger the shutdown before Unraid gets around to sending you a notification that the temperature critical threshold has been reached for a disk.
+> Αυτή η τιμή δείχνει πόσο κοντά στο Κρίσιμο όριο θερμοκρασίας δίσκου επιτρέπεται να φτάσει η θερμοκρασία ενός δίσκου πριν ενεργοποιηθεί τερματισμός του διακομιστή.
+> Ίσως θέλετε μια μικρή θετική τιμή, ώστε ο τερματισμός να γίνεται πριν το Unraid σας στείλει ειδοποίηση ότι ένας δίσκος έφτασε το κρίσιμο όριο θερμοκρασίας.
 >
-> If an explicit threshold has been defined for an individual drive then this is the value used. If not the global setting will be used.
+> Αν έχει οριστεί ρητό όριο για συγκεκριμένο δίσκο, χρησιμοποιείται αυτή η τιμή. Διαφορετικά χρησιμοποιείται η γενική ρύθμιση.
 :end
 
 :parity_tune_logging_plug:
-> Control the level of detail in entries. The level of detail can be increased to help with debugging any problems using this plugin might encounter.
+> Ελέγχει το επίπεδο λεπτομέρειας των εγγραφών. Το επίπεδο λεπτομέρειας μπορεί να αυξηθεί για βοήθεια στη διάγνωση προβλημάτων με αυτό το plugin.
 >
-> Messages by this plugin are identified by the fact that they are shown as coming from:
+> Τα μηνύματα αυτού του plugin αναγνωρίζονται από το ότι εμφανίζονται να προέρχονται από:
 >* **Parity-Check Tuning**
 >* **Parity Problems Assistant**
->depending on which part of the plugin generated the messages
+>ανάλογα με το ποιο μέρος του plugin δημιούργησε τα μηνύματα
 >
->With the **Basic** option set these will only be a small number of messages indicating that this plugin has taken some action.
+>Με την επιλογή **Βασικό** θα υπάρχει μόνο μικρός αριθμός μηνυμάτων που δείχνουν ότι το plugin έκανε κάποια ενέργεια.
 >
->Setting this option to **Debug** will result in additional entries being written to the syslog that give more information on what is happening when this plugin is running. They show how some of the internal operation of how the plugin is functioning. These additional entries are identified by the fact that they will have the word **DEBUG** added to the start of messages.  Some users (particularly those who have not used this plugin before) may like to use it to see more detail on how this plugin operates, but it is not expected that this option will be left enabled in normal running.
+>Με την επιλογή **Debug** γράφονται πρόσθετες εγγραφές στο syslog με περισσότερες πληροφορίες για το τι συμβαίνει όταν εκτελείται το plugin. Δείχνουν μέρος της εσωτερικής λειτουργίας του plugin. Αυτές οι πρόσθετες εγγραφές αναγνωρίζονται από τη λέξη **DEBUG** στην αρχή των μηνυμάτων. Ορισμένοι χρήστες (ιδίως όσοι δεν έχουν χρησιμοποιήσει ξανά το plugin) ίσως θέλουν να δουν περισσότερες λεπτομέρειες για τη λειτουργία του, αλλά δεν αναμένεται να μένει ενεργή αυτή η επιλογή στην κανονική λειτουργία.
 >
->Finally there is an additional setting of **Testing** that is only intended for use by the developer but is left here for convenience. It will write even more verbose messages to the syslog but these are not likely to be interesting (or even meaningful) to the average user. These messages will have the word **TESTING** added to the start of messages. You should only run this level of logging if you have been asked to as it can quickly fill up your syslog if you are not careful.
+>Τέλος, υπάρχει η πρόσθετη ρύθμιση **Testing**, που προορίζεται μόνο για τον developer αλλά παραμένει εδώ για ευκολία. Γράφει ακόμα πιο φλύαρα μηνύματα στο syslog, που μάλλον δεν θα είναι ενδιαφέροντα (ή ακόμα και κατανοητά) για τον μέσο χρήστη. Αυτά τα μηνύματα έχουν τη λέξη **TESTING** στην αρχή τους. Χρησιμοποιήστε αυτό το επίπεδο καταγραφής μόνο αν σας ζητηθεί, γιατί μπορεί γρήγορα να γεμίσει το syslog σας αν δεν προσέξετε.
 >
->Feedback is welcome on whether to introduce an intermediate option that outputs informational messages about the plugin’s activity, while omitting lower-level details aimed at diagnosing problems.
+>Τα σχόλια είναι ευπρόσδεκτα για το αν θα πρέπει να υπάρξει ενδιάμεση επιλογή που δείχνει ενημερωτικά μηνύματα για τη δραστηριότητα του plugin, χωρίς τις λεπτομέρειες χαμηλού επιπέδου για τη διάγνωση προβλημάτων.
 >
->If you have Testing mode set for logging, you can choose where log messages are recorded. The default is the standard system syslog, and this is the only option allowed in Basic mode. The syslog is held in RAM, so it does not cause excessive writes to the flash drive.
->To facilitate debugging, in Testing mode you can log messages to the flash drive either instead of, or in addition to, the syslog. The resulting parityTuning.log file will be stored in the plugin’s folder on the flash drive; providing this file to the developer will help diagnose any unexpected behavior you encounter.
+>Αν έχετε ορίσει καταγραφή Testing, μπορείτε να επιλέξετε πού καταγράφονται τα μηνύματα. Η προεπιλογή είναι το τυπικό syslog του συστήματος και είναι η μόνη επιλογή στη λειτουργία Βασικό. Το syslog κρατιέται στη RAM, οπότε δεν προκαλεί υπερβολικές εγγραφές στη συσκευή flash.
+>Για διευκόλυνση της αποσφαλμάτωσης, στη λειτουργία Testing μπορείτε να καταγράφετε μηνύματα στη συσκευή flash είτε αντί είτε επιπλέον του syslog. Το αρχείο parityTuning.log που δημιουργείται αποθηκεύεται στον φάκελο του plugin στη συσκευή flash· αν το δώσετε στον developer, θα βοηθήσει στη διάγνωση κάθε απρόσμενης συμπεριφοράς.
 :end
 
 :parityProblems_type_plug:
-> Select the way you want to specify the start and end points.
+> Επιλέξτε τον τρόπο ορισμού των σημείων έναρξης και τέλους.
 >
-> You are likely to want to use absolute sector numbers if there are ones that have previously been listed in the syslog as being an error.
-> Using absolute sector numbers tends to be more precise and lead to shorter tests but can be more effort to set up.
+> Πιθανότατα θα θέλετε απόλυτους αριθμούς τομέων, αν υπάρχουν τομείς που έχουν καταγραφεί στο syslog ως σφάλματα.
+> Οι απόλυτοι αριθμοί τομέων είναι συνήθως πιο ακριβείς και οδηγούν σε συντομότερους ελέγχους, αλλά απαιτούν περισσότερη προσπάθεια στη ρύθμιση.
 >
-> The alternative is to use percentages. When using percentages then the sector numbers these represent are calculated as percentages of the largest parity disk.
+> Η εναλλακτική είναι τα ποσοστά. Με ποσοστά, οι αντίστοιχοι αριθμοί τομέων υπολογίζονται ως ποσοστά του μεγαλύτερου δίσκου parity.
 :end
 
 :parityProblems_start_plug:
-> Select where you want the check to be started from. You can specify the start point as either a sector number or as a percentage of the size of the largest parity disk.
+> Επιλέξτε από πού θα ξεκινήσει ο έλεγχος. Μπορείτε να ορίσετε το σημείο έναρξης είτε ως αριθμό τομέα είτε ως ποσοστό του μεγέθους του μεγαλύτερου δίσκου parity.
 >
-> Specifying absolute sectors is likely to be of particular use when you have extracted the sector numbers from the *syslog* when the original parity check reported errors on those sectors. In a future version of this plugin the plugin may be enhanced to automatically extract such sectors from the *syslog* and give you a drop down list but this feature is not yet implemented.
+> Οι απόλυτοι τομείς είναι ιδιαίτερα χρήσιμοι όταν έχετε πάρει τους αριθμούς τομέων από το *syslog*, όταν το αρχικό parity check ανέφερε σφάλματα σε αυτούς. Σε μελλοντική έκδοση το plugin ίσως εξάγει αυτόματα αυτούς τους τομείς από το *syslog* και σας δίνει αναπτυσσόμενη λίστα, αλλά αυτή η λειτουργία δεν έχει υλοποιηθεί ακόμα.
 >
-> In practice for technical reasons the check may start slightly earlier than the point you specify, but this will only be by a small amount.
+> Στην πράξη, για τεχνικούς λόγους, ο έλεγχος μπορεί να ξεκινήσει λίγο νωρίτερα από το σημείο που ορίζετε, αλλά μόνο κατά λίγο.
 :end
 
 :parityProblems_end_plug:
-> Select where you want the check to be ended. You can specify the end point as either a sector number or as a percentage of the size of the largest parity disk.
+> Επιλέξτε πού θα τελειώσει ο έλεγχος. Μπορείτε να ορίσετε το σημείο τέλους είτε ως αριθμό τομέα είτε ως ποσοστό του μεγέθους του μεγαλύτερου δίσκου parity.
 >
-> In practice for technical reasons the check may end later than the point you specify as a check is only made once a minute to see if the end point has been reached.
+> Στην πράξη, για τεχνικούς λόγους, ο έλεγχος μπορεί να τελειώσει αργότερα από το σημείο που ορίζετε, καθώς ελέγχεται μόνο μία φορά το λεπτό αν έχει φτάσει το σημείο τέλους.
 :end
 
 :parityProblems_correct_plug:
-> Specify whether you want to attempt to update parity to correct any error found,
-> or just do a read test to see if any parity errors are reported.
+> Ορίστε αν θέλετε να επιχειρηθεί ενημέρωση του parity για διόρθωση όσων σφαλμάτων βρεθούν,
+> ή απλώς έλεγχος ανάγνωσης για να δείτε αν αναφέρονται σφάλματα parity.
 :end
 
 :parityProblems_check_plug:
-> When you click on the option to **Start Check** then a partial check is initiated that
-> will cover the start and end points that you have specified.  It will be a correcting check
-> if the option to **Write Corrections** is set to **Yes**, and a read-check otherwise.
+> Όταν πατήσετε την επιλογή **Έναρξη ελέγχου**, ξεκινά ένας μερικός έλεγχος που
+> καλύπτει τα σημεία έναρξης και τέλους που ορίσατε. Θα είναι έλεγχος με διόρθωση
+> αν η επιλογή **Εγγραφή διορθώσεων** είναι **Ναι**, διαφορετικά read-check.
 :end
 
 :parityProblems_sectors_plug:
-> When you click **Show Sector Numbers**, a dialog lists entries extracted from the syslog
-> for any sectors where a parity issue was logged,
-> and indicates whether each was corrected or remains a parity error.
+> Όταν πατήσετε **Εμφάνιση αριθμών τομέων**, ένα παράθυρο εμφανίζει τις εγγραφές από το syslog
+> για όσους τομείς καταγράφηκε πρόβλημα parity,
+> και δείχνει αν ο καθένας διορθώθηκε ή παραμένει σφάλμα parity.
 :end

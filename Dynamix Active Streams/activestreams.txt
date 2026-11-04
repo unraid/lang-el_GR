@@ -1,17 +1,17 @@
-Halt=
-Host Address=
-Host=
-No active streams=
-Playtime=
-Stop stream=
-Stream=
-User Name=
-User=
+Halt=Τερματισμός
+Host Address=Διεύθυνση Host
+Host=Host
+No active streams=Δεν υπάρχουν ενεργές ροές
+Playtime=Χρόνος αναπαραγωγής
+Stop stream=Διακοπή ροής
+Stream=Ροή
+User Name=Όνομα Χρήστη
+User=Χρήστης
 
 :streams_plug:
-> Give symbolic names to IP addresses, which are displayed on the active streams page.
+> Δώστε συμβολικά ονόματα σε διευθύνσεις IP, που εμφανίζονται στη σελίδα ενεργών ροών.
 >
-> New IP addresses are automatically added to the list when detected.
+> Οι νέες διευθύνσεις IP προστίθενται αυτόματα στη λίστα όταν εντοπιστούν.
 >
-> To remove a name association, clear the respective user name box and press apply.
+> Για αφαίρεση μιας αντιστοίχισης ονόματος, αδειάστε το αντίστοιχο πεδίο ονόματος χρήστη και πατήστε εφαρμογή.
 :end

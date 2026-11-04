@@ -1,40 +1,40 @@
-Any=
-Daily schedule=
-Day Date=Day / Date
-Hour=
-Hourly schedule=
-Minute=
-Monthly schedule=
-Scheduled Tasks=
-Weekly schedule=
-Day of the month=
-Day of the week=
-Every 2 hours=
-Every 3 hours=
-Every 4 hours=
-Every 6 hours=
-Every 8 hours=
-Every hour=
+Any=Οποιοδήποτε
+Daily schedule=Ημερήσιο πρόγραμμα
+Day Date=Ημέρα / Ημερομηνία
+Hour=Ώρα
+Hourly schedule=Ωριαίο πρόγραμμα
+Minute=Λεπτό
+Monthly schedule=Μηνιαίο πρόγραμμα
+Scheduled Tasks=Προγραμματισμένες Εργασίες
+Weekly schedule=Εβδομαδιαίο πρόγραμμα
+Day of the month=Ημέρα του μήνα
+Day of the week=Ημέρα της εβδομάδας
+Every 2 hours=Κάθε 2 ώρες
+Every 3 hours=Κάθε 3 ώρες
+Every 4 hours=Κάθε 4 ώρες
+Every 6 hours=Κάθε 6 ώρες
+Every 8 hours=Κάθε 8 ώρες
+Every hour=Κάθε ώρα
 HHMM=HH:MM
-SSD TRIM schedule=
-Time of the day=
+SSD TRIM schedule=Πρόγραμμα SSD TRIM
+Time of the day=Ώρα της ημέρας
 
 :trim_schedule_plug:
-> Choose a trim schedule ranging from hourly, daily, weekly and monthly.
+> Επιλέξτε πρόγραμμα trim: ωριαίο, ημερήσιο, εβδομαδιαίο ή μηνιαίο.
 >
-> The interval determines how often SSD trim will run, it runs in the background.
+> Το διάστημα καθορίζει πόσο συχνά θα εκτελείται το SSD trim· εκτελείται στο παρασκήνιο.
 :end
 
 :trim_day_of_the_week_plug:
-> Choose a day when the weekly schedule is selected. Otherwise disabled.
+> Επιλέξτε ημέρα όταν έχει επιλεγεί εβδομαδιαίο πρόγραμμα. Διαφορετικά είναι ανενεργό.
 :end
 
 :trim_day_of_the_month_plug:
-> Choose a date when the monthly schedule is selected. Otherwise disabled.
+> Επιλέξτε ημερομηνία όταν έχει επιλεγεί μηνιαίο πρόγραμμα. Διαφορετικά είναι ανενεργό.
 :end
 
 :trim_time_of_the_day_plug:
-> When an hourly schedule is selected this will set the interval in hours. An interval always starts on the whole hour (minute 0).
+> Όταν επιλέγεται ωριαίο πρόγραμμα, εδώ ορίζεται το διάστημα σε ώρες. Ένα διάστημα ξεκινά πάντα στην ακέραιη ώρα (λεπτό 0).
 >
-> For the other schedules choose here the time of the day trim should start.
+> Για τα άλλα προγράμματα, επιλέξτε εδώ την ώρα της ημέρας που πρέπει να ξεκινά το trim.
 :end

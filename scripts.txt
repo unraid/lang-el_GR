@@ -1,5 +1,5 @@
-A new version of %s is available=
-Docker=
-Language=
-Notice %s - Version update %s=Notice [%s] - Version update %s
-Plugin=
+A new version of %s is available=Υπάρχει διαθέσιμη νέα έκδοση του %s
+Docker=Docker
+Language=Γλώσσα
+Notice %s - Version update %s=Ειδοποίηση [%s] - Ενημέρωση έκδοσης %s
+Plugin=Plugin

@@ -1,134 +1,134 @@
-Apple metadata=
-Array must be Started to use this feature=Array must be **Started** to use this feature
-Automatically protect new and modified files=
-BLAKE2=
-Build=
-Continue=
-Corz=
-Custom files=
-Custom folders=
-Day of the month=
-Day of the week=
-Disk selection=
-Disk verification schedule=
-Dont start=Don’t start
-Download Now=
-Dynamix File Integrity=
-Error logging=
-Excluded files=
-Excluded folders and files=
-Excluded folders=
-File Duplicates Check=
-Find=
-Generate Corz Files=
-hash files=
-Hashing method=
-Header menu=
+Apple metadata=Metadata της Apple
+Array must be Started to use this feature=Το Array πρέπει να είναι **σε λειτουργία** για να χρησιμοποιήσετε αυτή τη λειτουργία
+Automatically protect new and modified files=Αυτόματη προστασία νέων και τροποποιημένων αρχείων
+BLAKE2=BLAKE2
+Build=Build
+Continue=Συνέχεια
+Corz=Corz
+Custom files=Προσαρμοσμένα αρχεία
+Custom folders=Προσαρμοσμένοι φάκελοι
+Day of the month=Ημέρα του μήνα
+Day of the week=Ημέρα της εβδομάδας
+Disk selection=Επιλογή δίσκων
+Disk verification schedule=Πρόγραμμα επαλήθευσης δίσκων
+Dont start=Να μην ξεκινά
+Download Now=Λήψη Τώρα
+Dynamix File Integrity=Dynamix File Integrity
+Error logging=Καταγραφή σφαλμάτων
+Excluded files=Εξαιρούμενα αρχεία
+Excluded folders and files=Εξαιρούμενοι φάκελοι και αρχεία
+Excluded folders=Εξαιρούμενοι φάκελοι
+File Duplicates Check=Έλεγχος Διπλότυπων Αρχείων
+Find=Εύρεση
+Generate Corz Files=Δημιουργία Αρχείων Corz
+hash files=αρχεία hash
+Hashing method=Μέθοδος hashing
+Header menu=Μενού κεφαλίδας
 HHMM=HH:MM
-Import=
-Include duplicate file hashes in Find command=Include duplicate file hashes in **Find** command
-log files=
-Low=
-MD5=
-Output file=
-Placement of file integrity control=
-Process priority=
-Save new hashing results to flash=
-saved files=
-Send notifications=
-SHA2=
-Syslog only=
-Syslog Output file=Syslog & Output file
-Task=
-Time of the day=
-Toggle all=
-Tools menu=
-Verification tasks=
-view hash files=
-view log files=
-view saved files=
-When parity operation is running=
+Import=Εισαγωγή
+Include duplicate file hashes in Find command=Συμπερίληψη διπλότυπων hashes αρχείων στην εντολή **Εύρεση**
+log files=αρχεία log
+Low=Χαμηλή
+MD5=MD5
+Output file=Αρχείο εξόδου
+Placement of file integrity control=Θέση ελέγχου ακεραιότητας αρχείων
+Process priority=Προτεραιότητα διεργασίας
+Save new hashing results to flash=Αποθήκευση νέων αποτελεσμάτων hashing στο flash
+saved files=αποθηκευμένα αρχεία
+Send notifications=Αποστολή ειδοποιήσεων
+SHA2=SHA2
+Syslog only=Μόνο Syslog
+Syslog Output file=Syslog & αρχείο εξόδου
+Task=Εργασία
+Time of the day=Ώρα της ημέρας
+Toggle all=Εναλλαγή όλων
+Tools menu=Μενού Εργαλείων
+Verification tasks=Εργασίες επαλήθευσης
+view hash files=προβολή αρχείων hash
+view log files=προβολή αρχείων log
+view saved files=προβολή αποθηκευμένων αρχείων
+When parity operation is running=Όταν εκτελείται λειτουργία parity
 
 :integrity_control_plug:
-> Select the placement of the file integrity control page. By default it is placed under the *Tools* menu, but it may be moved under the *header* menu.
+> Επιλέξτε τη θέση της σελίδας ελέγχου ακεραιότητας αρχείων. Από προεπιλογή βρίσκεται στο μενού *Εργαλεία*, αλλά μπορεί να μετακινηθεί στο μενού της *κεφαλίδας*.
 >
-> Keep in mind that the *header* menu has limited space.
+> Λάβετε υπόψη ότι το μενού της *κεφαλίδας* έχει περιορισμένο χώρο.
 :end
 
 :integrity_service_plug:
-> When enabled a checksum value is automatically calculated and added to the extended attributes of the newly created or modified file.
-> When it is detected that a file change has occurred, but its modification time hasn’t changed, then an automatic checksum verification is performed to check for any silent file corruption.
+> Όταν είναι ενεργό, υπολογίζεται αυτόματα μια τιμή checksum και προστίθεται στα extended attributes κάθε νέου ή τροποποιημένου αρχείου.
+> Όταν εντοπίζεται ότι ένα αρχείο άλλαξε χωρίς να αλλάξει ο χρόνος τροποποίησής του, γίνεται αυτόματη επαλήθευση checksum για έλεγχο σιωπηλής αλλοίωσης αρχείου.
 >
-> The area selection can be filtered by excluding folders (shares) and/or excluding disks all together (see table below).
+> Η επιλογή περιοχής μπορεί να φιλτραριστεί εξαιρώντας φακέλους (shares) ή/και ολόκληρους δίσκους (δείτε τον πίνακα παρακάτω).
 >
-> When the automatic hashing is disabled then manual control is required to keep information up-to-date.
+> Όταν το αυτόματο hashing είναι ανενεργό, απαιτείται χειροκίνητος έλεγχος για να διατηρούνται ενημερωμένες οι πληροφορίες.
 :end
 
 :integrity_hashing_plug:
-> Select the preferred hashing method. SHA2 generates a 256 bits checksum value, MD5 generates a 128 bits checksum value, while BLAKE2 generates a 512 bits checksum value per file.
+> Επιλέξτε την προτιμώμενη μέθοδο hashing. Το SHA2 δημιουργεί checksum 256 bits, το MD5 checksum 128 bits και το BLAKE2 checksum 512 bits ανά αρχείο.
 >
-> MD5 is the most commonly used method and should be selected when compatibility with external programs is required, BLAKE2 is the fastest method and has the highest detection grade, this is a proprietary solution though.
-> SHA2 is the official standard and is selected by default. It is the slowest of all three methods though. The BLAKE2 option is disabled if it is not supported by your processor.
-> All methods require substantial computing power from the processor and a too weak processor may not be able to perform up to expectations.
+> Το MD5 είναι η πιο διαδεδομένη μέθοδος και πρέπει να επιλέγεται όταν απαιτείται συμβατότητα με εξωτερικά προγράμματα· το BLAKE2 είναι η ταχύτερη μέθοδος με τον υψηλότερο βαθμό ανίχνευσης, αλλά είναι ιδιόκτητη λύση.
+> Το SHA2 είναι το επίσημο πρότυπο και επιλέγεται από προεπιλογή. Είναι όμως η πιο αργή από τις τρεις μεθόδους. Η επιλογή BLAKE2 είναι ανενεργή αν δεν υποστηρίζεται από τον επεξεργαστή σας.
+> Όλες οι μέθοδοι απαιτούν σημαντική υπολογιστική ισχύ και ένας πολύ αδύναμος επεξεργαστής μπορεί να μην ανταποκρίνεται στις προσδοκίες.
 :end
 
 :integrity_flash_plug:
-> When enabled a daily file on the flash device will be created, holding the checksum results for all newly or modified files of that particular day.
-> The format of this file is the same as the standard export file. The daily file is saved as */config/plugins/dynamix.file.integrity/saved/disks.export.&lt;date&gt;.new.hash*
+> Όταν είναι ενεργό, δημιουργείται καθημερινά ένα αρχείο στη συσκευή flash με τα αποτελέσματα checksum όλων των νέων ή τροποποιημένων αρχείων της συγκεκριμένης ημέρας.
+> Η μορφή του αρχείου είναι ίδια με το τυπικό αρχείο εξαγωγής. Το ημερήσιο αρχείο αποθηκεύεται ως */config/plugins/dynamix.file.integrity/saved/disks.export.&lt;date&gt;.new.hash*
 :end
 
 :integrity_exluded_plug:
-> Select here any folders (shares) you want to exclude from the automatic hashing and verification functionality. A share existing on multiple disks will be skipped on any disk where it is present.
+> Επιλέξτε εδώ τους φακέλους (shares) που θέλετε να εξαιρεθούν από το αυτόματο hashing και την επαλήθευση. Ένα share που υπάρχει σε πολλούς δίσκους παραλείπεται σε κάθε δίσκο όπου υπάρχει.
 >
-> Use **Custom folders / Custom files** to manually enter exclusions. Multiple exclusions are separated by a comma.<br>
-> Examples are folder names, e.g. **`.Recycle.Bin`**, file names, e.g. **`my_workfile.tmp`** or file extensions, e.g. **`*.tmp`**.
+> Χρησιμοποιήστε τα **Προσαρμοσμένοι φάκελοι / Προσαρμοσμένα αρχεία** για χειροκίνητη εισαγωγή εξαιρέσεων. Οι πολλαπλές εξαιρέσεις χωρίζονται με κόμμα.<br>
+> Παραδείγματα είναι ονόματα φακέλων, π.χ. **`.Recycle.Bin`**, ονόματα αρχείων, π.χ. **`my_workfile.tmp`** ή επεκτάσεις αρχείων, π.χ. **`*.tmp`**.
 >
-> Select **Apple metadata** to exclude metadata files created by Apple’s netatalk (.AppleDB and .DS_Store).
+> Επιλέξτε **Metadata της Apple** για εξαίρεση των αρχείων metadata που δημιουργεί το netatalk της Apple (.AppleDB και .DS_Store).
 :end
 
 :integrity_verification_plug:
-> When enabled a cron schedule is created to do file verification in the background. You need to select which disks participate in the automatic hashing and verification process (see table below).
-> The cron schedule can run on a selectable daily, weekly or monthly basis.
+> Όταν είναι ενεργό, δημιουργείται πρόγραμμα cron για επαλήθευση αρχείων στο παρασκήνιο. Πρέπει να επιλέξετε ποιοι δίσκοι συμμετέχουν στο αυτόματο hashing και στην επαλήθευση (δείτε τον πίνακα παρακάτω).
+> Το πρόγραμμα cron μπορεί να εκτελείται ημερησίως, εβδομαδιαίως ή μηνιαίως.
 >
-> One or more tasks can be created, each containing one or more disks. All disks under the same task are verified in parallel. This decreases the total run-time, but increases the
-> processor load. Make sure your processor can handle this load, and change grouping accordingly. At one end all disks can be put in a single task, resulting in the highest concurrency.
-> At the other end every disk can be put in its own task, resulting in the lowest processor load.
+> Μπορούν να δημιουργηθούν μία ή περισσότερες εργασίες, καθεμία με έναν ή περισσότερους δίσκους. Όλοι οι δίσκοι της ίδιας εργασίας επαληθεύονται παράλληλα. Αυτό μειώνει τον συνολικό χρόνο, αλλά αυξάνει
+> τον φόρτο του επεξεργαστή. Βεβαιωθείτε ότι ο επεξεργαστής σας αντέχει αυτόν τον φόρτο και προσαρμόστε την ομαδοποίηση ανάλογα. Στη μία άκρη, όλοι οι δίσκοι μπορούν να μπουν σε μία εργασία, με τη μέγιστη ταυτόχρονη εκτέλεση.
+> Στην άλλη άκρη, κάθε δίσκος μπορεί να έχει δική του εργασία, με τον ελάχιστο φόρτο επεξεργαστή.
 >
-> A disk with a disabled checksum box and a red background, indicates a background verification process is currently in progress for this disk. It can not be stopped.
+> Ένας δίσκος με ανενεργό πλαίσιο checksum και κόκκινο φόντο δείχνει ότι εκτελείται διεργασία επαλήθευσης στο παρασκήνιο για αυτόν τον δίσκο. Δεν μπορεί να διακοπεί.
 >
-> When multiple tasks exist then each task is executed in the next schedule in a rotating fashion. E.g. when you have set up a weekly schedule with 3 tasks then every week
-> another task is executed and after 3 weeks the verification function has done all selected disks.
+> Όταν υπάρχουν πολλές εργασίες, κάθε εργασία εκτελείται στο επόμενο προγραμματισμένο διάστημα εκ περιτροπής. Π.χ. αν έχετε εβδομαδιαίο πρόγραμμα με 3 εργασίες, κάθε εβδομάδα
+> εκτελείται διαφορετική εργασία και μετά από 3 εβδομάδες η επαλήθευση έχει καλύψει όλους τους επιλεγμένους δίσκους.
 >
-> When the verification schedule is disabled then manual control is required to verify the correctness of the files.
+> Όταν το πρόγραμμα επαλήθευσης είναι ανενεργό, απαιτείται χειροκίνητος έλεγχος για την επαλήθευση της ορθότητας των αρχείων.
 :end
 
 :integrity_priority_plug:
-> Background processes can be run in either normal or low priority mode.
+> Οι διεργασίες παρασκηνίου μπορούν να εκτελούνται με κανονική ή χαμηλή προτεραιότητα.
 :end
 
 :integrity_parity_plug:
-> Before a verification task starts, it can either continue as usual when a parity operation is running, or the verification task doesn’t start at all.
-> In the latter case you need to wait for the next scheduled time to execute the task.
+> Πριν ξεκινήσει μια εργασία επαλήθευσης, μπορεί είτε να συνεχίσει κανονικά όταν εκτελείται λειτουργία parity είτε να μην ξεκινήσει καθόλου.
+> Στη δεύτερη περίπτωση πρέπει να περιμένετε το επόμενο προγραμματισμένο διάστημα για την εκτέλεση της εργασίας.
 :end
 
 :integrity_day_of_the_week_plug:
-> When a weekly schedule is chosen, then select here the day of execution.
+> Όταν επιλέγεται εβδομαδιαίο πρόγραμμα, επιλέξτε εδώ την ημέρα εκτέλεσης.
 :end
 
 :integrity_day_of_the_month_plug:
-> When a monthly schedule is chosen, then select here the date of execution.
+> Όταν επιλέγεται μηνιαίο πρόγραμμα, επιλέξτε εδώ την ημερομηνία εκτέλεσης.
 :end
 
 :integrity_time_of_the_day_plug:
-> Select the hour and minute at which time the scheduled task will be executed. Granularity is 5 minutes.
+> Επιλέξτε την ώρα και το λεπτό εκτέλεσης της προγραμματισμένης εργασίας. Η ακρίβεια είναι 5 λεπτά.
 :end
 
 :integrity_notifications_plug:
-> Set to YES if you want to receive notifications when file corruption is detected.
-> See the notification settings on how to set up and receive "alert" notifications.
+> Ορίστε ΝΑΙ αν θέλετε να λαμβάνετε ειδοποιήσεις όταν εντοπίζεται αλλοίωση αρχείων.
+> Δείτε τις ρυθμίσεις ειδοποιήσεων για το πώς να ρυθμίσετε και να λαμβάνετε ειδοποιήσεις "συναγερμού".
 :end
 
 :integrity_logging_plug:
-> Error logging, including file corruption detection information can be given in the system log, or saved as a file on flash.
-> Disabling error logging will suppress log creation, but it is still possible to receive notifications.
+> Η καταγραφή σφαλμάτων, μαζί με τις πληροφορίες εντοπισμού αλλοίωσης αρχείων, μπορεί να γίνεται στο log του συστήματος ή να αποθηκεύεται ως αρχείο στο flash.
+> Η απενεργοποίηση της καταγραφής σφαλμάτων καταστέλλει τη δημιουργία log, αλλά εξακολουθείτε να μπορείτε να λαμβάνετε ειδοποιήσεις.
 :end

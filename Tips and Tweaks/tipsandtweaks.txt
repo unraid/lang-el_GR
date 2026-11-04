@@ -1,229 +1,229 @@
-After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=
-Check the=
-Available User Watches=
-Click on Help for more information=
-Correct any problems that are identified before doing any tweaking=
-Current Disk Cache Settings=
-Current Inotify Settings=
-Current NIC settings=
-Current User Watches=
-Disable NIC Flow Control=
-Disable NIC Offload=
-Disk Cache=
-Dont change the Disk Cache settings until you read and understand this=Don’t change the Disk Cache settings until you read and understand this
-Driver=
-Enable Intel TurboAMD Performance Boost=Enable Intel Turbo/AMD Performance Boost
-Enable syslog Archiving=
-Ethernet NIC Rx Buffer=
-Ethernet NIC Tx Buffer=
-Ethernet NICS=
-Flow Control=
-for additional ideas on improving your Unraid performance and solving problems=
-for information on the issue=
-Go to Settings->Syslog Server and enable the Syslog Server=Go to 'Settings → Syslog Server' and enable the Syslog Server.
-Governor=
-Guide=
-If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=
-If you configure VLANs on Unraid, you should make Unraid the Master Browser=
-If you dont Unraid may not detect the Master Browser for all network interfaces correctly=If you don’t, Unraid may not detect the Master Browser for all network interfaces correctly
-If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=
-If you set the Power Save CPU Governor, you may see your processors stuck at 800 MHz=If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz.
-Install the Fix Common Problems plugin and resolve any Unraid configuration problems=
+After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=Μετά από επανεκκίνηση λόγω "κολλήματος" του διακομιστή, μπορείτε να δείτε το αποθηκευμένο log με την προβολή Syslog
+Check the=Δείτε το
+Available User Watches=Διαθέσιμα User Watches
+Click on Help for more information=Κάντε κλικ στη Βοήθεια για περισσότερες πληροφορίες
+Correct any problems that are identified before doing any tweaking=Διορθώστε όσα προβλήματα εντοπιστούν πριν κάνετε οποιαδήποτε ρύθμιση
+Current Disk Cache Settings=Τρέχουσες Ρυθμίσεις Disk Cache
+Current Inotify Settings=Τρέχουσες Ρυθμίσεις Inotify
+Current NIC settings=Τρέχουσες ρυθμίσεις NIC
+Current User Watches=Τρέχοντα User Watches
+Disable NIC Flow Control=Απενεργοποίηση NIC Flow Control
+Disable NIC Offload=Απενεργοποίηση NIC Offload
+Disk Cache=Disk Cache
+Dont change the Disk Cache settings until you read and understand this=Μην αλλάξετε τις ρυθμίσεις Disk Cache πριν διαβάσετε και κατανοήσετε αυτό
+Driver=Driver
+Enable Intel TurboAMD Performance Boost=Ενεργοποίηση Intel Turbo/AMD Performance Boost
+Enable syslog Archiving=Ενεργοποίηση αρχειοθέτησης syslog
+Ethernet NIC Rx Buffer=Rx Buffer Ethernet NIC
+Ethernet NIC Tx Buffer=Tx Buffer Ethernet NIC
+Ethernet NICS=Ethernet NICs
+Flow Control=Flow Control
+for additional ideas on improving your Unraid performance and solving problems=για περισσότερες ιδέες βελτίωσης της απόδοσης του Unraid και επίλυσης προβλημάτων
+for information on the issue=για πληροφορίες σχετικά με το πρόβλημα
+Go to Settings->Syslog Server and enable the Syslog Server=Μεταβείτε στο 'Ρυθμίσεις → Διακομιστής Syslog' και ενεργοποιήστε τον διακομιστή Syslog.
+Governor=Governor
+Guide=Οδηγός
+If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=Αν εμφανίζονται σφάλματα OOM, δοκιμάστε να προσαρμόσετε τις ρυθμίσεις Disk Cache στη σελίδα Tweaks
+If you configure VLANs on Unraid, you should make Unraid the Master Browser=Αν ρυθμίσετε VLANs στο Unraid, πρέπει να κάνετε το Unraid Master Browser
+If you dont Unraid may not detect the Master Browser for all network interfaces correctly=Διαφορετικά, το Unraid μπορεί να μην εντοπίζει σωστά τον Master Browser σε όλες τις διεπαφές δικτύου
+If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=Αν έχετε επεξεργαστή Intel, μπορεί να φαίνεται ότι όλες οι CPUs λειτουργούν συνεχώς στη μέγιστη ταχύτητα
+If you set the Power Save CPU Governor, you may see your processors stuck at 800 MHz=Αν ορίσετε τον CPU Governor 'Power Save', οι επεξεργαστές σας μπορεί να μείνουν κολλημένοι στα 800 MHz.
+Install the Fix Common Problems plugin and resolve any Unraid configuration problems=Εγκαταστήστε το plugin Fix Common Problems και επιλύστε τυχόν προβλήματα ρυθμίσεων του Unraid
 Intel TurboAMD Performance Boost=Intel Turbo/AMD Performance Boost
-It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=
-It is recommended to use the pstate driver on Intel processors if you want the most performance=
-It is recommended you use the 'Performance' Governor for best performance and power savings=
-Make changes slowly=
-Make one change at a time and verify if it improves your situation=
-Making changes here can briefly interrupt your network operation=
-Many plugins are no longer compatible with older Unraid versions=
-Max SMB Open Files=
-Max User Instances=
-Max User Watches=
-NIC Offload=
-NIC Rx Buffer=
-NIC Tx Buffer=
-Normal CPU Scaling Governor=
-Note=
-Number of syslogs to Archive=
-post=
-Power Saving Settings=
-Power Saving CPU Scaling Governor=
-Processes to kill before Array is Stopped=
-Put the IP address of your server in the Remote syslog server field=
-Read this=
-Schedule CPU Power Saving Mode=
-Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=Some users have reported better VM performance, especially for media streaming and gaming VMs, when applying the suggestions here.
-Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=
-Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=
-Some people are reporting OOM out of memory errors=
-Support for older versions of Unraid is being phased out=
-The dashboard shows CPU loading and not CPU frequency=
-The feature is not available on any of your NICs=
-The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=
-The Tips below are suggestions, workarounds for known problems, and potential fixes=
-There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=
-This will identify potential problems to be solved before you upgrade the Unraid OS=
-This will log all your server log enries to the Syslog Server and save the log to an array share=
-This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=
-Time to set Normal CPU Scaling=
-Time to set Power Saving CPU Scaling=
-Time to set TurboPerformance Boost Off=Time to set Turbo/Performance Boost Off
-Time to set TurboPerformance Boost On=Time to set Turbo/Performance Boost On
-Tips=
-Tips and Tweaks wiki=
-Tweaks=
-Use the Update Assistant that is part of the Fix Common Problems plugin=
-Version 6.11.4 and later=
-You can check CPU frequencies on the command line with=
-You may actually cause more problems than you solve if there are problems with your Unraid configuration=
+It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=Συνιστάται να ενημερώσετε το Unraid στην τελευταία σταθερή έκδοση για τις νεότερες λειτουργίες, διορθώσεις σφαλμάτων και ενημερώσεις ασφαλείας
+It is recommended to use the pstate driver on Intel processors if you want the most performance=Συνιστάται η χρήση του driver pstate σε επεξεργαστές Intel αν θέλετε τη μέγιστη απόδοση
+It is recommended you use the 'Performance' Governor for best performance and power savings=Συνιστάται η χρήση του Governor 'Performance' για την καλύτερη απόδοση και εξοικονόμηση ενέργειας
+Make changes slowly=Κάντε αλλαγές σταδιακά
+Make one change at a time and verify if it improves your situation=Κάντε μία αλλαγή τη φορά και ελέγξτε αν βελτιώνει την κατάσταση
+Making changes here can briefly interrupt your network operation=Οι αλλαγές εδώ μπορεί να διακόψουν για λίγο τη λειτουργία του δικτύου σας
+Many plugins are no longer compatible with older Unraid versions=Πολλά plugins δεν είναι πλέον συμβατά με παλαιότερες εκδόσεις Unraid
+Max SMB Open Files=Μέγιστα Ανοιχτά Αρχεία SMB
+Max User Instances=Μέγιστα User Instances
+Max User Watches=Μέγιστα User Watches
+NIC Offload=NIC Offload
+NIC Rx Buffer=NIC Rx Buffer
+NIC Tx Buffer=NIC Tx Buffer
+Normal CPU Scaling Governor=Κανονικός CPU Scaling Governor
+Note=Σημείωση
+Number of syslogs to Archive=Αριθμός syslogs προς αρχειοθέτηση
+post=άρθρο
+Power Saving Settings=Ρυθμίσεις Εξοικονόμησης Ενέργειας
+Power Saving CPU Scaling Governor=CPU Scaling Governor Εξοικονόμησης Ενέργειας
+Processes to kill before Array is Stopped=Διεργασίες προς τερματισμό πριν τη διακοπή του Array
+Put the IP address of your server in the Remote syslog server field=Βάλτε τη διεύθυνση IP του διακομιστή σας στο πεδίο Απομακρυσμένος διακομιστής syslog
+Read this=Διαβάστε αυτό
+Schedule CPU Power Saving Mode=Προγραμματισμός Εξοικονόμησης Ενέργειας CPU
+Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=Ορισμένοι χρήστες αναφέρουν καλύτερη απόδοση VM, ειδικά σε VMs για media streaming και gaming, εφαρμόζοντας τις προτάσεις εδώ.
+Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=Ορισμένοι αναφέρουν ταχύτερη και πιο σταθερή απόδοση δικτύου αλλάζοντας παραμέτρους δικτύου στην καρτέλα Tweaks αυτού του plugin
+Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=Ορισμένες ρυθμίσεις καταναλώνουν RAM και μπορεί να κάνουν το Linux να τερματίσει κάποιες διεργασίες για να ελευθερώσει RAM
+Some people are reporting OOM out of memory errors=Ορισμένοι αναφέρουν σφάλματα OOM (εξάντληση μνήμης)
+Support for older versions of Unraid is being phased out=Η υποστήριξη παλαιότερων εκδόσεων του Unraid καταργείται σταδιακά
+The dashboard shows CPU loading and not CPU frequency=Το dashboard δείχνει τον φόρτο της CPU και όχι τη συχνότητά της
+The feature is not available on any of your NICs=Η λειτουργία δεν είναι διαθέσιμη σε καμία από τις NICs σας
+The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=Το πρώτο που πρέπει να κάνετε είναι να εγκαταστήσετε το plugin Fix Common Problems για να βρείτε και να διορθώσετε συνηθισμένα προβλήματα
+The Tips below are suggestions, workarounds for known problems, and potential fixes=Οι παρακάτω Συμβουλές είναι προτάσεις, εναλλακτικές λύσεις για γνωστά προβλήματα και πιθανές διορθώσεις
+There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=Στο Unraid 6 και νεότερα υπάρχει μια πολύ χρήσιμη λειτουργία που καταγράφει τα logs σας και βοηθά στη διάγνωση όταν ο διακομιστής "κολλάει" ή δεν αποκρίνεται
+This will identify potential problems to be solved before you upgrade the Unraid OS=Θα εντοπίσει πιθανά προβλήματα που πρέπει να λυθούν πριν αναβαθμίσετε το Unraid OS
+This will log all your server log enries to the Syslog Server and save the log to an array share=Θα καταγράφει όλες τις εγγραφές log του διακομιστή στον διακομιστή Syslog και θα αποθηκεύει το log σε share του array
+This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=Φαίνεται να συμβαίνει πιο συχνά πλέον λόγω της μεγάλης μνήμης που εγκαθίσταται στους διακομιστές Unraid και των πολύ υψηλών προεπιλεγμένων ρυθμίσεων Disk Cache
+Time to set Normal CPU Scaling=Ώρα ορισμού κανονικού CPU Scaling
+Time to set Power Saving CPU Scaling=Ώρα ορισμού CPU Scaling εξοικονόμησης
+Time to set TurboPerformance Boost Off=Ώρα απενεργοποίησης Turbo/Performance Boost
+Time to set TurboPerformance Boost On=Ώρα ενεργοποίησης Turbo/Performance Boost
+Tips=Συμβουλές
+Tips and Tweaks wiki=Wiki Tips and Tweaks
+Tweaks=Tweaks
+Use the Update Assistant that is part of the Fix Common Problems plugin=Χρησιμοποιήστε τον Update Assistant του plugin Fix Common Problems
+Version 6.11.4 and later=Έκδοση 6.11.4 και νεότερες
+You can check CPU frequencies on the command line with=Μπορείτε να ελέγξετε τις συχνότητες CPU από τη γραμμή εντολών με
+You may actually cause more problems than you solve if there are problems with your Unraid configuration=Μπορεί στην πραγματικότητα να προκαλέσετε περισσότερα προβλήματα από όσα λύσετε, αν υπάρχουν προβλήματα στη διαμόρφωση του Unraid
 
 ;
 ; Help
 ;
 :tips_tweaks_general_plug:
-> Some General Recommendations:
+> Ορισμένες γενικές συστάσεις:
 >
-> + Use of a static IP address can help in certain cases. NFS shares are referenced by IP address. Be sure you reserve the IP address on your router, or set a very high IP address to prevent conflicts.
-> + Use of Jumbo Frames is discouraged.  Jumbo Frames have been known to cause issues with some Dockers.
-> + Don’t set 'vm.dirty_ratio' above 20% unless your Unraid server is on a UPS. You may lose data that has not been written to disk during a power failure.
-> + A value of 'vm.dirty_background_ratio' over 1/2 of 'vm.dirty_ratio' is not recommended unless using single digits for both values.
+> + Η χρήση στατικής διεύθυνσης IP μπορεί να βοηθήσει σε ορισμένες περιπτώσεις. Τα NFS shares αναφέρονται με διεύθυνση IP. Δεσμεύστε τη διεύθυνση IP στον router σας ή ορίστε πολύ υψηλή διεύθυνση IP για αποφυγή συγκρούσεων.
+> + Η χρήση Jumbo Frames δεν συνιστάται. Τα Jumbo Frames είναι γνωστό ότι προκαλούν προβλήματα με ορισμένα Dockers.
+> + Μην ορίζετε το 'vm.dirty_ratio' πάνω από 20%, εκτός αν ο διακομιστής Unraid είναι σε UPS. Μπορεί να χάσετε δεδομένα που δεν έχουν γραφτεί στον δίσκο σε περίπτωση διακοπής ρεύματος.
+> + Τιμή 'vm.dirty_background_ratio' πάνω από το μισό του 'vm.dirty_ratio' δεν συνιστάται, εκτός αν χρησιμοποιείτε μονοψήφιες τιμές και για τα δύο.
 :end
 
 :tips_tweaks_nic_flow_control_plug:
-> Set to 'Yes' to disable NIC Flow Control.  NIC Flow Control was originally implemented to help in
-> networks with mixed speed devices. It no longer seems necessary on today’s networks. If you
-> have a managed switch, flow control can generally be turned on and off on the switch. If you have
-> a consumer grade switch, you won’t have that level of control. Flow Control has been known to create
-> network issues in certain circumstances. It is recommended to disable Flow Control if you experience network issues.
+> Ορίστε 'Ναι' για απενεργοποίηση του NIC Flow Control. Το NIC Flow Control υλοποιήθηκε αρχικά για να βοηθά σε
+> δίκτυα με συσκευές διαφορετικών ταχυτήτων. Δεν φαίνεται πλέον απαραίτητο στα σημερινά δίκτυα. Αν
+> έχετε managed switch, το flow control μπορεί γενικά να ενεργοποιείται και να απενεργοποιείται στο switch. Αν έχετε
+> οικιακό switch, δεν θα έχετε τέτοιο έλεγχο. Το Flow Control είναι γνωστό ότι προκαλεί
+> προβλήματα δικτύου σε ορισμένες περιπτώσεις. Συνιστάται η απενεργοποίηση του Flow Control αν αντιμετωπίζετε προβλήματα δικτύου.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Η αλλαγή από οποιαδήποτε ρύθμιση σε 'Προεπιλογή' απαιτεί επανεκκίνηση.
 :end
 
 :tips_tweaks_nic_offload_plug:
-> Set to 'Yes' to disable NIC offloads. Offloads were developed to offload some network processing
-> to the NIC and off the main CPU and deal with large packets. This was intended to save some CPU processing
-> load and increase network throughput. TSO offload has been known to cause network issues in certain circumstances.
-> It is recommended to disable NIC Offloads if you experience network issues.
+> Ορίστε 'Ναι' για απενεργοποίηση των NIC offloads. Τα offloads αναπτύχθηκαν για να μεταφέρουν μέρος της επεξεργασίας δικτύου
+> στην NIC, μακριά από την κύρια CPU, και για χειρισμό μεγάλων πακέτων. Στόχος ήταν η εξοικονόμηση φόρτου CPU
+> και η αύξηση της ταχύτητας δικτύου. Το TSO offload είναι γνωστό ότι προκαλεί προβλήματα δικτύου σε ορισμένες περιπτώσεις.
+> Συνιστάται η απενεργοποίηση των NIC Offloads αν αντιμετωπίζετε προβλήματα δικτύου.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Η αλλαγή από οποιαδήποτε ρύθμιση σε 'Προεπιλογή' απαιτεί επανεκκίνηση.
 :end
 
 :tips_tweaks_rx_buffer_plug:
-> Select the size of the NIC Rx ring buffer. Some NICs have a limit on the size of the Rx ring buffer. The default value of '256' is recommended.
+> Επιλέξτε το μέγεθος του Rx ring buffer της NIC. Ορισμένες NICs έχουν όριο στο μέγεθος του Rx ring buffer. Συνιστάται η προεπιλεγμένη τιμή '256'.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Η αλλαγή από οποιαδήποτε ρύθμιση σε 'Προεπιλογή' απαιτεί επανεκκίνηση.
 :end
 
 :tips_tweaks_tx_buffer_plug:
-> Select the size of the NIC Tx ring buffer. Some NICs have a limit on the size of the Tx ring buffer. The default value of '256' is recommended.
+> Επιλέξτε το μέγεθος του Tx ring buffer της NIC. Ορισμένες NICs έχουν όριο στο μέγεθος του Tx ring buffer. Συνιστάται η προεπιλεγμένη τιμή '256'.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Η αλλαγή από οποιαδήποτε ρύθμιση σε 'Προεπιλογή' απαιτεί επανεκκίνηση.
 :end
 
 :tips_tweaks_nics_plug:
-> List the NICs to apply the above settings separated by commas. If you have multiple NICs that are bonded, be sure to include all of them. Flow Control, TSO, and NIC buffer settings will
-> be applied to these NICs.
+> Απαριθμήστε τις NICs στις οποίες θα εφαρμοστούν οι παραπάνω ρυθμίσεις, χωρισμένες με κόμματα. Αν έχετε πολλές NICs σε bonding, συμπεριλάβετε τις όλες. Οι ρυθμίσεις Flow Control, TSO και NIC buffer
+> θα εφαρμοστούν σε αυτές τις NICs.
 :end
 
 :tips_tweaks_dirty_background_plug:
-> Recommended values are: 'vm.dirty_background_ratio' to 3% and 'vm.dirty_ratio' to 5%.
-> If you have a large amount of RAM, set the 'vm.dirty_background_ratio' to 1% and 'vm.dirty_ratio' to 2%.
-> Caution: Don’t increase these values beyond the default settings unless you have a UPS that will reliably shut down Unraid.
+> Συνιστώμενες τιμές: 'vm.dirty_background_ratio' στο 3% και 'vm.dirty_ratio' στο 5%.
+> Αν έχετε πολλή RAM, ορίστε το 'vm.dirty_background_ratio' στο 1% και το 'vm.dirty_ratio' στο 2%.
+> Προσοχή: Μην αυξάνετε αυτές τις τιμές πάνω από τις προεπιλογές, εκτός αν έχετε UPS που θα τερματίσει αξιόπιστα το Unraid.
 >
-> Set the 'vm.dirty_background_ratio' as a percentage of total RAM.
-> The default setting of 3% is recommended unless you have a large amounts of RAM. If you run media‑streaming or gaming VMs, use a value of 1%.
+> Ορίστε το 'vm.dirty_background_ratio' ως ποσοστό της συνολικής RAM.
+> Συνιστάται η προεπιλογή 3%, εκτός αν έχετε πολλή RAM. Αν εκτελείτε VMs για media‑streaming ή gaming, χρησιμοποιήστε την τιμή 1%.
 :end
 
 :tips_tweaks_dirty_ratio_plug:
-> Set the 'vm.dirty_ratio' as a percentage of total RAM.
-> Setting this too high may cause Linux to terminate some processes to gain more memory. The default setting of 5% is recommended unless you have a large amount of RAM.
+> Ορίστε το 'vm.dirty_ratio' ως ποσοστό της συνολικής RAM.
+> Πολύ υψηλή τιμή μπορεί να κάνει το Linux να τερματίσει κάποιες διεργασίες για να κερδίσει μνήμη. Συνιστάται η προεπιλογή 5%, εκτός αν έχετε πολλή RAM.
 :end
 
 :tips_tweaks_writeback_plug:
-> The default is '200 centiseconds' (2 seconds) to control how often the kernel checks for dirty data to flush in the background.
+> Η προεπιλογή είναι '200 centiseconds' (2 δευτερόλεπτα) και ελέγχει πόσο συχνά ο kernel ελέγχει για dirty δεδομένα προς εγγραφή στο παρασκήνιο.
 :end
 
 :tips_tweaks_expire_plug:
-> The default is '1000 centiseconds' (10 seconds) to specify how long data can stay dirty before it is considered for write-back.
+> Η προεπιλογή είναι '1000 centiseconds' (10 δευτερόλεπτα) και ορίζει πόσο χρόνο μπορούν τα δεδομένα να μένουν dirty πριν εξεταστούν για εγγραφή.
 :end
 
 :tips_tweaks_max_watches_plug:
-> If inotify fails to start because there are not enough user watches, increase the max_user_watches.
+> Αν το inotify αποτυγχάνει να ξεκινήσει επειδή δεν υπάρχουν αρκετά user watches, αυξήστε το max_user_watches.
 >
-> The default is 524288.
+> Η προεπιλογή είναι 524288.
 :end
 
 :tips_tweaks_max_instances_plug:
-> This is maximum number of inotify instances that a user can create.
+> Είναι ο μέγιστος αριθμός instances inotify που μπορεί να δημιουργήσει ένας χρήστης.
 >
-> The default is 128.
+> Η προεπιλογή είναι 128.
 :end
 
 :tips_tweaks_max_files_plug:
-> This value is used by SAMBA to set the maximum number of open files allowed in SMB shares.
+> Αυτή η τιμή χρησιμοποιείται από το SAMBA για τον μέγιστο αριθμό ανοιχτών αρχείων στα SMB shares.
 >
-> The default is '40960' and the allowed range is '40960 to 65535'.
+> Η προεπιλογή είναι '40960' και το επιτρεπτό εύρος είναι '40960 έως 65535'.
 :end
 
 :tips_tweak_turbo_plug:
-> Set to 'Yes' to enable the Intel Turbo or AMD Performance Boost Mode. Set 'No' to disable. Set to 'Schedule' to enable Turbo/AMD Performance Boost mode on/off based on the times set below.
+> Ορίστε 'Ναι' για ενεργοποίηση της λειτουργίας Intel Turbo ή AMD Performance Boost. Ορίστε 'Όχι' για απενεργοποίηση. Ορίστε 'Πρόγραμμα' για ενεργοποίηση/απενεργοποίηση του Turbo/AMD Performance Boost με βάση τις ώρες που ορίζονται παρακάτω.
 :end
 
 :tips_tweaks_turbo_state_off_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost Off in 24 hour format hh:mm.
+> Εισαγάγετε την ώρα απενεργοποίησης του Intel Turbo/AMD Performance Boost σε 24ωρη μορφή hh:mm.
 :end
 
 :tips_tweaks_turbo_state_on_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost On in 24 hour format hh:mm.
+> Εισαγάγετε την ώρα ενεργοποίησης του Intel Turbo/AMD Performance Boost σε 24ωρη μορφή hh:mm.
 :end
 
 :tips_tweaks_cpu_governor_plug:
-> Select the Normal CPU Scaling Governor you want to use.
+> Επιλέξτε τον Κανονικό CPU Scaling Governor που θέλετε να χρησιμοποιήσετε.
 >
-> + **Power Save** - Locks CPUs to the lowest frequency for maximum power savings.
-> + **On Demand** - Default for the ACPI CPUFreq driver. Scales CPU frequency based on load; frequency changes are aggressive.
-> + **Conservative** - Scales CPU frequency based on load; gentler frequency changes; may introduce latency.
-> + **Performance** - Locks CPUs to the highest frequency regardless of load; can improve performance and latency.
-> + **Schedutil** - Uses the Linux scheduler to scale CPU frequency based on load.
+> + **Power Save** - Κλειδώνει τις CPUs στη χαμηλότερη συχνότητα για μέγιστη εξοικονόμηση ενέργειας.
+> + **On Demand** - Προεπιλογή του driver ACPI CPUFreq. Κλιμακώνει τη συχνότητα CPU ανάλογα με τον φόρτο· οι αλλαγές συχνότητας είναι απότομες.
+> + **Conservative** - Κλιμακώνει τη συχνότητα CPU ανάλογα με τον φόρτο· ηπιότερες αλλαγές συχνότητας· μπορεί να προσθέσει καθυστέρηση.
+> + **Performance** - Κλειδώνει τις CPUs στην υψηλότερη συχνότητα ανεξάρτητα από τον φόρτο· μπορεί να βελτιώσει την απόδοση και την καθυστέρηση.
+> + **Schedutil** - Χρησιμοποιεί τον scheduler του Linux για κλιμάκωση της συχνότητας CPU ανάλογα με τον φόρτο.
 >
-> You can now set the CPU governor with the 'rc.tweaks' script. Use the command:
+> Μπορείτε πλέον να ορίσετε τον CPU governor με το script 'rc.tweaks'. Χρησιμοποιήστε την εντολή:
 > /usr/local/sbin/rc.tweaks set_governor 'governor'
-> The 'governor' choices are: 'ondemand', 'performance', 'powersave', 'conservative', and 'schedutil'.
+> Οι επιλογές για το 'governor' είναι: 'ondemand', 'performance', 'powersave', 'conservative' και 'schedutil'.
 :end
 
 :tips_tweaks_power_save_cpu_governor_plug:
-> Select the Power Saving CPU Scaling Governor you want to use.
+> Επιλέξτε τον CPU Scaling Governor εξοικονόμησης ενέργειας που θέλετε να χρησιμοποιήσετε.
 >
-> + **Power Save** - Locks CPUs to the lowest frequency for maximum power savings.
-> + **On Demand** - Default for the ACPI CPUFreq driver. Scales CPU frequency based on load; frequency changes are aggressive.
-> + **Conservative** - Scales CPU frequency based on load; gentler frequency changes; may introduce latency.
-> + **Schedutil** - Uses the Linux scheduler to scale CPU frequency based on load.
+> + **Power Save** - Κλειδώνει τις CPUs στη χαμηλότερη συχνότητα για μέγιστη εξοικονόμηση ενέργειας.
+> + **On Demand** - Προεπιλογή του driver ACPI CPUFreq. Κλιμακώνει τη συχνότητα CPU ανάλογα με τον φόρτο· οι αλλαγές συχνότητας είναι απότομες.
+> + **Conservative** - Κλιμακώνει τη συχνότητα CPU ανάλογα με τον φόρτο· ηπιότερες αλλαγές συχνότητας· μπορεί να προσθέσει καθυστέρηση.
+> + **Schedutil** - Χρησιμοποιεί τον scheduler του Linux για κλιμάκωση της συχνότητας CPU ανάλογα με τον φόρτο.
 :end
 
 :tips_tweaks_scheduled_plug:
-> Set to 'Yes' to enable scheduled CPU Power Saving mode based on the times set below for Normal and Power Saving modes.
+> Ορίστε 'Ναι' για ενεργοποίηση της προγραμματισμένης εξοικονόμησης ενέργειας CPU με βάση τις ώρες που ορίζονται παρακάτω για την Κανονική λειτουργία και την Εξοικονόμηση ενέργειας.
 :end
 
 :tips_tweaks_cpu_state_plug:
-> Enter the time you want to set the governor to selected Power Saving mode in 24 hour format hh:mm.
+> Εισαγάγετε την ώρα όπου ο governor θα αλλάζει στην επιλεγμένη λειτουργία Εξοικονόμησης ενέργειας, σε 24ωρη μορφή hh:mm.
 :end
 
 :tips_tweaks_performance_plug:
-> Enter the time you want to set the governor to Normal CPU Scaling Governor in 24 hour format hh:mm.
+> Εισαγάγετε την ώρα όπου ο governor θα αλλάζει στον Κανονικό CPU Scaling Governor, σε 24ωρη μορφή hh:mm.
 :end
 
 :tips_tweaks_syslog_archive_plug:
-> Set to 'Yes' to enable the capture and archive of syslogs and run a diagnostics on shutdown. Logs and diagnostics are saved to '/boot/logs/'.
+> Ορίστε 'Ναι' για ενεργοποίηση της καταγραφής και αρχειοθέτησης των syslogs και εκτέλεση διαγνωστικών κατά τον τερματισμό. Τα logs και τα διαγνωστικά αποθηκεύονται στο '/boot/logs/'.
 :end
 
 :tips_tweaks_number_syslogs_plug:
-> Set the number of syslogs to save in the archive.
-> Set '0' to save only last syslog. Set to '-1' to save all logs. Default setting is '10'.
+> Ορίστε τον αριθμό syslogs που θα αποθηκεύονται στο αρχείο.
+> Ορίστε '0' για αποθήκευση μόνο του τελευταίου syslog. Ορίστε '-1' για αποθήκευση όλων. Η προεπιλογή είναι '10'.
 :end
 
 :tips_tweaks_kill_processes_plug:
-> Enter the names of processes to kill before stopping the array, separated by commas. For example, 'ssh' and 'bash'. These processes can keep the array disks from unmounting causing Unraid to hang when the array is being stopped.
+> Εισαγάγετε τα ονόματα των διεργασιών που θα τερματίζονται πριν τη διακοπή του array, χωρισμένα με κόμματα. Για παράδειγμα, 'ssh' και 'bash'. Αυτές οι διεργασίες μπορεί να εμποδίζουν την αποπροσάρτηση των δίσκων του array, με αποτέλεσμα το Unraid να "κολλάει" κατά τη διακοπή του array.
 >
-> Note: Be careful with the processes you kill here. You could lose data!
+> Σημείωση: Προσέξτε ποιες διεργασίες τερματίζετε εδώ. Μπορεί να χάσετε δεδομένα!
 :end

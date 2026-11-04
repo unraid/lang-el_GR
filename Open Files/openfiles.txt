@@ -1,24 +1,24 @@
-Enable Kill Button=
-Process=
-Kill Process=
-Kill this Process holding files open=
-Process ID=
-Open=
-May prevent shutdown=
-File Name and Path=
-An entry for bash means you have a terminal session open with the working directory on the array=
-If smbd is listed, it means that another computer has a samba share mounted=
-Files open by Samba usually wont prevent array shutdown=
-No open files=
-Kill=
-Command timed out=
-Cannot get list of open files=
+Enable Kill Button=Ενεργοποίηση Κουμπιού Kill
+Process=Διεργασία
+Kill Process=Τερματισμός Διεργασίας
+Kill this Process holding files open=Τερματισμός της διεργασίας που κρατά ανοιχτά αρχεία
+Process ID=ID Διεργασίας
+Open=Ανοιχτά
+May prevent shutdown=Μπορεί να εμποδίσει τον τερματισμό
+File Name and Path=Όνομα και Διαδρομή Αρχείου
+An entry for bash means you have a terminal session open with the working directory on the array=Μια εγγραφή για bash σημαίνει ότι έχετε ανοιχτή συνεδρία τερματικού με τρέχοντα φάκελο στο array
+If smbd is listed, it means that another computer has a samba share mounted=Αν εμφανίζεται το smbd, σημαίνει ότι άλλος υπολογιστής έχει προσαρτήσει ένα samba share
+Files open by Samba usually wont prevent array shutdown=Τα αρχεία που έχει ανοίξει το Samba συνήθως δεν εμποδίζουν τη διακοπή του array
+No open files=Δεν υπάρχουν ανοιχτά αρχεία
+Kill=Kill
+Command timed out=Η εντολή έληξε
+Cannot get list of open files=Αδύνατη η λήψη λίστας ανοιχτών αρχείων
 ;
 ; Help
 ;
 :open_files_help_plug:
-> Click on the **Kill** button to stop the process that is holding the files open.
->  A dialog box will open showing you the progress of killing the process holding those files open.
+> Κάντε κλικ στο κουμπί **Kill** για να σταματήσει η διεργασία που κρατά ανοιχτά τα αρχεία.
+>  Θα ανοίξει ένα παράθυρο διαλόγου που δείχνει την πρόοδο τερματισμού της διεργασίας που κρατά ανοιχτά αυτά τα αρχεία.
 >
-> Click on **Process**, **Process ID**, **Files That May Prevent Shutdown**, or **File Name and Path** to change the sort order.
+> Κάντε κλικ στα **Διεργασία**, **ID διεργασίας**, **Αρχεία που μπορεί να εμποδίσουν τον τερματισμό** ή **Όνομα και διαδρομή αρχείου** για αλλαγή της σειράς ταξινόμησης.
 :end

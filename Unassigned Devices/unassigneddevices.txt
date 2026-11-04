@@ -1,256 +1,256 @@
-Add ISO File Share=
-Add Remote SMB=
-Add Root Share=
-All Unassigned Devices configurations will be updated=
-All disks will be refreshed using udev=
-An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
-Any data on this disk will be lost=
-Are you sure=
-Auto mount=
-Back=
-Browse Disk Share=
-Browse ISO File Share=
-Browse Remote SMB=
-Check the syslog for details=
-Choose File System Format=
-Choose ISO File=
-Choose NFS Server=
-Choose SMB Server=
-Choose Share=
-Click on Icon to Choose Protocol=
-Change Disk Mount Point=
-Change ISO File Mount Point=
-Change Remote Share Mount Point=
-Change SMB=
-Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=
-Clear=
-Click to select ISO file=
-Click to view/hide partitions and mount points=
-Complete=
-Device=
-Disks=
-Disk Label=
-Disk Log Information=
-Disk Sharing must be disabled to add a Root Share=
-Do NOT use a remote share local mount in a Docker container or VM for critical data=
-Do not put files or folders into the /mnt/rootshare/ folder=Do not put files or folders into the '/mnt/rootshare/' folder
-Domain=
-Edit Device Script=
-Edit ISO File Script=
-Edit Remote SMB=
-Encrypt CIFS Mount=
-Enter the Domain for the share if on a Domain=
-Enter the Password if the share is password protected=
-Enter the Username if the share is password protected=
-Enter the password to use for this disk=
-Enter the server name and it will be added to the local DNS names and will then resolve by name=
-Exclusive Share files will not be accessible in a Root Share=
-Execute Script as udev simulating a device being installed=
-Fail=
-failed to=
-Failed to get data to refresh page=
-file share for=
-File System Check=
-File System Scrub=
-Format=
-Formatting=
-Free=
-from disk=
-Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
-Historical=
-Historical Unassigned Devices=
-Historical Device is=
-Identification=
-If SMB shares do not show, check your credentials=
-If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=
-If this disk was pre-cleared, you will remove the pre-clear signature=
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
-Invalid Configuration - Remove and Re-add=
-is offline=
-ISO File is=
-ISO File Shares=
-If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=
-Leave blank to use the array passwordpassphrase=Leave blank to use the array password/passphrase
-Load Shares=
-Loading=
-Log=
-Mount=
-Mount Point=
-Mounting=
-Next=
-NFS Mount Point=
-NFS or ISO File Shares configured=
-NFS Script=
-NFS Share=
-NFS Shares=
-No Remote SMB=
-No script file to execute=
-No Unassigned Disks available=
-Not Enabled=
-not installed=
-Note=
-offline=
-User Shares=
-User Shares without Pools=
-You must enable NFS in Settings->NFS to mount NFS shares=You must enable NFS in 'Settings → NFS' to mount NFS shares
-You must enable SMB in Settings->SMB to mount SMB shares=You must enable SMB in 'Settings → SMB' to mount SMB shares
-Open=
-Partition=
-Partition and Format Disk=
-Passed=
-Passed Through=
-Password=
-Pool=
+Add ISO File Share=Προσθήκη ISO File Share
+Add Remote SMB=Προσθήκη Απομακρυσμένου SMB
+Add Root Share=Προσθήκη Root Share
+All Unassigned Devices configurations will be updated=Όλες οι ρυθμίσεις Unassigned Devices θα ενημερωθούν
+All disks will be refreshed using udev=Όλοι οι δίσκοι θα ανανεωθούν μέσω udev
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Ένας δίσκος XFS, BTRFS ή ZFS που διαμερίστηκε στο UD είναι συμβατός με τη διαμέριση δίσκων του array και μπορεί να προστεθεί στο array
+Any data on this disk will be lost=Όλα τα δεδομένα αυτού του δίσκου θα χαθούν
+Are you sure=Είστε σίγουροι;
+Auto mount=Αυτοπροσάρτηση
+Back=Πίσω
+Browse Disk Share=Περιήγηση στο Disk Share
+Browse ISO File Share=Περιήγηση στο ISO File Share
+Browse Remote SMB=Περιήγηση στο Απομακρυσμένο SMB
+Check the syslog for details=Δείτε το syslog για λεπτομέρειες
+Choose File System Format=Επιλογή Μορφής Συστήματος Αρχείων
+Choose ISO File=Επιλογή Αρχείου ISO
+Choose NFS Server=Επιλογή Διακομιστή NFS
+Choose SMB Server=Επιλογή Διακομιστή SMB
+Choose Share=Επιλογή Share
+Click on Icon to Choose Protocol=Κλικ στο Εικονίδιο για Επιλογή Πρωτοκόλλου
+Change Disk Mount Point=Αλλαγή Σημείου Προσάρτησης Δίσκου
+Change ISO File Mount Point=Αλλαγή Σημείου Προσάρτησης Αρχείου ISO
+Change Remote Share Mount Point=Αλλαγή Σημείου Προσάρτησης Απομακρυσμένου Share
+Change SMB=Αλλαγή SMB
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=Η αλλαγή του σημείου προσάρτησης θα αλλάξει επίσης την ετικέτα σε όλους τους δίσκους και το όνομα pool σε δίσκο ZFS
+Clear=Εκκαθάριση
+Click to select ISO file=Κλικ για επιλογή αρχείου ISO
+Click to view/hide partitions and mount points=Κλικ για εμφάνιση/απόκρυψη διαμερισμάτων και σημείων προσάρτησης
+Complete=Ολοκληρώθηκε
+Device=Συσκευή
+Disks=Δίσκοι
+Disk Label=Ετικέτα Δίσκου
+Disk Log Information=Πληροφορίες Log Δίσκου
+Disk Sharing must be disabled to add a Root Share=Η κοινή χρήση δίσκων πρέπει να είναι ανενεργή για προσθήκη Root Share
+Do NOT use a remote share local mount in a Docker container or VM for critical data=ΜΗ χρησιμοποιείτε τοπική προσάρτηση απομακρυσμένου share σε Docker container ή VM για κρίσιμα δεδομένα
+Do not put files or folders into the /mnt/rootshare/ folder=Μη βάζετε αρχεία ή φακέλους στον φάκελο '/mnt/rootshare/'
+Domain=Τομέας
+Edit Device Script=Επεξεργασία Device Script
+Edit ISO File Script=Επεξεργασία Script Αρχείου ISO
+Edit Remote SMB=Επεξεργασία Απομακρυσμένου SMB
+Encrypt CIFS Mount=Κρυπτογράφηση Προσάρτησης CIFS
+Enter the Domain for the share if on a Domain=Εισαγάγετε τον τομέα του share, αν ανήκει σε τομέα
+Enter the Password if the share is password protected=Εισαγάγετε τον κωδικό, αν το share προστατεύεται με κωδικό
+Enter the Username if the share is password protected=Εισαγάγετε το όνομα χρήστη, αν το share προστατεύεται με κωδικό
+Enter the password to use for this disk=Εισαγάγετε τον κωδικό για αυτόν τον δίσκο
+Enter the server name and it will be added to the local DNS names and will then resolve by name=Εισαγάγετε το όνομα του διακομιστή· θα προστεθεί στα τοπικά ονόματα DNS και θα επιλύεται με το όνομα
+Exclusive Share files will not be accessible in a Root Share=Τα αρχεία των Exclusive Shares δεν θα είναι προσβάσιμα σε Root Share
+Execute Script as udev simulating a device being installed=Εκτέλεση Script ως udev, προσομοιώνοντας εγκατάσταση συσκευής
+Fail=Αποτυχία
+failed to=απέτυχε να
+Failed to get data to refresh page=Αποτυχία λήψης δεδομένων για ανανέωση σελίδας
+file share for=file share για
+File System Check=Έλεγχος Συστήματος Αρχείων
+File System Scrub=Scrub Συστήματος Αρχείων
+Format=Διαμόρφωση
+Formatting=Διαμόρφωση
+Free=Ελεύθερο
+from disk=από τον δίσκο
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Μεταβείτε στο Ρυθμίσεις->Γενικές ρυθμίσεις Share και ορίστε την Ενεργοποίηση disk shares σε Αυτόματο ή Όχι
+Historical=Ιστορικό
+Historical Unassigned Devices=Ιστορικό Unassigned Devices
+Historical Device is=Η Συσκευή Ιστορικού είναι
+Identification=Ταυτοποίηση
+If SMB shares do not show, check your credentials=Αν δεν εμφανίζονται SMB shares, ελέγξτε τα διαπιστευτήριά σας
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Αν μετά την αναζήτηση εμφανίζεται στη λίστα η διεύθυνση IP του διακομιστή, ο διακομιστής DNS σας δεν επιλύει το όνομα
+If this disk was pre-cleared, you will remove the pre-clear signature=Αν ο δίσκος είχε γίνει pre-clear, θα αφαιρεθεί η υπογραφή pre-clear
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Αν προσθέσετε τον δίσκο στο array χωρίς υπογραφή pre-clear, το Unraid θα περάσει ξανά από τη χρονοβόρα διαδικασία εκκαθάρισης του δίσκου
+Invalid Configuration - Remove and Re-add=Μη Έγκυρη Διαμόρφωση - Αφαιρέστε και Προσθέστε Ξανά
+is offline=είναι εκτός σύνδεσης
+ISO File is=Το Αρχείο ISO είναι
+ISO File Shares=ISO File Shares
+If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Αν χρησιμοποιείτε κωδικό δίσκου, εισαγάγετε τον κωδικό αυτού του δίσκου στις Ρυθμίσεις UD ώστε να μπορεί να προσαρτηθεί
+Leave blank to use the array passwordpassphrase=Αφήστε κενό για χρήση του κωδικού/φράσης του array
+Load Shares=Φόρτωση Shares
+Loading=Φόρτωση
+Log=Log
+Mount=Προσάρτηση
+Mount Point=Σημείο Προσάρτησης
+Mounting=Προσάρτηση
+Next=Επόμενο
+NFS Mount Point=Σημείο Προσάρτησης NFS
+NFS or ISO File Shares configured=Έχουν ρυθμιστεί NFS ή ISO File Shares
+NFS Script=NFS Script
+NFS Share=NFS Share
+NFS Shares=NFS Shares
+No Remote SMB=Χωρίς Απομακρυσμένο SMB
+No script file to execute=Δεν υπάρχει αρχείο script προς εκτέλεση
+No Unassigned Disks available=Δεν υπάρχουν διαθέσιμοι Unassigned δίσκοι
+Not Enabled=Ανενεργό
+not installed=μη εγκατεστημένο
+Note=Σημείωση
+offline=εκτός σύνδεσης
+User Shares=User Shares
+User Shares without Pools=User Shares χωρίς Pools
+You must enable NFS in Settings->NFS to mount NFS shares=Πρέπει να ενεργοποιήσετε το NFS στο 'Ρυθμίσεις → NFS' για προσάρτηση NFS shares
+You must enable SMB in Settings->SMB to mount SMB shares=Πρέπει να ενεργοποιήσετε το SMB στο 'Ρυθμίσεις → SMB' για προσάρτηση SMB shares
+Open=Ανοιχτά
+Partition=Διαμέρισμα
+Partition and Format Disk=Διαμέριση και Διαμόρφωση Δίσκου
+Passed=Επιτυχής
+Passed Through=Passed Through
+Password=Κωδικός
+Pool=Pool
 Preclear=Pre-clear
-Read only=
-Reboot=
-Refresh Disks and Configuration=
-Remember your password It cannot be recovered=
-Remote Server is=
-Remote Shares=
-Remote Shares online status will be reset=
-Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=
-Remove Device configuration=
-Remove ISO File Share=
-Remove Partition=
-Remove Remote SMB=
-Remove partition=
-Running=
-Script=
-Script is already running=
-Search For Servers=
-Script Log=
-Search for Servers, or enter the Server name or IP address manually=
-Search for Shares or enter the Share name manually=
-Searching=
-Select the Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
-Shares=
-Share Type=
-share for=
-Show/Hide Historical Unassigned Devices=
-Show/Hide SMB/NFS/ISO Shares=
-Show/Hide Unassigned Disk Devices=Show/Hide Unassigned Disk Devices
-Simple=
-SMB Shares=
-Source=
-SSD cannot be spun down=
-Success=
-Show Historical Devices=
-Show SMB/NFS/ISO Shares=
-Show Disk Devices=
-This is a way to gather Unraid shares into one Root Share=
-This will remove the ISO file share for=
-This will remove the=
-This will remove the saved configuration of=
-Timeout: Failed to get unassigned devices information - check the syslog=
-to confirm=
-to format=
-Unassigned Devices Settings=
-Unassigned Disk Devices=
-Unassigned Disks=
-Unmount=
-Unmounting=
-Use caution when gathering shares into one Root Share=
-Used=
-User Shares - allow access to User Shares, including Cache and Pool files=
-User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=
-Username=
-View Device Script Log=
-View ISO File Script Log=
-View NFS Script Log=
-View SMB Script Log=
-WARNING=
-When you copy files between shares in the Root Share, the files may not end up on the expected disks=
-Working=
-You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=
-You may need to enter credentials to list the shares=
-You must enable the Destructive Mode in UD Settings before you can Format this disk=
-You WILL have problems if you do=
-ZFS Pool Name=
-ZFS Volume=
+Read only=Μόνο ανάγνωση
+Reboot=Επανεκκίνηση
+Refresh Disks and Configuration=Ανανέωση Δίσκων και Διαμόρφωσης
+Remember your password It cannot be recovered=Θυμηθείτε τον κωδικό σας. Δεν μπορεί να ανακτηθεί
+Remote Server is=Ο Απομακρυσμένος Διακομιστής είναι
+Remote Shares=Απομακρυσμένα Shares
+Remote Shares online status will be reset=Η κατάσταση σύνδεσης των απομακρυσμένων Shares θα επαναφερθεί
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=Οι προσαρτήσεις απομακρυσμένων shares εξαρτώνται από σταθερή και αξιόπιστη σύνδεση δικτύου, κάτι που μπορεί να είναι δύσκολο
+Remove Device configuration=Αφαίρεση διαμόρφωσης συσκευής
+Remove ISO File Share=Αφαίρεση ISO File Share
+Remove Partition=Αφαίρεση Διαμερίσματος
+Remove Remote SMB=Αφαίρεση Απομακρυσμένου SMB
+Remove partition=Αφαίρεση διαμερίσματος
+Running=Σε εκτέλεση
+Script=Script
+Script is already running=Το script εκτελείται ήδη
+Search For Servers=Αναζήτηση Διακομιστών
+Script Log=Log Script
+Search for Servers, or enter the Server name or IP address manually=Αναζητήστε διακομιστές ή εισαγάγετε χειροκίνητα όνομα ή διεύθυνση IP διακομιστή
+Search for Shares or enter the Share name manually=Αναζητήστε Shares ή εισαγάγετε χειροκίνητα όνομα Share
+Searching=Αναζήτηση
+Select the Root Share=Επιλογή Root Share
+Serial Number Mount Point=Σειριακός Αριθμός (Σημείο Προσάρτησης)
+Shares=Shares
+Share Type=Τύπος Share
+share for=share για
+Show/Hide Historical Unassigned Devices=Εμφάνιση/Απόκρυψη Ιστορικού Unassigned Devices
+Show/Hide SMB/NFS/ISO Shares=Εμφάνιση/Απόκρυψη SMB/NFS/ISO Shares
+Show/Hide Unassigned Disk Devices=Εμφάνιση/Απόκρυψη Unassigned Δίσκων
+Simple=Απλό
+SMB Shares=SMB Shares
+Source=Πηγή
+SSD cannot be spun down=Ο SSD δεν μπορεί να κάνει spin down
+Success=Επιτυχία
+Show Historical Devices=Εμφάνιση Ιστορικού Συσκευών
+Show SMB/NFS/ISO Shares=Εμφάνιση SMB/NFS/ISO Shares
+Show Disk Devices=Εμφάνιση Δίσκων
+This is a way to gather Unraid shares into one Root Share=Είναι ένας τρόπος συγκέντρωσης των Unraid shares σε ένα Root Share
+This will remove the ISO file share for=Θα αφαιρεθεί το ISO file share για
+This will remove the=Θα αφαιρεθεί το
+This will remove the saved configuration of=Θα αφαιρεθεί η αποθηκευμένη διαμόρφωση του
+Timeout: Failed to get unassigned devices information - check the syslog=Λήξη χρόνου: Αποτυχία λήψης πληροφοριών unassigned devices - ελέγξτε το syslog
+to confirm=για επιβεβαίωση
+to format=για διαμόρφωση
+Unassigned Devices Settings=Ρυθμίσεις Unassigned Devices
+Unassigned Disk Devices=Unassigned Δίσκοι
+Unassigned Disks=Unassigned Δίσκοι
+Unmount=Αποπροσάρτηση
+Unmounting=Αποπροσάρτηση
+Use caution when gathering shares into one Root Share=Προσοχή κατά τη συγκέντρωση shares σε ένα Root Share
+Used=Σε χρήση
+User Shares - allow access to User Shares, including Cache and Pool files=User Shares - πρόσβαση στα User Shares, μαζί με τα αρχεία Cache και Pool
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=User Shares χωρίς Pools - πρόσβαση στα User Shares, αλλά το Root Share δεν θα περιλαμβάνει αρχεία Cache και Pool
+Username=Όνομα χρήστη
+View Device Script Log=Προβολή Log Device Script
+View ISO File Script Log=Προβολή Log Script Αρχείου ISO
+View NFS Script Log=Προβολή Log NFS Script
+View SMB Script Log=Προβολή Log SMB Script
+WARNING=ΠΡΟΕΙΔΟΠΟΙΗΣΗ
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=Όταν αντιγράφετε αρχεία μεταξύ shares μέσα στο Root Share, τα αρχεία μπορεί να μην καταλήξουν στους αναμενόμενους δίσκους
+Working=Σε εξέλιξη
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Μπορεί επίσης να εκτεθείτε σε προβλήματα ασφαλείας, όπως ransomware, αν εκθέσετε όλα τα shares σας σε ένα Root Share
+You may need to enter credentials to list the shares=Ίσως χρειαστεί να εισαγάγετε διαπιστευτήρια για να εμφανιστούν τα shares
+You must enable the Destructive Mode in UD Settings before you can Format this disk=Πρέπει να ενεργοποιήσετε το Destructive Mode στις Ρυθμίσεις UD πριν διαμορφώσετε αυτόν τον δίσκο
+You WILL have problems if you do=ΘΑ έχετε προβλήματα αν το κάνετε
+ZFS Pool Name=Όνομα ZFS Pool
+ZFS Volume=Τόμος ZFS
 
 :unassgned_devices_switches_plug:
-> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+> Ενεργοποιήστε τον διακόπτη **Δίσκοι** για να εμφανίζονται οι δίσκοι στη σελίδα. Απενεργοποιήστε τον διακόπτη **Δίσκοι** για να αποκρύπτονται.
 >
-> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+> Ενεργοποιήστε τον διακόπτη **Shares** για να εμφανίζονται τα shares στη σελίδα. Απενεργοποιήστε τον διακόπτη **Shares** για να αποκρύπτονται.
 >
-> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
+> Ενεργοποιήστε τον διακόπτη **Ιστορικό** για να εμφανίζονται οι δίσκοι ιστορικού. Απενεργοποιήστε τον διακόπτη **Ιστορικό** για να μην εμφανίζονται.
 >
-> Click on the <i class="fa fa-refresh"></i> icon to refresh disks and configuration.
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-refresh"></i> για ανανέωση δίσκων και διαμόρφωσης.
 >
-> Click on the <i class="fa fa-gear"></i> icon to go to the UD Settings.
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-gear"></i> για μετάβαση στις Ρυθμίσεις UD.
 >
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i> or <i class='fa fa-circle orb grey-orb'></i> indicator. Applies to Unraid 6.9 RC2 and later.
+> Μπορείτε να κάνετε spin up ή spin down σε έναν δίσκο κάνοντας κλικ στην ένδειξη <i class='fa fa-circle orb green-orb'></i> ή <i class='fa fa-circle orb grey-orb'></i> του δίσκου. Ισχύει για Unraid 6.9 RC2 και νεότερα.
 >
-> Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration. This is where you configure a device script and certain device characteristics.
-> 
-> Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-gears"></i> για μετάβαση στις Ρυθμίσεις συσκευής. Εκεί ρυθμίζετε το device script και ορισμένα χαρακτηριστικά της συσκευής.
 >
-> **Mount Point icons:**
+> Κάντε κλικ στο εικονίδιο <i class="icon-nvme"></i> ή <i class="fa fa-hdd-o"></i> για να δείτε τις εγγραφές syslog αυτού του δίσκου.
 >
-> When the <i class='fa fa-pencil'></i> icon shows next to the mount point it indicates the mount point can be changed when the mount point is clicked.
+> **Εικονίδια σημείου προσάρτησης:**
 >
-> When the <i class='fa fa-external-link'></i> icon shows next to the mount point it indicates the clicking on the mount point will browse the files on that partition.
+> Όταν εμφανίζεται το εικονίδιο <i class='fa fa-pencil'></i> δίπλα στο σημείο προσάρτησης, το σημείο προσάρτησης μπορεί να αλλάξει όταν κάνετε κλικ σε αυτό.
 >
-> Click on the <i class="fa fa-align-left"></i> icon to display the device script log. This is the log specific to the device script.
+> Όταν εμφανίζεται το εικονίδιο <i class='fa fa-external-link'></i> δίπλα στο σημείο προσάρτησης, το κλικ στο σημείο προσάρτησης ανοίγει περιήγηση στα αρχεία του διαμερίσματος.
 >
-> Click on the <i class="fa fa-check"></i> icon to perform a file system check. BTRFS and ZFS file systems need to be mounted to do a file check. The file check on BTRFS and ZFS file systems is a scrub.
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-align-left"></i> για να δείτε το log του device script.
 >
-> Click on the <i class="fa fa-flash"></i> icon to run your device script as if it was hot plugged. This only applies to disk devices.
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-check"></i> για έλεγχο του συστήματος αρχείων. Τα συστήματα αρχείων BTRFS και ZFS πρέπει να είναι προσαρτημένα για τον έλεγχο, που σε αυτά είναι scrub.
+>
+> Κάντε κλικ στο εικονίδιο <i class="fa fa-flash"></i> για να εκτελέσετε το device script σαν να έγινε hot plug της συσκευής. Ισχύει μόνο για δίσκους.
 :end
 
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **Το Unassigned Devices αναφέρεται εν συντομία ως UD.**
 >
-> Hover your mouse over any active area on the UD page and a tooltip will show what clicking that area does.
-> You can mount USB devices, SATA drives, remote SMB/NFS shares, and ISO files with UD. Any devices with the 'Auto Mount' switch on will be mounted when the array is started. All drives and SMB/NFS mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch. The default for Remote SMB shares is Public read/write access. Enable SMB Security by user in the Unassigned Devices Settings. NFS shares are exported and access is read/write. The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount. To share any UD device, enable sharing in Unassigned Devices Settings and turn on the switch for that device. SMB/NFS remote shares and ISO mounts are always shared.
-> After entering a mount point, press &lt;Enter&gt; to save the change.
+> Περάστε το ποντίκι πάνω από οποιαδήποτε ενεργή περιοχή της σελίδας UD και θα εμφανιστεί επεξήγηση για το τι κάνει το κλικ εκεί.
+> Με το UD μπορείτε να προσαρτήσετε συσκευές USB, δίσκους SATA, απομακρυσμένα SMB/NFS shares και αρχεία ISO. Όσες συσκευές έχουν ενεργό τον διακόπτη 'Αυτόματη προσάρτηση' προσαρτώνται όταν ξεκινά το array. Όλοι οι δίσκοι και οι προσαρτήσεις SMB/NFS αποπροσαρτώνται όταν σταματά το array, στο γεγονός 'stopping_svcs'.
+> Αν θέλετε να μοιραστείτε τον δίσκο σας, ενεργοποιήστε τον διακόπτη Share. Η προεπιλογή για τα απομακρυσμένα SMB shares είναι Δημόσια πρόσβαση ανάγνωσης/εγγραφής. Ενεργοποιήστε την ασφάλεια SMB ανά χρήστη στις Ρυθμίσεις Unassigned Devices. Τα NFS shares εξάγονται με πρόσβαση ανάγνωσης/εγγραφής. Η εξαγωγή συσκευών NFS ενεργοποιείται στις ρυθμίσεις Unassigned Devices. Μπορείτε επίσης να ενεργοποιήσετε ένα κοινό script που εκτελείται σε κάθε προσάρτηση δίσκου. Για κοινή χρήση οποιασδήποτε συσκευής UD, ενεργοποιήστε την κοινή χρήση στις Ρυθμίσεις Unassigned Devices και τον διακόπτη της συσκευής. Τα απομακρυσμένα SMB/NFS shares και οι προσαρτήσεις ISO είναι πάντα κοινόχρηστα.
+> Αφού εισαγάγετε σημείο προσάρτησης, πατήστε &lt;Enter&gt; για αποθήκευση της αλλαγής.
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification. When the disk is unmounted, the mount point of the device can be changed. The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> Περισσότερες επιλογές εμφανίζονται όταν κάνετε κλικ στο εικονίδιο <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> δίπλα στην ταυτοποίηση της συσκευής. Όταν ο δίσκος είναι αποπροσαρτημένος, μπορείτε να αλλάξετε το σημείο προσάρτησης της συσκευής. Θα αλλάξει επίσης η ετικέτα του δίσκου. Μπορείτε να διαμορφώσετε τον δίσκο και να εκτελέσετε fsck για έλεγχό του.
 >
-> The 'Settings → Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> Οι ρυθμίσεις ασφαλείας SMB και NFS στο 'Ρυθμίσεις → Unassigned Devices' πρέπει να είναι σωστές για να λειτουργεί σωστά η κοινή χρήση SMB και NFS.
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping. The remote share server must respond to a ping or UD will consider it offline.
+> Αν το κουμπί προσάρτησης είναι γκριζαρισμένο για ένα απομακρυσμένο SMB/NFS share, ο απομακρυσμένος διακομιστής δεν απαντά σε ping. Ο διακομιστής του share πρέπει να απαντά σε ping, αλλιώς το UD τον θεωρεί εκτός σύνδεσης.
 >
-> The 'Add Root Share' button is disabled when 'Enable disk shares' is enabled and any Root Shares previously added will not mount.
+> Το κουμπί 'Προσθήκη Root Share' είναι ανενεργό όταν είναι ενεργή η 'Ενεργοποίηση disk shares' και τα Root Shares που είχαν προστεθεί δεν θα προσαρτώνται.
 >
-> UD has a 'Destructive Mode' that allows deleting disk partitions and formatting disks. If Destructive Mode is not enabled in UD Settings, you WILL NOT be able to format a disk or remove partitions. Go to 'Settings → Unassigned Devices' to enable Destructive Mode.
+> Το UD έχει 'Destructive Mode' που επιτρέπει τη διαγραφή διαμερισμάτων και τη διαμόρφωση δίσκων. Αν το Destructive Mode δεν είναι ενεργό στις Ρυθμίσεις UD, ΔΕΝ θα μπορείτε να διαμορφώσετε δίσκο ή να αφαιρέσετε διαμερίσματα. Μεταβείτε στο 'Ρυθμίσεις → Unassigned Devices' για ενεργοποίηση του Destructive Mode.
 >
-> **To format a disk:**
+> **Για διαμόρφωση δίσκου:**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed. Unmount the disk, click the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been pre-cleared and it shows a grayed-out 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the pre-clear status file.
+> + Το Destructive mode πρέπει να είναι ενεργό.
+> + Ο δίσκος πρέπει να μην έχει κανένα διαμέρισμα. Αποπροσαρτήστε τον δίσκο, κάντε κλικ στο εικονίδιο <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> και μετά σε όλα τα εικονίδια <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> για διαγραφή των διαμερισμάτων.
+> + Αν ο δίσκος έχει γίνει pre-clear και εμφανίζει γκριζαρισμένο κουμπί 'Διαμόρφωση', κάντε κλικ στο εικονίδιο <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> και μετά στο εικονίδιο <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> για διαγραφή του αρχείου κατάστασης pre-clear.
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array. Supported file formats are XFS, XFS encrypted, BTRFS, BTRFS encrypted, ZFS and ZFS encrypted.**
+> **Σημείωση: Ένας δίσκος που διαμερίστηκε στο UD είναι συμβατός με τη διαμέριση δίσκων του array και μπορεί να προστεθεί στο array. Υποστηριζόμενες μορφές: XFS, XFS κρυπτογραφημένο, BTRFS, BTRFS κρυπτογραφημένο, ZFS και ZFS κρυπτογραφημένο.**
 >
-> **Encrypted Disks:**
+> **Κρυπτογραφημένοι δίσκοι:**
 >
-> + By default, encrypted disks formatted in UD use the array password/passphrase and can be added to the array. Alternatively, you may set a unique per‑disk password at format time; to mount such a disk, enter that per‑disk password in 'Unassigned Devices → Settings'.
+> + Από προεπιλογή, οι κρυπτογραφημένοι δίσκοι που διαμορφώνονται στο UD χρησιμοποιούν τον κωδικό/φράση του array και μπορούν να προστεθούν στο array. Εναλλακτικά, μπορείτε να ορίσετε μοναδικό κωδικό ανά δίσκο κατά τη διαμόρφωση· για να προσαρτήσετε έναν τέτοιο δίσκο, εισαγάγετε τον κωδικό του στο 'Unassigned Devices → Ρυθμίσεις'.
 >
-> **Unassigned devices script:**
+> **Script του Unassigned Devices:**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> Το UD περιλαμβάνει ένα script για προσάρτηση και αποπροσάρτηση συσκευών και προσαρτήσεων SMB/NFS. Μπορείτε να το χρησιμοποιείτε από τη γραμμή εντολών ή στα δικά σας scripts.
 >
-> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to 'auto mount' will be mounted.
-> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to 'auto mount' will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to 'auto mount' will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount disk device.
-> + '/usr/local/sbin/rc.unassigned mount name=diskname' - mount disk device by disk name.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount disk device. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned umount name=diskname' - unmount device by disk name.
-> + '/usr/local/sbin/rc.unassigned spindown /dev/sdX or devX' - spin down disk device.
-> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down a disk by disk name.
-> + '/usr/local/sbin/rc.unassigned detach /dev/sdX or devX' - detach a USB disk device. You can use this command in a UD script to detach the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned detach name=diskname' - detach a USB disk device by its name. You can use this command in a User script to detach the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned attach serial' - attach a disk device. You can use this command in a script to attach a device. The 'diskname' is not available when the disk is detached.
-> + '/usr/local/sbin/rc.unassigned mount source' - where source is the SMB/NFS source.
-> + '/usr/local/sbin/rc.unassigned umount source' - where source is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - προσαρτώνται όλες οι συσκευές με 'αυτόματη προσάρτηση'.
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - προσαρτώνται όλες οι προσαρτήσεις SMB/NFS με 'αυτόματη προσάρτηση'.
+> + '/usr/local/sbin/rc.unassigned umount auto' - αποπροσαρτώνται όλες οι συσκευές και προσαρτήσεις SMB/NFS με 'αυτόματη προσάρτηση'.
+> + '/usr/local/sbin/rc.unassigned umount all' - αποπροσαρτώνται όλες οι συσκευές και προσαρτήσεις SMB/NFS, ως προετοιμασία για διακοπή του array.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - προσάρτηση δίσκου.
+> + '/usr/local/sbin/rc.unassigned mount name=diskname' - προσάρτηση δίσκου με βάση το όνομα δίσκου.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - αποπροσάρτηση δίσκου. Μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε script UD για αποπροσάρτηση της συσκευής όταν ολοκληρωθεί το script.
+> + '/usr/local/sbin/rc.unassigned umount name=diskname' - αποπροσάρτηση συσκευής με βάση το όνομα δίσκου.
+> + '/usr/local/sbin/rc.unassigned spindown /dev/sdX or devX' - spin down δίσκου.
+> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down δίσκου με βάση το όνομα δίσκου.
+> + '/usr/local/sbin/rc.unassigned detach /dev/sdX or devX' - αποσύνδεση δίσκου USB. Μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε script UD για αποσύνδεση της συσκευής όταν ολοκληρωθεί το script.
+> + '/usr/local/sbin/rc.unassigned detach name=diskname' - αποσύνδεση δίσκου USB με βάση το όνομά του. Μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε User script για αποσύνδεση της συσκευής όταν ολοκληρωθεί το script.
+> + '/usr/local/sbin/rc.unassigned attach serial' - σύνδεση δίσκου. Μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε script για σύνδεση συσκευής. Το 'diskname' δεν είναι διαθέσιμο όταν ο δίσκος είναι αποσυνδεδεμένος.
+> + '/usr/local/sbin/rc.unassigned mount source' - όπου source είναι η πηγή SMB/NFS.
+> + '/usr/local/sbin/rc.unassigned umount source' - όπου source είναι η πηγή SMB/NFS.
 >
-> Note: '/dev/sdX' where 'X' is the device designator. The 'devX' is the device name in the UD page. If the device name is 'Dev 1', then use 'dev1' as the device to spin down. Using the name=diskname is useful if you have a User Script needing to perform UD operations on a disk.
+> Σημείωση: '/dev/sdX' όπου 'X' είναι ο προσδιοριστής της συσκευής. Το 'devX' είναι το όνομα της συσκευής στη σελίδα UD. Αν το όνομα συσκευής είναι 'Dev 1', χρησιμοποιήστε 'dev1' ως συσκευή για spin down. Η χρήση name=diskname είναι χρήσιμη αν έχετε User Script που χρειάζεται να εκτελεί λειτουργίες UD σε δίσκο.
 >
-> Be careful using the '/dev/sdX' or 'devX' designation because they can change after a reboot. It’s best to use the values passed into the UD script for 'sdX' (DEVICE) and 'devX' (UD_DEVICE).
+> Προσοχή στη χρήση των '/dev/sdX' ή 'devX', γιατί μπορεί να αλλάξουν μετά από επανεκκίνηση. Καλύτερα να χρησιμοποιείτε τις τιμές που περνούν στο script UD για 'sdX' (DEVICE) και 'devX' (UD_DEVICE).
 :end

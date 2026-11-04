@@ -1,78 +1,78 @@
-A disk must be cleared of all partitions before it can be precleared=
-Cannot Preclear=
-Clear Disk=
-Clear Signature=
-Clear Stats=
-Click to show reports=
-Concurrent Sessions=
-Cycles=
-Device Model=
-Disk Log Information=
-Disk Size=
-Download Logs=
-Enable Testing for debugging=
-Fast Post-read=
-Firmware=
-Fix Preclear=
-Identification=
-If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=
-Notifications=
-On every cycle and step end=
-On every 25% of progress=
-On every cycle end=
-On preclear end=
-Operation=
-Post-read Verify=
-Preclear Disks=Pre-clear Disks
-Preclear Disk Log=Pre-clear Disk Log
-Preclear Log=Pre-clear Log
-Preclear Status=Pre-clear Status
-Preview Progress=
-Read size=
-Remove Report=
-Resume all Sessions=
-Resume Preclear=Resume Pre-clear
-Preview Progress Report=
-Select Disks=
-Serial Number=
-Set Preclear Queue=Set Pre-clear Queue
-Show Preclear Report=Show Pre-clear Report
-Skip Pre-read=
-Skip Post-Read=
-Start Multiple Sessions=
-Start New=
-Start Preclear=Start Pre-clear
-Stop all Sessions=
-Stop Preclear=Stop Pre-clear
-Temp=
-Testing=
-There are no disks that can be precleared=There are no disks that can be pre-cleared
-Verify Signature=
-Write size=
-You can use Unassigned Devices to clear the disk=
+A disk must be cleared of all partitions before it can be precleared=Ο δίσκος πρέπει να καθαριστεί από όλα τα διαμερίσματα πριν γίνει pre-clear
+Cannot Preclear=Αδύνατο το Pre-clear
+Clear Disk=Εκκαθάριση Δίσκου
+Clear Signature=Εκκαθάριση Υπογραφής
+Clear Stats=Μηδενισμός Στατ.
+Click to show reports=Κλικ για εμφάνιση αναφορών
+Concurrent Sessions=Ταυτόχρονες Συνεδρίες
+Cycles=Κύκλοι
+Device Model=Μοντέλο Συσκευής
+Disk Log Information=Πληροφορίες Log Δίσκου
+Disk Size=Μέγεθος Δίσκου
+Download Logs=Λήψη Logs
+Enable Testing for debugging=Ενεργοποίηση δοκιμών για αποσφαλμάτωση
+Fast Post-read=Γρήγορο Post-read
+Firmware=Firmware
+Fix Preclear=Διόρθωση Pre-clear
+Identification=Ταυτοποίηση
+If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=Αν ορίσετε όριο ουράς, όλες οι συνεδρίες pre-clear πάνω από το όριο θα τεθούν σε παύση και θα παραμείνουν στην ουρά μέχρι να ολοκληρωθεί μια συνεδρία
+Notifications=Ειδοποιήσεις
+On every cycle and step end=Στο τέλος κάθε κύκλου και βήματος
+On every 25% of progress=Σε κάθε 25% της προόδου
+On every cycle end=Στο τέλος κάθε κύκλου
+On preclear end=Στο τέλος του pre-clear
+Operation=Εργασία
+Post-read Verify=Επαλήθευση Post-read
+Preclear Disks=Pre-clear Δίσκων
+Preclear Disk Log=Log Pre-clear Δίσκου
+Preclear Log=Log Pre-clear
+Preclear Status=Κατάσταση Pre-clear
+Preview Progress=Προεπισκόπηση Προόδου
+Read size=Μέγεθος ανάγνωσης
+Remove Report=Αφαίρεση Αναφοράς
+Resume all Sessions=Συνέχιση όλων των συνεδριών
+Resume Preclear=Συνέχιση Pre-clear
+Preview Progress Report=Προεπισκόπηση Αναφοράς Προόδου
+Select Disks=Επιλογή Δίσκων
+Serial Number=Σειριακός Αριθμός
+Set Preclear Queue=Ορισμός Ουράς Pre-clear
+Show Preclear Report=Εμφάνιση Αναφοράς Pre-clear
+Skip Pre-read=Παράλειψη Pre-read
+Skip Post-Read=Παράλειψη Post-Read
+Start Multiple Sessions=Έναρξη Πολλών Συνεδριών
+Start New=Έναρξη Νέας
+Start Preclear=Έναρξη Pre-clear
+Stop all Sessions=Διακοπή όλων των συνεδριών
+Stop Preclear=Διακοπή Pre-clear
+Temp=Θερμ.
+Testing=Δοκιμή
+There are no disks that can be precleared=Δεν υπάρχουν δίσκοι για pre-clear
+Verify Signature=Επαλήθευση Υπογραφής
+Write size=Μέγεθος εγγραφής
+You can use Unassigned Devices to clear the disk=Μπορείτε να χρησιμοποιήσετε το Unassigned Devices για εκκαθάριση του δίσκου
 
 :preclear_general_help_plug:
-> The Unassigned Devices Pre-clear can be used to prepare disks for inclusion in the array, clear disks for disposal, and perform stress tests before disks are used in the array.
+> Το Unassigned Devices Pre-clear μπορεί να χρησιμοποιηθεί για την προετοιμασία δίσκων πριν προστεθούν στο array, την εκκαθάριση δίσκων πριν την απόσυρσή τους και την εκτέλεση stress tests πριν χρησιμοποιηθούν οι δίσκοι στο array.
 >
-> Only disks that are not being used in the array and have no partitions with file systems will be listed as candidates for pre-clearing.
+> Ως υποψήφιοι για pre-clear εμφανίζονται μόνο δίσκοι που δεν χρησιμοποιούνται στο array και δεν έχουν διαμερίσματα με συστήματα αρχείων.
 >
-> When a disk is being pre-cleared, you can follow the status on this page, on the Unassigned Devices page, or the pre-clear status icon in the footer of the Unraid web page.
-> 
-> There are multiple choices for pre-clearing:
+> Όταν γίνεται pre-clear ενός δίσκου, μπορείτε να παρακολουθείτε την κατάσταση σε αυτή τη σελίδα, στη σελίδα Unassigned Devices ή από το εικονίδιο κατάστασης pre-clear στο κάτω μέρος της σελίδας του Unraid.
 >
-> The **Enhanced** script authored by user **gfjardim** has the advantage that it supports the enhanced features like pause and resume pre-clearing. It also has extensive logging.
+> Υπάρχουν πολλές επιλογές για pre-clear:
 >
-> The **Docker** option refers to the binhex Docker container that performs pre-clear. The advantage is that pre-clearing is isolated within the container.
+> Το **Enhanced** script του χρήστη **gfjardim** έχει το πλεονέκτημα ότι υποστηρίζει προηγμένες λειτουργίες όπως παύση και συνέχιση του pre-clear. Διαθέτει επίσης εκτενή καταγραφή.
 >
-> Pre-clear operations:
+> Η επιλογή **Docker** αφορά το Docker container του binhex που εκτελεί pre-clear. Το πλεονέκτημα είναι ότι το pre-clear απομονώνεται μέσα στο container.
 >
-> + Clear Disk - The disk is cleared and the Unraid signature is written to the disk. This will create an empty partition on the disk.
-> + Erase Disk - Erase the entire disk by writing all zeros. The pre-clear signature is removed.
-> + Erase and Clear Disk - Random patterns are written to the disk and then zeros are written. This is a good choice for a disk to be discarded to ensure all traces of files are removed.
-> + Verify Signature - The disk signature is checked.
-> + Verify Disk - The disk signature is checked and the disk is verified to be zeroed.
-> + Post-read Verify - Perform a post-read verify to check the disk.
-> + Clear Signature - Remove the pre-clear signature from the disk.
+> Εργασίες pre-clear:
 >
-> The text <em style='color:#00BE37;'>Pre-cleared</em> next to the disk serial number indicates that the disk has a pre-cleared signature. This will only show when the disk is pre-cleared and the Pre-clear Stats have been removed.
+> + Εκκαθάριση δίσκου - Ο δίσκος καθαρίζεται και γράφεται σε αυτόν η υπογραφή Unraid. Έτσι δημιουργείται ένα κενό διαμέρισμα στον δίσκο.
+> + Διαγραφή δίσκου - Διαγράφεται ολόκληρος ο δίσκος γράφοντας μηδενικά παντού. Η υπογραφή pre-clear αφαιρείται.
+> + Διαγραφή και εκκαθάριση δίσκου - Γράφονται τυχαία μοτίβα στον δίσκο και μετά μηδενικά. Είναι καλή επιλογή για δίσκο που θα αποσυρθεί, ώστε να αφαιρεθούν όλα τα ίχνη αρχείων.
+> + Επαλήθευση υπογραφής - Ελέγχεται η υπογραφή του δίσκου.
+> + Επαλήθευση δίσκου - Ελέγχεται η υπογραφή του δίσκου και επαληθεύεται ότι ο δίσκος είναι μηδενισμένος.
+> + Επαλήθευση Post-read - Εκτελείται post-read επαλήθευση για έλεγχο του δίσκου.
+> + Εκκαθάριση υπογραφής - Αφαιρείται η υπογραφή pre-clear από τον δίσκο.
+>
+> Το κείμενο <em style='color:#00BE37;'>Pre-cleared</em> δίπλα στον σειριακό αριθμό του δίσκου δείχνει ότι ο δίσκος έχει υπογραφή pre-clear. Εμφανίζεται μόνο όταν ο δίσκος έχει γίνει pre-clear και έχουν αφαιρεθεί τα στατιστικά Pre-clear.
 :end

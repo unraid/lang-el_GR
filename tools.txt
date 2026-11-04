@@ -1,355 +1,355 @@
-A registration replacement key has been created for USB Flash GUID=
-About=
-Alert Message=
-alert=
-Alerts=
-All Categories=
-An email has been sent to=
-and=
-Anonymize diagnostics=
-Anytime=
-Archived Notifications=
-Are you sure=
-Array has been Reset=Array has been **Reset**
-Array must be Started to change permissions=Array must be **Started** to change permissions
-Array must be Stopped to change=Array must be **Stopped** to change
-Array slots=
-Array=
-Author=
-Beta=
-Blacklisted USB Flash GUID=
-Branch=
-By using this software, you agree with our=
-Cache slots=
-Cannot connect to key-server=
-Check for Updates=
-Clear Log=
-click Install Key=click <i>Install Key</i>
-collecting diagnostic information this may take several minutes=collecting diagnostic information (this may take several minutes)
-Component=
-Creating Flash backup=
-Creation error=
-Credits=
-Data slots=
-Delete all notifications=
-Delete Modprobe config=Delete 'Modprobe.d' config
-Delete notification=
-Deprecated Only=
-Developer=
-Diagnostics=
-Disks=
-Display Settings=
-Downgrade OS=
-Downloading=
-Driver=
-Edit Modprobe config=Edit 'Modprobe.d' config
-End-User License Agreement=
-Enter URL of language pack XML file=
-Error accessing your physical USB Flash boot device=
-Error reporting level=
-Errors Only=
-EULA=
-Event=
-Expiration=
-Extend=
-extended=
-Flash backup=
-Get Trial Key=
-Hardware Profile=
-Hide Details=
-If you do not receive an email, please check your spam or junk-email folder=
-Importance=
-Important=
-Install Language=
-Install=
-Installed languages=
-Insufficient free disk space available=
-Invalid Trial Installation=Invalid *Trial* Installation
-It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=
-Key file URL=
-Language support added=
-Language support deleted=
-Language=
-Log file cleared=
-Log size=
-LOG size=
-Log Viewer new=Log Viewer (new)
-Missing Key File=
-Missing Language=
-Modprobed config file='Modprobe.d' config file
-Network Settings=
-New Config=
-New Permissions=
-Next=
-No filter=
-No notifications present=
-No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
-normal=
-Notices Only=
-Notices=
-Only ZIP files are allowed=
-Page Map=
-Parity slots=
-PHP Info=
-PHP Information=
-PHP Log File=
-PHP Settings=
-Please check your=
-please configure=
-Please provide diagnostics when experiencing problems=
-Please select a language before proceeding=
-Please=
-Pool slots=
-Post these in the forums=
-Preserve current assignments=
-previous=
-Privacy Policy=
-Processes=
-Purchase Key=
-Rebuild Modules=
-Registered GUID=
-Registered on=
-Registered to=
-registering USB Flash GUID=
-Release has been withdrawn=
-Remove custom modprobed configuration=Remove custom 'Modprobe.d' configuration?
-Remove the installed language=
-Replaceable=
-Request Extension=
-Request Trial Extension=
-Restore=
-Save Modprobe config=Save 'Modprobe.d' config
-See=
-Select language file=
-Select language=
-Select View=
-Show Details=
-Show errors on screen=
-slots=
-Stable=
-State=
-Subject=
-Support page=
-System Devices=
-System Drivers=
-System Update Check=
-Text=
-Thank you for choosing Unraid OS=
-Thank you for registering USB Flash GUID=
-Thank you for trying Unraid OS=
-The registered GUID does not match the USB Flash boot device GUID=
-There is a physical problem accessing your USB Flash boot device=
-this may take several minutes=
-This release has been withdrawn for use with Trial keys=This release has been withdrawn for use with *Trial* keys
-This server has %s attached storage device=
-This server has %s attached storage devices=
-This utility is used for troubleshooting purposes=
-This will delete all notification files=
-This will delete the selected notification files=
-This will update folder file permissions=This will update folder & file permissions
-Time=
-To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
-to select your language=
-Trial key expires on=***Trial*** key expires on
-Trial=
-Update OS=
-Upgrade Key=
-Uploaded=
-uploading hardware information=
-Uploading=
-Use this to develop language packs=
-Use this to install official language packs=
-User Shares=
-User=
-Vars=
-VFIO-PCI Log=
-View Log=
-View VFIO-PCI Log=
-warning=
-Warnings Only=
-Warnings=
-webGUI=
-When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
-Wrong File Extension=
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
-Your hardware profile was last submitted on=
-Your Trial key has expired=Your *Trial* key has expired
-Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
+A registration replacement key has been created for USB Flash GUID=Δημιουργήθηκε κλειδί αντικατάστασης εγγραφής για το USB Flash GUID
+About=Σχετικά
+Alert Message=Μήνυμα Ειδοποίησης
+alert=ειδοποίηση
+Alerts=Ειδοποιήσεις
+All Categories=Όλες οι Κατηγορίες
+An email has been sent to=Στάλθηκε email στο
+and=και
+Anonymize diagnostics=Ανωνυμοποίηση διαγνωστικών
+Anytime=Οποτεδήποτε
+Archived Notifications=Αρχειοθετημένες Ειδοποιήσεις
+Are you sure=Είστε σίγουροι;
+Array has been Reset=Έγινε **Επαναφορά** του Array
+Array must be Started to change permissions=Το Array πρέπει να είναι **σε λειτουργία** για αλλαγή δικαιωμάτων
+Array must be Stopped to change=Το Array πρέπει να είναι **σε διακοπή** για αλλαγή
+Array slots=Θέσεις Array
+Array=Array
+Author=Δημιουργός
+Beta=Beta
+Blacklisted USB Flash GUID=Αποκλεισμένο USB Flash GUID
+Branch=Branch
+By using this software, you agree with our=Χρησιμοποιώντας αυτό το λογισμικό, συμφωνείτε με την
+Cache slots=Θέσεις Cache
+Cannot connect to key-server=Αδύνατη η σύνδεση με τον key-server
+Check for Updates=Έλεγχος Ενημερώσεων
+Clear Log=Εκκαθάριση Log
+click Install Key=πατήστε <i>Εγκατάσταση κλειδιού</i>
+collecting diagnostic information this may take several minutes=συλλογή διαγνωστικών πληροφοριών (μπορεί να διαρκέσει μερικά λεπτά)
+Component=Στοιχείο
+Creating Flash backup=Δημιουργία αντιγράφου Flash
+Creation error=Σφάλμα δημιουργίας
+Credits=Συντελεστές
+Data slots=Θέσεις δεδομένων
+Delete all notifications=Διαγραφή όλων των ειδοποιήσεων
+Delete Modprobe config=Διαγραφή ρυθμίσεων 'Modprobe.d'
+Delete notification=Διαγραφή ειδοποίησης
+Deprecated Only=Μόνο Παρωχημένα
+Developer=Developer
+Diagnostics=Διαγνωστικά
+Disks=Δίσκοι
+Display Settings=Ρυθμίσεις Εμφάνισης
+Downgrade OS=Υποβάθμιση OS
+Downloading=Λήψη
+Driver=Driver
+Edit Modprobe config=Επεξεργασία ρυθμίσεων 'Modprobe.d'
+End-User License Agreement=Άδεια Χρήσης Τελικού Χρήστη
+Enter URL of language pack XML file=Εισαγάγετε URL του αρχείου XML του πακέτου γλώσσας
+Error accessing your physical USB Flash boot device=Σφάλμα πρόσβασης στη φυσική συσκευή εκκίνησης USB Flash
+Error reporting level=Επίπεδο αναφοράς σφαλμάτων
+Errors Only=Μόνο Σφάλματα
+EULA=EULA
+Event=Συμβάν
+Expiration=Λήξη
+Extend=Επέκταση
+extended=επεκτάθηκε
+Flash backup=Αντίγραφο Flash
+Get Trial Key=Λήψη Κλειδιού Trial
+Hardware Profile=Προφίλ Υλικού
+Hide Details=Απόκρυψη
+If you do not receive an email, please check your spam or junk-email folder=Αν δεν λάβετε email, ελέγξτε τον φάκελο ανεπιθύμητων
+Importance=Σημασία
+Important=Σημαντικό
+Install Language=Εγκατάσταση Γλώσσας
+Install=Εγκατάσταση
+Installed languages=Εγκατεστημένες γλώσσες
+Insufficient free disk space available=Ανεπαρκής ελεύθερος χώρος στον δίσκο
+Invalid Trial Installation=Μη Έγκυρη Εγκατάσταση *Trial*
+It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Θα συλλέξει όλες τις πληροφορίες υλικού του συστήματος, θα αφαιρέσει τους σειριακούς αριθμούς και θα τις στείλει με ασφάλεια στη LimeTech
+Key file URL=URL αρχείου κλειδιού
+Language support added=Η υποστήριξη γλώσσας προστέθηκε
+Language support deleted=Η υποστήριξη γλώσσας διαγράφηκε
+Language=Γλώσσα
+Log file cleared=Το αρχείο Log εκκαθαρίστηκε
+Log size=Μέγεθος Log
+LOG size=Μέγεθος LOG
+Log Viewer new=Προβολή Log (νέο)
+Missing Key File=Λείπει το Αρχείο Κλειδιού
+Missing Language=Λείπει η Γλώσσα
+Modprobed config file=Αρχείο ρυθμίσεων 'Modprobe.d'
+Network Settings=Ρυθμίσεις Δικτύου
+New Config=Νέα Διαμόρφωση
+New Permissions=Νέα Δικαιώματα
+Next=Επόμενο
+No filter=Χωρίς φίλτρο
+No notifications present=Δεν υπάρχουν ειδοποιήσεις
+No personal information such as user names, passwords, or any other file contents is included in the hardware profile=Το προφίλ υλικού δεν περιέχει προσωπικές πληροφορίες, όπως ονόματα χρηστών, κωδικούς ή περιεχόμενο αρχείων
+normal=κανονικό
+Notices Only=Μόνο Σημειώσεις
+Notices=Σημειώσεις
+Only ZIP files are allowed=Επιτρέπονται μόνο αρχεία ZIP
+Page Map=Χάρτης Σελίδων
+Parity slots=Θέσεις Parity
+PHP Info=PHP Info
+PHP Information=Πληροφορίες PHP
+PHP Log File=Αρχείο Log PHP
+PHP Settings=Ρυθμίσεις PHP
+Please check your=Ελέγξτε τις
+please configure=ρυθμίστε
+Please provide diagnostics when experiencing problems=Παρέχετε διαγνωστικά όταν αντιμετωπίζετε προβλήματα
+Please select a language before proceeding=Επιλέξτε γλώσσα πριν συνεχίσετε
+Please=Παρακαλούμε
+Pool slots=Θέσεις Pool
+Post these in the forums=Δημοσιεύστε τα στο φόρουμ
+Preserve current assignments=Διατήρηση τρεχουσών αντιστοιχίσεων
+previous=προηγούμενο
+Privacy Policy=Πολιτική Απορρήτου
+Processes=Διεργασίες
+Purchase Key=Αγορά Κλειδιού
+Rebuild Modules=Επαναδόμηση Modules
+Registered GUID=Εγγεγραμμένο GUID
+Registered on=Εγγραφή στις
+Registered to=Εγγεγραμμένο σε
+registering USB Flash GUID=εγγραφή USB Flash GUID
+Release has been withdrawn=Η έκδοση έχει αποσυρθεί
+Remove custom modprobed configuration=Αφαίρεση προσαρμοσμένων ρυθμίσεων 'Modprobe.d';
+Remove the installed language=Αφαίρεση της εγκατεστημένης γλώσσας
+Replaceable=Αντικαταστάσιμο
+Request Extension=Αίτημα Επέκτασης
+Request Trial Extension=Αίτημα Επέκτασης Trial
+Restore=Επαναφορά
+Save Modprobe config=Αποθήκευση ρυθμίσεων 'Modprobe.d'
+See=Δείτε
+Select language file=Επιλογή αρχείου γλώσσας
+Select language=Επιλογή γλώσσας
+Select View=Επιλογή Προβολής
+Show Details=Λεπτομέρειες
+Show errors on screen=Εμφάνιση σφαλμάτων στην οθόνη
+slots=θέσεις
+Stable=Σταθερή
+State=Κατάσταση
+Subject=Θέμα
+Support page=Σελίδα υποστήριξης
+System Devices=Συσκευές Συστήματος
+System Drivers=Drivers Συστήματος
+System Update Check=Έλεγχος Ενημέρωσης Συστήματος
+Text=Κείμενο
+Thank you for choosing Unraid OS=Ευχαριστούμε που επιλέξατε το Unraid OS
+Thank you for registering USB Flash GUID=Ευχαριστούμε για την εγγραφή του USB Flash GUID
+Thank you for trying Unraid OS=Ευχαριστούμε που δοκιμάζετε το Unraid OS
+The registered GUID does not match the USB Flash boot device GUID=Το εγγεγραμμένο GUID δεν ταιριάζει με το GUID της συσκευής εκκίνησης USB Flash
+There is a physical problem accessing your USB Flash boot device=Υπάρχει φυσικό πρόβλημα πρόσβασης στη συσκευή εκκίνησης USB Flash
+this may take several minutes=μπορεί να διαρκέσει μερικά λεπτά
+This release has been withdrawn for use with Trial keys=Αυτή η έκδοση έχει αποσυρθεί για χρήση με κλειδιά *Trial*
+This server has %s attached storage device=Αυτός ο διακομιστής έχει %s συνδεδεμένη συσκευή αποθήκευσης
+This server has %s attached storage devices=Αυτός ο διακομιστής έχει %s συνδεδεμένες συσκευές αποθήκευσης
+This utility is used for troubleshooting purposes=Αυτό το εργαλείο χρησιμοποιείται για αντιμετώπιση προβλημάτων
+This will delete all notification files=Θα διαγραφούν όλα τα αρχεία ειδοποιήσεων
+This will delete the selected notification files=Θα διαγραφούν τα επιλεγμένα αρχεία ειδοποιήσεων
+This will update folder file permissions=Θα ενημερωθούν τα δικαιώματα φακέλων & αρχείων
+Time=Ώρα
+To install a registration key, paste the key file URL in the box below and click Install Key=Για εγκατάσταση κλειδιού εγγραφής, επικολλήστε το URL του αρχείου κλειδιού στο παρακάτω πεδίο και πατήστε **Εγκατάσταση κλειδιού**
+to select your language=για να επιλέξετε τη γλώσσα σας
+Trial key expires on=Το κλειδί ***Trial*** λήγει στις
+Trial=Trial
+Update OS=Ενημέρωση OS
+Upgrade Key=Αναβάθμιση Κλειδιού
+Uploaded=Ανέβηκε
+uploading hardware information=αποστολή πληροφοριών υλικού
+Uploading=Ανέβασμα
+Use this to develop language packs=Χρησιμοποιήστε το για ανάπτυξη πακέτων γλώσσας
+Use this to install official language packs=Χρησιμοποιήστε το για εγκατάσταση επίσημων πακέτων γλώσσας
+User Shares=User Shares
+User=Χρήστης
+Vars=Vars
+VFIO-PCI Log=VFIO-PCI Log
+View Log=Προβολή Log
+View VFIO-PCI Log=Προβολή VFIO-PCI Log
+warning=προειδοποίηση
+Warnings Only=Μόνο Προειδοποιήσεις
+Warnings=Προειδοποιήσεις
+webGUI=webGUI
+When received, please paste the URL into the Key file URL box and=Όταν το λάβετε, επικολλήστε το URL στο πεδίο *URL αρχείου κλειδιού* και
+Wrong File Extension=Λάθος Επέκταση Αρχείου
+You havent sent Limetech your hardware profile yet=Δεν έχετε στείλει ακόμα το προφίλ υλικού σας στη Limetech
+Your hardware profile was last submitted on=Το προφίλ υλικού σας υποβλήθηκε τελευταία φορά στις
+Your Trial key has expired=Το κλειδί *Trial* σας έληξε
+Your Trial key requires an internet connection=Το κλειδί *Trial* σας απαιτεί σύνδεση στο internet
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
-Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
-Reboot to take effect=
-SCSI Devices=
-The below list doesnt not reflect the way IOMMU would naturally group devices=The following list does not reflect the way IOMMU would naturally group devices
-This controller is bound to vfio, connected USB devices are not visible=
-This controller is bound to vfio, connected drives are not visible=
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**.
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+A reboot is required to apply changes=Απαιτείται επανεκκίνηση για εφαρμογή των αλλαγών
+ALERT=ΕΙΔΟΠΟΙΗΣΗ
+Bind selected to VFIO at Boot=Δέσμευση επιλεγμένων στο VFIO κατά την εκκίνηση
+CPU Thread Pairings=Ζεύγη Νημάτων CPU
+Changes saved=Οι αλλαγές αποθηκεύτηκαν
+Function Level Reset FLR supported=Υποστηρίζεται Function Level Reset (FLR)
+In use by Unraid=Σε χρήση από το Unraid
+Kernel driver in use vfio-pci=Kernel driver σε χρήση: vfio-pci
+No changes=Καμία αλλαγή
+PCI Devices and IOMMU Groups=Συσκευές PCI και Ομάδες IOMMU
+PCI Devices No IOMMU Groups Available=Συσκευές PCI (Δεν Υπάρχουν Ομάδες IOMMU)
+Reboot to take effect=Επανεκκίνηση για εφαρμογή
+SCSI Devices=Συσκευές SCSI
+The below list doesnt not reflect the way IOMMU would naturally group devices=Η παρακάτω λίστα δεν αντικατοπτρίζει τον φυσικό τρόπο ομαδοποίησης συσκευών από το IOMMU
+This controller is bound to vfio, connected USB devices are not visible=Αυτός ο ελεγκτής είναι δεσμευμένος στο vfio, οι συνδεδεμένες συσκευές USB δεν είναι ορατές
+This controller is bound to vfio, connected drives are not visible=Αυτός ο ελεγκτής είναι δεσμευμένος στο vfio, οι συνδεδεμένοι δίσκοι δεν είναι ορατοί
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=Για να δείτε τις φυσικές ομάδες IOMMU του υλικού σας, μεταβείτε στη σελίδα [VM Manager] και ορίστε τη ρύθμιση **PCIe ACS override** σε **Απενεργοποιημένο**.
+USB Devices=Συσκευές USB
+Your system has booted with the PCIe ACS Override setting enabled=Το σύστημά σας έχει εκκινήσει με ενεργή τη ρύθμιση PCIe ACS Override
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+Αυτό το εργαλείο χρησιμοποιείται για αντιμετώπιση προβλημάτων. Συλλέγει όλες τις πληροφορίες και τα αρχεία ρυθμίσεων του συστήματος και τα πακετάρει σε ένα ενιαίο αρχείο ZIP που μπορεί να αποθηκευτεί τοπικά.
+Στη συνέχεια, αυτό το αρχείο μπορεί να συμπεριληφθεί στην επικοινωνία σας με τη Limetech ή στο φόρουμ του Unraid.
 
-This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+Έτσι, οι άλλοι μπορούν να δουν γρήγορα τις εσωτερικές πληροφορίες του συστήματός σας και να σας βοηθήσουν καλύτερα. Συλλέγονται οι εξής πληροφορίες
+και αρχεία ρυθμίσεων:
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>αντιγραφή όλων των αρχείων *\*.cfg*, του αρχείου *go* και του αρχείου *super.dat*. Αυτά είναι αρχεία ρυθμίσεων.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
-+ *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
-+ *System*
-  <br>save output of the following commands:
+  <br>αντιγραφή όλων των αρχείων *\*.cfg*. Αυτά είναι αρχεία ρυθμίσεων των user shares.
++ *Αρχεία Syslog*
+  <br>αντιγραφή του τρέχοντος αρχείου *syslog* και τυχόν προηγούμενων αρχείων *syslog*.
++ *Σύστημα*
+  <br>αποθήκευση της εξόδου των εντολών:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
-+ *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>προβολή των ομάδων iommu.
+  <br>προβολή των παραμέτρων γραμμής εντολών (π.χ. pcie acs override, pci stubbing κ.λπ.).
+  <br>αποθήκευση των μεταβλητών συστήματος.
++ *Αναφορές SMART*
+  <br>αποθήκευση αναφοράς SMART για κάθε δίσκο του συστήματός σας.
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>αποθήκευση των αρχείων *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* και *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
-Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
+Πατώντας **Λήψη** ξεκινά η διαδικασία συλλογής και στη συνέχεια ο browser σας θα αποθηκεύσει το αρχείο zip τοπικά.
 
-*No personal information such as user names, passwords, or any other file contents not specified above is included
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+*Το Unraid OS δεν συμπεριλαμβάνει προσωπικές πληροφορίες, όπως ονόματα χρηστών, κωδικούς ή άλλο περιεχόμενο αρχείων που δεν αναφέρεται παραπάνω·
+ωστόσο, το όνομα του διακομιστή σας, η διεύθυνση IP και τα ονόματα των user shares* **θα** *συμπεριληφθούν.*
 
-*Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
-to the system log.*
+*Σημειώστε ότι τα plugins τρίτων **μπορεί** να αποθηκεύουν ή όχι προσωπικές πληροφορίες σε δικά τους αρχεία ρυθμίσεων ή/και να τις καταγράφουν
+στο log του συστήματος.*
 
-*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+*Χρησιμοποιήστε την* **Ανωνυμοποίηση διαγνωστικών** *όταν δημοσιεύετε το αρχείο διαγνωστικών στο δημόσιο φόρουμ. Σε ιδιωτική επικοινωνία με τη Limetech συνιστάται να απενεργοποιήσετε αυτή τη ρύθμιση, ώστε να καταγραφούν όλες οι πληροφορίες αναλλοίωτες.*
 :end
 
 :newconfig_plug:
-This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
-if it were a fresh new server.
+Αυτό είναι ένα εργαλείο επαναφοράς της διαμόρφωσης δίσκων του array, ώστε όλοι οι δίσκοι να εμφανίζονται ως "Νέοι" δίσκοι, σαν
+να ήταν ένας ολοκαίνουργιος διακομιστής.
 
-This is useful when you have added or removed multiple drives and wish to rebuild parity based on
-the new configuration.
+Είναι χρήσιμο όταν έχετε προσθέσει ή αφαιρέσει πολλούς δίσκους και θέλετε να επαναδημιουργήσετε το parity με βάση
+τη νέα διαμόρφωση.
 
-Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
+Χρησιμοποιήστε την επιλογή *'Διατήρηση τρεχουσών αντιστοιχίσεων'* για να συμπληρωθούν οι επιθυμητές θέσεις δίσκων ***μετά*** την επαναφορά του array. Από προεπιλογή **δεν** συμπληρώνεται καμία θέση.
 
-**DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
-effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+**ΜΗ ΧΡΗΣΙΜΟΠΟΙΕΙΤΕ ΑΥΤΟ ΤΟ ΕΡΓΑΛΕΙΟ ΝΟΜΙΖΟΝΤΑΣ ΟΤΙ ΘΑ ΕΠΑΝΑΔΟΜΗΣΕΙ ΕΝΑΝ ΧΑΛΑΣΜΕΝΟ ΔΙΣΚΟ** - θα έχει το αντίθετο
+αποτέλεσμα, καθιστώντας ***αδύνατη*** την επαναδόμηση ενός υπάρχοντος χαλασμένου δίσκου - σας προειδοποιήσαμε!
 :end
 
 :newperms_1_plug:
-This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
-Select **ALL DISKS** when performing this one-time action.
+Αυτή είναι μια υποχρεωτική, εφάπαξ ενέργεια μετά την αναβάθμιση από έκδοση Unraid πριν την 5.0 σε Unraid v5 ή νεότερη.
+Επιλέξτε **ΟΛΟΥΣ ΤΟΥΣ ΔΙΣΚΟΥΣ** όταν εκτελείτε αυτή την εφάπαξ ενέργεια.
 
-This utility is also useful for restoring default ownership/permissions on files and
-directories when transitioning back from Active Directory to non-Active Directory integration.
+Το εργαλείο είναι επίσης χρήσιμο για επαναφορά των προεπιλεγμένων ιδιοκτητών/δικαιωμάτων σε αρχεία και
+φακέλους κατά τη μετάβαση από ενσωμάτωση Active Directory σε μη Active Directory.
 
-The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
-and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
-as follows:
+Το εργαλείο ξεκινά μια διεργασία παρασκηνίου που περνά από κάθε δίσκο δεδομένων, δίσκο cache και επιλεγμένο user share
+και αλλάζει τον ιδιοκτήτη αρχείων και φακέλων σε *nobody/users* (δηλ. uid/gid σε 99/100) και ορίζει τα δικαιώματα
+ως εξής:
 :end
 
 :newperms_2_plug:
-For directories:
+Για φακέλους:
   drwxrwxrwx
 
-For read/write files:
+Για αρχεία ανάγνωσης/εγγραφής:
   -rw-rw-rw-
 
-For readonly files:
+Για αρχεία μόνο ανάγνωσης:
   -r--r--r--
 :end
 
 :newperms_3_plug:
-Clicking **Start** will open another window and start the background process.
+Πατώντας **Εκκίνηση** θα ανοίξει ένα νέο παράθυρο και θα ξεκινήσει η διεργασία παρασκηνίου.
 
-Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
+Το κλείσιμο του παραθύρου πριν την ολοκλήρωση θα τερματίσει τη διεργασία - γι' αυτό μην το κάνετε. Η διαδικασία μπορεί να διαρκέσει πολύ αν έχετε πολλά αρχεία.
 
-Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
+Σημειώστε ότι αυτό το εργαλείο μπορεί να επηρεάσει αρνητικά τα docker containers αν επιτρέψετε να συμπεριληφθεί το share appdata.
 :end
 
 :registration_1_plug:
-Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
-key provides all the functionality of a *Pro* Registration key.
+Ο διακομιστής σας δεν θα μπορεί να χρησιμοποιηθεί μέχρι να αγοράσετε κλειδί εγγραφής ή να εγκαταστήσετε δωρεάν κλειδί *Trial* 30 ημερών. Ένα κλειδί *Trial*
+παρέχει όλες τις λειτουργίες ενός κλειδιού εγγραφής *Pro*.
 
-Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
-at least 1GB in size.
+Τα κλειδιά εγγραφής είναι δεμένα στον σειριακό αριθμό (GUID) της συσκευής εκκίνησης USB Flash. Χρησιμοποιήστε μια επώνυμη συσκευή υψηλής ποιότητας
+τουλάχιστον 1GB.
 
-Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
+Σημείωση: οι αναγνώστες καρτών μνήμης USB γενικά **δεν** υποστηρίζονται, επειδή οι περισσότεροι δεν έχουν μοναδικό σειριακό αριθμό.
 :end
 
 :registration_2_plug:
-+ Please make sure your [server time](DateTime) is accurate to within 5 minutes.
-+ Please make sure there is a [DNS server](NetworkSettings) specified.
++ Βεβαιωθείτε ότι η [ώρα του διακομιστή](DateTime) είναι ακριβής με απόκλιση έως 5 λεπτά.
++ Βεβαιωθείτε ότι έχει οριστεί [διακομιστής DNS](NetworkSettings).
 :end
 
 :registration_3_plug:
-Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
+Το κλειδί *Trial* σας περιλαμβάνει όλες τις λειτουργίες και την υποστήριξη συσκευών ενός κλειδιού εγγραφής *Pro*.
 
-After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
+Μετά τη λήξη του κλειδιού *Trial*, ο διακομιστής σας **συνεχίζει να λειτουργεί κανονικά** μέχρι την επόμενη **Διακοπή** του array.
 
-At that point, you may either purchase a Registration key, or request a *Trial* extension.
+Σε εκείνο το σημείο, μπορείτε είτε να αγοράσετε κλειδί εγγραφής είτε να ζητήσετε επέκταση του *Trial*.
 :end
 
 :registration_4_plug:
-To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
+Για να συνεχίσετε να χρησιμοποιείτε το Unraid OS, μπορείτε να αγοράσετε κλειδί εγγραφής. Εναλλακτικά, μπορείτε να ζητήσετε κλειδί επέκτασης *Trial*.
 
-Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+Τα περισσότερα αιτήματα επέκτασης *Trial* εξυπηρετούνται αμέσως, αλλά η λήψη του κλειδιού επέκτασης *Trial* μπορεί να διαρκέσει έως μία εργάσιμη ημέρα.
 :end
 
 :registration_5_plug:
-It is not possible to use a *Trial* key with an existing Unraid OS installation.
+Δεν είναι δυνατή η χρήση κλειδιού *Trial* σε υπάρχουσα εγκατάσταση Unraid OS.
 
-You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
+Μπορείτε να αγοράσετε κλειδί εγγραφής για αυτή τη συσκευή USB Flash για να συνεχίσετε να χρησιμοποιείτε αυτή την εγκατάσταση.
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+Για περισσότερες πληροφορίες, [Επικοινωνήστε με την υποστήριξη](https://lime-technology.com/contact).
 :end
 
 :registration_6_plug:
-It appears that your Registration key file is corrupted or missing.  The key file should be located in the
-[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
+Φαίνεται ότι το αρχείο κλειδιού εγγραφής σας είναι κατεστραμμένο ή λείπει. Το αρχείο κλειδιού πρέπει να βρίσκεται στον φάκελο
+[config](/Registration/Browse?dir&#61;/boot/config) της συσκευής εκκίνησης USB Flash.
 
-If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
+Αν δεν έχετε αντίγραφο του αρχείου κλειδιού εγγραφής, [Επικοινωνήστε με την υποστήριξη](https://lime-technology.com/contact).
 
-If this was a *Trial* installation, you may purchase a Registration key.
+Αν αυτή ήταν εγκατάσταση *Trial*, μπορείτε να αγοράσετε κλειδί εγγραφής.
 :end
 
 :registration_7_plug:
-*Trial* installations are only valid with the originally registered USB Flash device.
+Οι εγκαταστάσεις *Trial* ισχύουν μόνο με την αρχικά εγγεγραμμένη συσκευή USB Flash.
 
-To continue using this installation with this USB Flash device, you may purchase a Registration key.
+Για να συνεχίσετε να χρησιμοποιείτε αυτή την εγκατάσταση με αυτή τη συσκευή USB Flash, μπορείτε να αγοράσετε κλειδί εγγραφής.
 :end
 
 :registration_8_plug:
-The Registration key file does not correspond to the USB Flash boot device.
-Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/boot/config) directory
-on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
+Το αρχείο κλειδιού εγγραφής δεν αντιστοιχεί στη συσκευή εκκίνησης USB Flash.
+Αντιγράψτε το σωστό αρχείο κλειδιού στον φάκελο [config](/Registration/Browse?dir&#61;/boot/config)
+της συσκευής εκκίνησης USB Flash. Αν δεν έχετε αντίγραφο του αρχείου κλειδιού, [Επικοινωνήστε με την υποστήριξη](https://lime-technology.com/contact).
 
-If you want to replace your Registration key with a new key bound to this USB Flash device, click Fix Error below. An original key may be
-replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
-another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
+Αν θέλετε να αντικαταστήσετε το κλειδί εγγραφής σας με νέο κλειδί δεμένο σε αυτή τη συσκευή USB Flash, πατήστε Διόρθωση σφάλματος παρακάτω. Ένα αρχικό κλειδί
+μπορεί να αντικατασταθεί οποτεδήποτε. Στη συνέχεια, ένα κλειδί αντικατάστασης μπορεί να αντικατασταθεί ξανά μετά από ένα έτος. Αν χρειάζεστε
+άλλο κλειδί αντικατάστασης νωρίτερα, [Επικοινωνήστε με την υποστήριξη](https://lime-technology.com/contact).
 
-**Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
+**Σημείωση:** Η αντικατάσταση κλειδιού εγγραφής οδηγεί σε μόνιμο *αποκλεισμό* του προηγούμενου USB Flash GUID.
 :end
 
 :registration_9_plug:
-This USB Flash boot device has been *blacklisted*. This can occur if you transferred your Registration key to 
-a replacement USB Flash device and are currently booted from your old USB Flash device.
+Αυτή η συσκευή εκκίνησης USB Flash έχει *αποκλειστεί*. Αυτό μπορεί να συμβεί αν μεταφέρατε το κλειδί εγγραφής σας σε
+νέα συσκευή USB Flash και έχετε κάνει εκκίνηση από την παλιά συσκευή USB Flash.
 
-A USB Flash device may also be *blacklisted* if there is no serial number, or if we discover the serial number
-is not unique (this is common with USB card readers).
+Μια συσκευή USB Flash μπορεί επίσης να *αποκλειστεί* αν δεν έχει σειριακό αριθμό ή αν διαπιστώσουμε ότι ο σειριακός αριθμός
+δεν είναι μοναδικός (αυτό είναι συνηθισμένο στους αναγνώστες καρτών USB).
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+Για περισσότερες πληροφορίες, [Επικοινωνήστε με την υποστήριξη](https://lime-technology.com/contact).
 :end
