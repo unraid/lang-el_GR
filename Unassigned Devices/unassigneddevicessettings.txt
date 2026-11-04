@@ -1,222 +1,222 @@
-Add=
-Auto Mount USB Devices=
-Case-sensitive names=
-Change Disk UUID=
-Change UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disabled=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enable Time Machine=
-Enter Disk Password=
-Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=NFS must be enabled in 'Settings → NFS' to enable NFS Export
-NFS Version to use when Mounting Remote Shares=
-Public=
-Private=
-Private Hidden=
-Refresh and Update=
-Remote Share Mount Wait Time=
-Rule=
-Select Disk=
-See Help=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-SMB Settings=
-SMB Sharing=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-Test=
-Testing=
-Test the Remote Server=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
-Time Machine volume size limit=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Upgrade ZFS Pool=
-Use only when directed for support because the messages can flood the log=
-Warning=
-Windows may require a valid User to be defined even for Public shares=
-Working=
+Add=Προσθήκη
+Auto Mount USB Devices=Αυτόματη Προσάρτηση Συσκευών USB
+Case-sensitive names=Διάκριση πεζών-κεφαλαίων
+Change Disk UUID=Αλλαγή UUID Δίσκου
+Change UUID=Αλλαγή UUID
+Command times=Χρόνοι εντολών
+Common Script=Κοινό Script
+Common Settings=Κοινές Ρυθμίσεις
+Destructive Mode=Destructive Mode
+Disabled=Απενεργοποιημένο
+Disk spin down is managed by Unraid=Το spin down των δίσκων το διαχειρίζεται το Unraid
+Enable NFS export=Ενεργοποίηση εξαγωγής NFS
+Enable SMB Security=Ενεργοποίηση Ασφάλειας SMB
+Enable Time Machine=Ενεργοποίηση Time Machine
+Enter Disk Password=Εισαγωγή Κωδικού Δίσκου
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Εισαγάγετε το όνομα ή τη διεύθυνση IP του απομακρυσμένου διακομιστή και τα αποτελέσματα του ελέγχου θα εμφανιστούν στο πεδίο **Αποτέλεσμα**
+Enter Pool Mount Point=Εισαγωγή Σημείου Προσάρτησης Pool
+Legacy Mount Point Compatibility=Συμβατότητα Παλιού Σημείου Προσάρτησης
+Mount SSDs with discard option=Προσάρτηση SSDs με επιλογή discard
+NFS Security=Ασφάλεια NFS
+NFS Settings=Ρυθμίσεις NFS
+NFS must be enabled in Settings->NFS to enable NFS Export=Το NFS πρέπει να είναι ενεργό στο 'Ρυθμίσεις → NFS' για να ενεργοποιηθεί η εξαγωγή NFS
+NFS Version to use when Mounting Remote Shares=Έκδοση NFS για την προσάρτηση απομακρυσμένων Shares
+Public=Δημόσιο
+Private=Ιδιωτικό
+Private Hidden=Ιδιωτικό Κρυφό
+Refresh and Update=Ανανέωση και Ενημέρωση
+Remote Share Mount Wait Time=Χρόνος Αναμονής Προσάρτησης Απομακρυσμένων Shares
+Rule=Κανόνας
+Select Disk=Επιλογή Δίσκου
+See Help=Δείτε Βοήθεια
+Set Encrypted Disk Password=Ορισμός Κωδικού Κρυπτογραφημένου Δίσκου
+Set Password=Ορισμός Κωδικού
+Set Pool Mount Point=Ορισμός Σημείου Προσάρτησης Pool
+Set the Pool Mount Point for this disk=Ορισμός σημείου προσάρτησης Pool για αυτόν τον δίσκο
+Set the disk Password=Ορισμός κωδικού δίσκου
+SMB Settings=Ρυθμίσεις SMB
+SMB Sharing=Κοινή Χρήση SMB
+Specify SMB Version when Mounting Remote Shares=Καθορισμός έκδοσης SMB κατά την προσάρτηση απομακρυσμένων Shares
+Spin down disks=Spin down δίσκων
+Test=Δοκιμή
+Testing=Δοκιμή
+Test the Remote Server=Δοκιμή Απομακρυσμένου Διακομιστή
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Πρέπει να είναι εγκατεστημένο το plugin Unassigned Devices Plus για ενεργοποίηση του Destructive Mode
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Εργαλείο για τη διάγνωση της δυνατότητας απομακρυσμένων διακομιστών να εξυπηρετούν SMB και NFS shares
+Time Machine volume size limit=Όριο μεγέθους τόμου Time Machine
+to SMB share config=στις ρυθμίσεις SMB share
+Udev and Hotplug=Udev και Hotplug
+Unassigned Devices=Unassigned Devices
+Unraid 6.10 or later is required for NFSv4 support=Απαιτείται Unraid 6.10 ή νεότερο για υποστήριξη NFSv4
+Upgrade ZFS Pool=Αναβάθμιση ZFS Pool
+Use only when directed for support because the messages can flood the log=Χρησιμοποιήστε το μόνο όταν σας ζητηθεί από την υποστήριξη, γιατί τα μηνύματα μπορεί να πλημμυρίσουν το log
+Warning=Προειδοποίηση
+Windows may require a valid User to be defined even for Public shares=Τα Windows μπορεί να απαιτούν έγκυρο Χρήστη ακόμα και για Δημόσια shares
+Working=Σε εξέλιξη
 
 ; Help
 ;
 :ud_settings_plus_plug:
-> **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
+> **Σημείωση:** Πρέπει να είναι εγκατεστημένο το plugin 'Unassigned Devices Plus' για την προσάρτηση δίσκων HFS+ και exFAT και την ενεργοποίηση του destructive mode.
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script. The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> Αν οριστεί, αυτό το script εκτελείται πριν το device script. Η ενέργεια βρίσκεται στη μεταβλητή περιβάλλοντος **$ACTION**. Γράφετε όλες τις εντολές με την πλήρη διαδρομή τους.
 :end
 
 :ud_settings_destructive_plug:
-> If enabled, this will allow you to erase and format partitions using Unassigned Devices. This cannot be enabled unless the 'Unassigned Devices Plus' plugin is installed.
+> Αν είναι ενεργό, μπορείτε να διαγράφετε και να διαμορφώνετε διαμερίσματα με το Unassigned Devices. Δεν μπορεί να ενεργοποιηθεί αν δεν είναι εγκατεστημένο το plugin 'Unassigned Devices Plus'.
 :end
 
 :ud_settings_mount_usb_devices_plug:
-> When set to **Yes**, will auto mount a new USB device and share it without user intervention.
+> Όταν οριστεί **Ναι**, μια νέα συσκευή USB προσαρτάται αυτόματα και γίνεται κοινόχρηστη χωρίς παρέμβαση του χρήστη.
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option. If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
+> Προσάρτηση των SSDs που υποστηρίζουν discard με την επιλογή 'discard'. Αν χρησιμοποιείτε τις Ρυθμίσεις SSD Trim για περιοδικό trim των SSDs, μπορείτε να το ορίσετε **Όχι**.
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> Ορίστε **Ναι** για δημιουργία symlinks για το /mnt/remotes/ στο /mnt/disks/.
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> Αυτό είναι για συμβατότητα με παλαιότερες αντιστοιχίσεις VM και Docker Container στο σημείο προσάρτησης /mnt/disks/.
+> Σας προτείνουμε να αλλάξετε τις αντιστοιχίσεις σας στο σημείο προσάρτησης /mnt/remotes/.
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> Αν δεν χρειάζεστε τη συμβατότητα με τα παλιά, αφήστε το **Όχι**.
 :end
 
 :ud_settings_remote_share_wait_plug:
-> This is the time in seconds to wait before mounting remote shares when the array is first started.
+> Ο χρόνος σε δευτερόλεπτα αναμονής πριν την προσάρτηση απομακρυσμένων shares όταν το array ξεκινά για πρώτη φορά.
 >
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
+> Ορίστε **Όχι** ώστε το Unassigned Devices να προσπαθεί πρώτα να προσαρτήσει απομακρυσμένα shares χωρίς να ορίζει έκδοση SMB.
 >
-> Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
+> Ορίστε **Ναι** ώστε το Unassigned Devices να προσαρτά απομακρυσμένα SMB shares μόνο με καθορισμένη έκδοση SMB.
 >
-> Some remote servers need to have the version specified.
+> Ορισμένοι απομακρυσμένοι διακομιστές χρειάζονται καθορισμένη έκδοση.
 :end
 
 :ud_settings_debug_level_plug:
-> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.  Set the Debug Log Level to debug a specific area of UD.
+> Ένα Debug Log Level προσθέτει επιπλέον καταγραφή σε συγκεκριμένες περιοχές του UD για αντιμετώπιση προβλημάτων. Ορίστε το Debug Log Level για αποσφαλμάτωση συγκεκριμένης περιοχής του UD.
 >
-> Set to **None** to turn off debug logging.
+> Ορίστε **Κανένα** για απενεργοποίηση της καταγραφής debug.
 >
-> **Udev and Hotplug** udev, disk discovery and hotplug debug.
+> **Udev και Hotplug** debug για udev, εντοπισμό δίσκων και hotplug.
 >
-> **Refresh and Update** to find issues where UD hangs.
+> **Ανανέωση και ενημέρωση** για εύρεση προβλημάτων όπου το UD "κολλάει".
 >
-> **Command times** command execution times. **Warning:** very chatty.
+> **Χρόνοι εντολών** χρόνοι εκτέλεσης εντολών. **Προειδοποίηση:** πολύ φλύαρο.
 >
-> **Note:** Don’t leave the Debug Log Level enabled for extended periods; it can generate excessive syslog messages.
+> **Σημείωση:** Μην αφήνετε το Debug Log Level ενεργό για μεγάλα διαστήματα· μπορεί να δημιουργήσει υπερβολικά μηνύματα syslog.
 :end
 
 :ud_settings_specify_nfs_vers_plug:
-> Set to **Auto** to mount all NFS Remote Shares, auto-negotiating the NFS version to use.
+> Ορίστε **Αυτόματα** για προσάρτηση όλων των απομακρυσμένων NFS Shares με αυτόματη διαπραγμάτευση της έκδοσης NFS.
 >
-> If the **Auto** setting doesn’t work or only mounts NFSv3, use the **NFSv4** setting because your Unraid version cannot auto-negotiate NFSv4.
+> Αν η ρύθμιση **Αυτόματα** δεν λειτουργεί ή προσαρτά μόνο NFSv3, χρησιμοποιήστε τη ρύθμιση **NFSv4**, επειδή η έκδοση Unraid σας δεν μπορεί να διαπραγματευτεί αυτόματα το NFSv4.
 :end
 
 :ud_settings_smb_security_plug:
-> Set the user level of SMB Sharing:
+> Ορίστε το επίπεδο χρήστη της κοινής χρήσης SMB:
 >
-> + Set to **Disabled** to disable SMB sharing.
-> + Set to **Public** will share devices, Remote SMB/NFS shares, and iso Mounts Public with read and write access.
-> + Set to **Private** to enable SMB Security on SMB shares. Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Private Hidden** to enable SMB Security on SMB shares that will not be visible. Set access by user to allow access and whether or not the user can write to the share.
+> + Ορίστε **Απενεργοποιημένο** για απενεργοποίηση της κοινής χρήσης SMB.
+> + Με **Δημόσιο**, οι συσκευές, τα απομακρυσμένα SMB/NFS shares και οι προσαρτήσεις iso γίνονται κοινόχρηστα ως Δημόσια με πρόσβαση ανάγνωσης και εγγραφής.
+> + Ορίστε **Ιδιωτικό** για ενεργοποίηση της ασφάλειας SMB στα SMB shares. Ορίστε πρόσβαση ανά χρήστη και αν ο χρήστης μπορεί να γράφει στο share.
+> + Ορίστε **Ιδιωτικό κρυφό** για ενεργοποίηση της ασφάλειας SMB σε SMB shares που δεν θα είναι ορατά. Ορίστε πρόσβαση ανά χρήστη και αν ο χρήστης μπορεί να γράφει στο share.
 >
 > Windows Server Signing:
 >
-> If you are unable to browse SMB shares with Windows 11 version 24H2 or newer, you may need to adjust settings to accommodate a new feature called Server Signing. Server Signing is enabled in Unraid, so additional steps may be required to access Public shares.
-> You can <a href='https://techcommunity.microsoft.com/t5/storage-at-microsoft/accessing-a-third-party-nas-with-smb-in-windows-11-24h2-may-fail/ba-p/4154300' target='_blank' rel='noopener noreferrer'>disable it in Windows</a>, or to work with Unraid with Server Signing enabled, the easiest way is to create a user (with a password set) in Unraid with the same name as the Windows account you are using; Windows should then ask you for the credentials.
-> If you are using a Microsoft account, it may be better to just create a user in Unraid with a simple username and set a password, then in Windows go to 'Control Panel → Credential Manager → Windows credentials → Add a Windows Credential' and add the correct Unraid server name and credentials.
+> Αν δεν μπορείτε να περιηγηθείτε στα SMB shares με Windows 11 έκδοση 24H2 ή νεότερη, ίσως χρειαστεί να προσαρμόσετε ρυθμίσεις λόγω μιας νέας λειτουργίας που λέγεται Server Signing. Το Server Signing είναι ενεργό στο Unraid, οπότε μπορεί να χρειαστούν πρόσθετα βήματα για πρόσβαση στα Δημόσια shares.
+> Μπορείτε να <a href='https://techcommunity.microsoft.com/t5/storage-at-microsoft/accessing-a-third-party-nas-with-smb-in-windows-11-24h2-may-fail/ba-p/4154300' target='_blank' rel='noopener noreferrer'>το απενεργοποιήσετε στα Windows</a> ή, για να δουλέψετε με το Unraid με ενεργό το Server Signing, ο ευκολότερος τρόπος είναι να δημιουργήσετε στο Unraid έναν χρήστη (με κωδικό) με το ίδιο όνομα με τον λογαριασμό Windows που χρησιμοποιείτε· τότε τα Windows θα σας ζητήσουν τα διαπιστευτήρια.
+> Αν χρησιμοποιείτε λογαριασμό Microsoft, ίσως είναι καλύτερα να δημιουργήσετε στο Unraid έναν χρήστη με απλό όνομα και κωδικό και μετά στα Windows να μεταβείτε στο 'Πίνακας Ελέγχου → Διαχείριση διαπιστευτηρίων → Διαπιστευτήρια Windows → Προσθήκη διαπιστευτηρίων Windows' και να προσθέσετε το σωστό όνομα διακομιστή Unraid και τα διαπιστευτήρια.
 :end
 
 :ud_settings_case_sensitive_plug:
-> Controls whether filenames are case-sensitive.
+> Ελέγχει αν τα ονόματα αρχείων κάνουν διάκριση πεζών-κεφαλαίων.
 >
-> The default setting of **Auto** allows clients that support case sensitive filenames (Linux CIFS and NFS) to tell the Samba server on a per-packet basis that they wish to access the file system in a case-sensitive manner (to support UNIX case sensitive semantics). No Windows system supports case-sensitive filenames so setting this option to auto is the same as setting it to No for them; however, the case of filenames passed by a Windows client will be preserved. This setting can result in reduced performance with very large directories because Samba must do a filename search and match on passed names.
+> Η προεπιλογή **Αυτόματα** επιτρέπει στους clients που υποστηρίζουν ονόματα με διάκριση πεζών-κεφαλαίων (Linux CIFS και NFS) να δηλώνουν στον διακομιστή Samba ανά πακέτο ότι θέλουν πρόσβαση με διάκριση πεζών-κεφαλαίων (για υποστήριξη της σημασιολογίας του UNIX). Κανένα σύστημα Windows δεν υποστηρίζει διάκριση πεζών-κεφαλαίων, οπότε για αυτά η ρύθμιση auto είναι ίδια με το Όχι· ωστόσο, διατηρείται η γραφή των ονομάτων που στέλνει ένας client Windows. Η ρύθμιση μπορεί να μειώσει την απόδοση σε πολύ μεγάλους φακέλους, επειδή το Samba πρέπει να κάνει αναζήτηση και αντιστοίχιση των ονομάτων.
 >
-> A setting of **Yes** means that files are created with the case that the client passes, and only accessible using this same case. This will speed very large directory access, but some Windows applications may not function properly with this setting. For example, if "MyFile" is created but a Windows app attempts to open "MYFILE" (which is permitted in Windows), it will not be found.
+> Η ρύθμιση **Ναι** σημαίνει ότι τα αρχεία δημιουργούνται με τη γραφή που στέλνει ο client και είναι προσβάσιμα μόνο με την ίδια γραφή. Αυτό επιταχύνει την πρόσβαση σε πολύ μεγάλους φακέλους, αλλά ορισμένες εφαρμογές Windows μπορεί να μη λειτουργούν σωστά. Για παράδειγμα, αν δημιουργηθεί το "MyFile" και μια εφαρμογή Windows προσπαθήσει να ανοίξει το "MYFILE" (που επιτρέπεται στα Windows), δεν θα βρεθεί.
 >
-> A value of **Forced lower** is special: the case of all incoming client filenames, not just new filenames, will be set to lower-case. In other words, no matter what mixed case name is created on the Windows side, it will be stored and accessed in all lower-case. This ensures all Windows apps will properly find any file regardless of case, but case will not be preserved in folder listings.
+> Η τιμή **Μόνο πεζά** είναι ειδική: όλα τα εισερχόμενα ονόματα αρχείων από clients, όχι μόνο τα νέα, μετατρέπονται σε πεζά. Με άλλα λόγια, όποια μικτή γραφή κι αν δημιουργηθεί στα Windows, το όνομα αποθηκεύεται και προσπελάζεται μόνο με πεζά. Έτσι όλες οι εφαρμογές Windows βρίσκουν σωστά κάθε αρχείο ανεξαρτήτως γραφής, αλλά η γραφή δεν διατηρείται στις λίστες φακέλων.
 :end
 
 :ud_time_machine_plug:
-> Set to **Yes** to enable Time Machine settings on the SMB shares.
+> Ορίστε **Ναι** για ενεργοποίηση των ρυθμίσεων Time Machine στα SMB shares.
 :end
 
 :ud_time_machine_vol_size_plug:
-> This limits the reported volume size, preventing Time Machine from using the entire real disk space for backup. For example, setting this value to "1024" would limit the reported disk space to 1GB.
+> Περιορίζει το αναφερόμενο μέγεθος τόμου, ώστε το Time Machine να μη χρησιμοποιεί όλο τον πραγματικό χώρο του δίσκου για αντίγραφα ασφαλείας. Για παράδειγμα, η τιμή "1024" περιορίζει τον αναφερόμενο χώρο σε 1GB.
 :end
 
 :ud_settings_force_user_plug:
-> There are times when permissions on SMB shares aren’t handled as expected. Enabling the **Force user** setting can help.
-> This applies to all devices mounted with Unassigned Devices.
-> The downside is that it overrides Linux group permissions. If you are unsure whether this is necessary, leave it disabled.
+> Μερικές φορές τα δικαιώματα στα SMB shares δεν λειτουργούν όπως αναμένεται. Η ενεργοποίηση της ρύθμισης **Force user** μπορεί να βοηθήσει.
+> Ισχύει για όλες τις συσκευές που προσαρτώνται με το Unassigned Devices.
+> Το μειονέκτημα είναι ότι παρακάμπτει τα δικαιώματα ομάδας του Linux. Αν δεν είστε σίγουροι ότι χρειάζεται, αφήστε το ανενεργό.
 :end
 
 :ud_settings_nfs_security_plug:
-> Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+> Ορίστε **Ναι** για εξαγωγή των Unassigned Devices με κοινή χρήση NFS. Τα shares εξάγονται ως Δημόσια με πρόσβαση ανάγνωσης και εγγραφής ή ως Ιδιωτικά με τον κανόνα που ορίζετε. Η πρόσβαση ελέγχεται με τα δικαιώματα αρχείων και φακέλων.
 :end
 
 :ud_settings_nfs_rules_plug:
-> Put the rule for each IP address on a separate line and terminate the Rule with a new line.
-> You cannot enter a Rule in the format IP1,IP2(...).  Unraid does not format the exports file in that format.
+> Γράψτε τον κανόνα για κάθε διεύθυνση IP σε ξεχωριστή γραμμή και τερματίστε τον Κανόνα με νέα γραμμή.
+> Δεν μπορείτε να εισαγάγετε Κανόνα με τη μορφή IP1,IP2(...). Το Unraid δεν διαμορφώνει το αρχείο exports με αυτή τη μορφή.
 
-> The default rules for every NFS Rule are - async and no_subtree_check.
+> Οι προεπιλεγμένοι κανόνες για κάθε Κανόνα NFS είναι - async και no_subtree_check.
 
-> **Note:**
+> **Σημείωση:**
 >
-> The Public default Rule used is '*(rw,sec=sys,insecure,anongid=100,anonuid=99,all_squash)'.
+> Ο προεπιλεγμένος Δημόσιος Κανόνας είναι '*(rw,sec=sys,insecure,anongid=100,anonuid=99,all_squash)'.
 >
-> The Private default Rule used is '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
+> Ο προεπιλεγμένος Ιδιωτικός Κανόνας είναι '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
 :end
 
 :ud_settings_disk_pass_plug:
-> Select the disk that you want to set a Password. This is the password for this disk only and does not affect the array password/passphrase. Leave password blank to use the array password/passphrase for luks encrypted disks.
+> Επιλέξτε τον δίσκο για τον οποίο θέλετε να ορίσετε κωδικό. Ο κωδικός ισχύει μόνο για αυτόν τον δίσκο και δεν επηρεάζει τον κωδικό/φράση του array. Αφήστε τον κωδικό κενό για να χρησιμοποιείται ο κωδικός/φράση του array σε δίσκους κρυπτογραφημένους με luks.
 :end
 
 :ud_settings_change_uuid_plug:
-> Select the disk that you want to change the UUID. This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk. Drive must be unmounted to change the UUID.
+> Επιλέξτε τον δίσκο του οποίου θέλετε να αλλάξετε το UUID. Είναι χρήσιμο όταν ένας δίσκος XFS έχει αφαιρεθεί από το array και έχει το ίδιο UUID με δίσκο του array. Ο δίσκος πρέπει να είναι αποπροσαρτημένος για την αλλαγή UUID.
 >
-> **Note:** Don’t change the UUID of a pooled disk.
+> **Σημείωση:** Μην αλλάζετε το UUID δίσκου που ανήκει σε pool.
 :end
 
 :ud_settings_zfs_upgrade_plug:
-> Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade the ZFS Pool.
+> Επιλέξτε τον δίσκο που θέλετε να αναβαθμίσετε στην τελευταία έκδοση ZFS. Ο δίσκος πρέπει να είναι προσαρτημένος για την αναβάθμιση του ZFS Pool.
 :end
 
 :ud_remote_server_test_plug:
-> Remote Servers need to have SMB and/or NFS enabled.  This will check that the SMB and/or NFS ports are open.  The 'showmount -e <server>' command on Unraid must also show NFS mounts available.
+> Οι απομακρυσμένοι διακομιστές πρέπει να έχουν ενεργό SMB ή/και NFS. Αυτός ο έλεγχος επιβεβαιώνει ότι οι θύρες SMB ή/και NFS είναι ανοιχτές. Η εντολή 'showmount -e <server>' στο Unraid πρέπει επίσης να δείχνει διαθέσιμες προσαρτήσεις NFS.
 
-> For SMB to be considered online, the Remote Server has to have the SMB port open.
+> Για να θεωρηθεί online το SMB, ο απομακρυσμένος διακομιστής πρέπει να έχει ανοιχτή τη θύρα SMB.
 
-> For NFS to be considered online, the Remote Server has to have the NFS port open and the 'showmount -e' command has to show NFS shares.
-> The port may be open, but if 'showmount -e' doesn’t list any NFS shares, NFS will not work.
+> Για να θεωρηθεί online το NFS, ο απομακρυσμένος διακομιστής πρέπει να έχει ανοιχτή τη θύρα NFS και η εντολή 'showmount -e' να δείχνει NFS shares.
+> Η θύρα μπορεί να είναι ανοιχτή, αλλά αν το 'showmount -e' δεν δείχνει NFS shares, το NFS δεν θα λειτουργεί.
 
-> If showmount does not return any NFS shares on a reachable remote server like a Synology, it generally means one of the following:
+> Αν το showmount δεν επιστρέφει NFS shares σε προσβάσιμο απομακρυσμένο διακομιστή, όπως ένα Synology, συνήθως ισχύει ένα από τα εξής:
 
-> No NFS Shares Exported:
+> Δεν εξάγονται NFS Shares:
 
-> The server might not have any directories configured for NFS export. Check the NFS configuration on the Synology device and ensure that folders intended for NFS sharing are explicitly exported.
+> Ο διακομιστής ίσως δεν έχει φακέλους ρυθμισμένους για εξαγωγή NFS. Ελέγξτε τη διαμόρφωση NFS στη συσκευή Synology και βεβαιωθείτε ότι οι φάκελοι για κοινή χρήση NFS εξάγονται ρητά.
 
-> Access Restrictions:
+> Περιορισμοί πρόσβασης:
 
-> NFS shares may be configured with IP-based access restrictions. Synology devices allow you to specify which IP addresses or networks can access each NFS share. If your IP address is not allowed, the NFS share will not appear in showmount output.
+> Τα NFS shares μπορεί να έχουν περιορισμούς πρόσβασης βάσει IP. Οι συσκευές Synology επιτρέπουν να ορίσετε ποιες διευθύνσεις IP ή δίκτυα έχουν πρόσβαση σε κάθε NFS share. Αν η διεύθυνση IP σας δεν επιτρέπεται, το NFS share δεν θα εμφανίζεται στην έξοδο του showmount.
 
-> NFS Service Not Enabled:
+> Η υπηρεσία NFS δεν είναι ενεργή:
 
-> The NFS service on the Synology might not be enabled. Verify this in the Synology DSM settings under Control Panel > File Services > NFS. Enable NFS if it is currently disabled.
+> Η υπηρεσία NFS στο Synology ίσως δεν είναι ενεργή. Ελέγξτε το στις ρυθμίσεις του Synology DSM στο Control Panel > File Services > NFS. Ενεργοποιήστε το NFS αν είναι ανενεργό.
 
-> Firewall or Network Configuration:
+> Firewall ή διαμόρφωση δικτύου:
 
-> The Synology device may have firewall rules blocking the showmount request or the required RPC communication. Ensure that the firewall settings allow traffic on NFS-related ports (typically 2049 for NFS and 111 for RPC).
+> Η συσκευή Synology μπορεί να έχει κανόνες firewall που μπλοκάρουν το αίτημα showmount ή την απαιτούμενη επικοινωνία RPC. Βεβαιωθείτε ότι οι ρυθμίσεις firewall επιτρέπουν κίνηση στις θύρες του NFS (συνήθως 2049 για NFS και 111 για RPC).
 
-> Synology Export Options:
+> Επιλογές εξαγωγής Synology:
 
-> The Synology NFS settings can sometimes require enabling Enable NFS at the top level and specifying Allow NFSv3 if you are using clients that expect NFSv3. Check Control Panel > File Services > NFS to ensure proper configuration.
+> Οι ρυθμίσεις NFS του Synology μερικές φορές απαιτούν ενεργοποίηση του Enable NFS στο ανώτερο επίπεδο και επιλογή Allow NFSv3 αν χρησιμοποιείτε clients που περιμένουν NFSv3. Ελέγξτε το Control Panel > File Services > NFS για σωστή διαμόρφωση.
 
-> By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
+> Αν το NFS είναι ενεργό, ρυθμισμένο με τα σωστά δικαιώματα και οι εξαγόμενοι φάκελοι επιτρέπονται για το IP του client σας, το showmount θα πρέπει να δείχνει τις διαθέσιμες εξαγωγές.
 :end

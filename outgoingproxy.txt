@@ -1,33 +1,33 @@
-Enable Outgoing Proxy=
-Name=
-Optional=
-Outgoing Proxy=
-Password=
-Please match the requested format=
-Required=
-Select Proxy=
-User=
+Enable Outgoing Proxy=Ενεργοποίηση Εξερχόμενου Proxy
+Name=Όνομα
+Optional=Προαιρετικό
+Outgoing Proxy=Εξερχόμενο Proxy
+Password=Κωδικός
+Please match the requested format=Χρησιμοποιήστε τη ζητούμενη μορφή
+Required=Απαιτείται
+Select Proxy=Επιλογή Proxy
+User=Χρήστης
 
 :outgoing_proxy_enable_plug:
-> Select the Proxy to use. Only online Proxies will be selectable.
+> Επιλέξτε το Proxy που θα χρησιμοποιηθεί. Μόνο τα συνδεδεμένα Proxies είναι διαθέσιμα για επιλογή.
 >
-> If your network environment requires an outgoing http proxy, define that here.
+> Αν το δίκτυό σας απαιτεί εξερχόμενο http proxy, ορίστε το εδώ.
 >
-> Outgoing connections from the webgui and some system processes will use the specified http proxy. Docker container installs and updates will use the proxy, but the container itself will not, neither will any VMs.
+> Οι εξερχόμενες συνδέσεις από το webgui και ορισμένες διεργασίες συστήματος θα χρησιμοποιούν το καθορισμένο http proxy. Οι εγκαταστάσεις και ενημερώσεις Docker containers θα χρησιμοποιούν το proxy, αλλά όχι το ίδιο το container, ούτε οι VMs.
 >
-> For a more comprehensive solution you might consider setting up <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN tunnel access for System)_</a></u>.
+> Για μια πιο ολοκληρωμένη λύση, μπορείτε να ρυθμίσετε <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN tunnel access for System)_</a></u>.
 :end
 
 :outgoing_proxy_name_plug:
-> Outgoing Proxy name for this Proxy
+> Όνομα εξερχόμενου Proxy για αυτό το Proxy
 :end
 
 :outgoing_proxy_url_plug:
-> Outgoing Proxy URL for this Proxy. The URL can be entered with or without credentials. The credentials will be parsed from the URL.
+> URL εξερχόμενου Proxy για αυτό το Proxy. Το URL μπορεί να περιλαμβάνει ή όχι διαπιστευτήρια. Τα διαπιστευτήρια θα εξαχθούν από το URL.
 >
-> If you enter a User and Password, they will be used as new credentials.
+> Αν εισαγάγετε Χρήστη και Κωδικό, θα χρησιμοποιηθούν ως νέα διαπιστευτήρια.
 :end
 
 :outgoing_proxy_user_plug:
-> Outgoing Proxy User Name for this Proxy
+> Όνομα χρήστη εξερχόμενου Proxy για αυτό το Proxy
 :end

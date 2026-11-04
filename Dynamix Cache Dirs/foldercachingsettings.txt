@@ -1,142 +1,142 @@
-Adaptive=
-Cache pressure of directories on system=
-Check HELP for filter example=
-Disk Idle Timer=
-Folder caching function=
-for adaptive depth=
-Important - check HELP if disks spin up=
-Included folders=
-Memory available to the 'cache_dirs' script increase if it dies=Memory available to the 'cache_dirs' script (increase if it crashes)
-Logging=
-Maximum interval between folder scans=
-Maximum level depth=
-Minimum interval between folder scans=
-Minimum level depth=
-or see=
-Run scan of each disk in a separate thread=
-Timeout during disk-idle period=
-Timeout during initial startup or less-idle period=
-Timeout when all directories have been cached=
-Scan user shares mntuser=Scan user shares (/mnt/user)
-Suspend during Mover process=Suspend during 'Mover' process
-unlimited=
-Unraid forum=
-Use Adaptive depth=
-User defined options=
+Adaptive=Προσαρμοστικό
+Cache pressure of directories on system=Cache pressure φακέλων στο σύστημα
+Check HELP for filter example=Δείτε τη ΒΟΗΘΕΙΑ για παράδειγμα φίλτρου
+Disk Idle Timer=Χρονόμετρο Αδράνειας Δίσκων
+Folder caching function=Λειτουργία caching φακέλων
+for adaptive depth=για προσαρμοστικό βάθος
+Important - check HELP if disks spin up=Σημαντικό - δείτε τη ΒΟΗΘΕΙΑ αν οι δίσκοι κάνουν spin up
+Included folders=Περιλαμβανόμενοι φάκελοι
+Memory available to the 'cache_dirs' script increase if it dies=Διαθέσιμη μνήμη για το script 'cache_dirs' (αυξήστε την αν καταρρέει)
+Logging=Καταγραφή
+Maximum interval between folder scans=Μέγιστο διάστημα μεταξύ σαρώσεων φακέλων
+Maximum level depth=Μέγιστο βάθος επιπέδων
+Minimum interval between folder scans=Ελάχιστο διάστημα μεταξύ σαρώσεων φακέλων
+Minimum level depth=Ελάχιστο βάθος επιπέδων
+or see=ή δείτε
+Run scan of each disk in a separate thread=Σάρωση κάθε δίσκου σε ξεχωριστό νήμα
+Timeout during disk-idle period=Χρονικό όριο κατά την αδράνεια δίσκων
+Timeout during initial startup or less-idle period=Χρονικό όριο κατά την αρχική εκκίνηση ή περίοδο μικρότερης αδράνειας
+Timeout when all directories have been cached=Χρονικό όριο όταν όλοι οι φάκελοι είναι στην cache
+Scan user shares mntuser=Σάρωση user shares (/mnt/user)
+Suspend during Mover process=Αναστολή κατά τη διεργασία 'Mover'
+unlimited=απεριόριστο
+Unraid forum=Φόρουμ Unraid
+Use Adaptive depth=Χρήση προσαρμοστικού βάθους
+User defined options=Επιλογές χρήστη
 
 :cachedirs_info_plug:
-> Folder Caching Info
+> Πληροφορίες caching φακέλων
 >
-> The folder caching (cache_dirs) reads directories continuously to keep them in memory.
-> The program does not know whether a directory is already in memory or needs to be re-read from disk.
-> Therefore, it cannot avoid spinning up disks when the Linux memory cache evicts a directory 
-and 'cache_dirs' rescans it.
-> If a large number of files are kept in memory, it is inevitable that some directories will be evicted from the cache when the system is under load.
+> Το caching φακέλων (cache_dirs) διαβάζει συνεχώς τους φακέλους ώστε να παραμένουν στη μνήμη.
+> Το πρόγραμμα δεν γνωρίζει αν ένας φάκελος είναι ήδη στη μνήμη ή αν πρέπει να διαβαστεί ξανά από τον δίσκο.
+> Γι' αυτό δεν μπορεί να αποφύγει το spin up των δίσκων όταν η cache μνήμης του Linux αποβάλλει έναν φάκελο
+και το 'cache_dirs' τον σαρώνει ξανά.
+> Αν διατηρούνται πολλά αρχεία στη μνήμη, είναι αναπόφευκτο ορισμένοι φάκελοι να αποβληθούν από την cache όταν το σύστημα έχει φόρτο.
 >
-> The program by default uses an adaptive mode where it reduces the depth of the directory structure which it tries to keep in memory.
-> When it detects a cache-miss (slow scan time) it will reduce the depth until disks are idle again,
-> but will still be at risk of putting load on the disks for a minute or two until the program gives up and waits for idle disks.
-> The less files the cache needs to hold, the less likely it is that the program spins up disks.
+> Από προεπιλογή το πρόγραμμα χρησιμοποιεί προσαρμοστική λειτουργία, όπου μειώνει το βάθος της δομής φακέλων που προσπαθεί να κρατήσει στη μνήμη.
+> Όταν εντοπίζει cache-miss (αργή σάρωση), μειώνει το βάθος μέχρι οι δίσκοι να γίνουν ξανά αδρανείς,
+> αλλά παραμένει ο κίνδυνος φόρτου στους δίσκους για ένα-δύο λεπτά μέχρι το πρόγραμμα να σταματήσει και να περιμένει αδρανείς δίσκους.
+> Όσο λιγότερα αρχεία χρειάζεται να κρατά η cache, τόσο λιγότερο πιθανό είναι το πρόγραμμα να κάνει spin up τους δίσκους.
 :end
 
 :cachedirs_function_plug:
-> Select whether folder caching is enabled or disabled. Caching will only effectively occur when the array is started.
-> The caching function is automatically restarted or stopped when the array goes online or offline.
+> Επιλέξτε αν το caching φακέλων είναι ενεργό ή ανενεργό. Το caching γίνεται ουσιαστικά μόνο όταν το array είναι σε λειτουργία.
+> Η λειτουργία caching επανεκκινείται ή σταματά αυτόματα όταν το array μπαίνει σε λειτουργία ή βγαίνει εκτός.
 :end
 
 :cachedirs_pressure_plug:
-> Set 'cache_pressure' to 'NN' (default = 10). A value of 0 means never reclaim cache.
+> Ορίστε το 'cache_pressure' σε 'NN' (προεπιλογή = 10). Η τιμή 0 σημαίνει ότι η cache δεν ανακτάται ποτέ.
 >
-> A value of 1 works great for many users. If your disks spin up or 'cache_dirs' logging indicates it frequently has accessed disks after scan, try lowering 'cache_pressure' to 1. If the system runs out of memory increase 'cache_pressure'.
+> Η τιμή 1 λειτουργεί πολύ καλά για πολλούς χρήστες. Αν οι δίσκοι σας κάνουν spin up ή η καταγραφή του 'cache_dirs' δείχνει ότι συχνά προσπελάζει δίσκους μετά τη σάρωση, δοκιμάστε να μειώσετε το 'cache_pressure' σε 1. Αν το σύστημα ξεμείνει από μνήμη, αυξήστε το 'cache_pressure'.
 >
-> If CPU and disks is heavily affected by 'cache_dirs' on frequent intervals this is also an indication that 'cache_dirs' has to rescan everything.
+> Αν η CPU και οι δίσκοι επιβαρύνονται έντονα από το 'cache_dirs' σε συχνά διαστήματα, αυτό δείχνει επίσης ότι το 'cache_dirs' πρέπει να σαρώνει ξανά τα πάντα.
 >
-> Warning: a value of 0 will cause the kernel to never release directory cache, and if too little memory is available,
-> the system may crash. 'cache_dirs' does not reset 'cache_pressure' after quitting.
-> To reset 'cache_pressure', execute 'sudo sysctl vm.vfs_cache_pressure=100', or run 'cache_dirs' with 'cache_pressure' 100.
+> Προειδοποίηση: η τιμή 0 κάνει τον kernel να μην αποδεσμεύει ποτέ την cache φακέλων και, αν η διαθέσιμη μνήμη είναι πολύ λίγη,
+> το σύστημα μπορεί να καταρρεύσει. Το 'cache_dirs' δεν επαναφέρει το 'cache_pressure' όταν τερματίζεται.
+> Για επαναφορά του 'cache_pressure', εκτελέστε 'sudo sysctl vm.vfs_cache_pressure=100' ή εκτελέστε το 'cache_dirs' με 'cache_pressure' 100.
 >
-> See 'vfs_cache_pressure' in [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
+> Δείτε το 'vfs_cache_pressure' στο [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
 :end
 
 :cachedirs_suspend_plug:
-> Stop caching while the mover is running to avoid conflicts. When using adaptive depth it will probably work well NO.
-> With fixed depth it will almost certainly put less load on the disks to choose YES.
+> Διακοπή του caching όσο εκτελείται ο mover, για αποφυγή συγκρούσεων. Με προσαρμοστικό βάθος πιθανότατα λειτουργεί καλά το ΟΧΙ.
+> Με σταθερό βάθος, το ΝΑΙ σχεδόν σίγουρα επιβαρύνει λιγότερο τους δίσκους.
 :end
 
 :cachedirs_included_folders_plug:
-> The dropdown menu shows all available folders, by default all folders are included. Select here the restricted list of folders to be included.
+> Το αναπτυσσόμενο μενού δείχνει όλους τους διαθέσιμους φακέλους· από προεπιλογή περιλαμβάνονται όλοι. Επιλέξτε εδώ την περιορισμένη λίστα φακέλων που θα περιληφθούν.
 >
-> If an included folder is excluded, then the folder gets excluded. It is simplest to not use includes and excludes at the same time.
+> Αν ένας περιλαμβανόμενος φάκελος εξαιρεθεί, ο φάκελος εξαιρείται. Το απλούστερο είναι να μη χρησιμοποιείτε ταυτόχρονα συμπεριλήψεις και εξαιρέσεις.
 :end
 
 :cachedirs_excluded_folders_plug:
-> The dropdown menu shows all available folders, by default no folders are excluded. Select here any folders to be excluded.
+> Το αναπτυσσόμενο μενού δείχνει όλους τους διαθέσιμους φακέλους· από προεπιλογή δεν εξαιρείται κανένας. Επιλέξτε εδώ τους φακέλους που θα εξαιρεθούν.
 >
-> It is possible to exclude an included folder. It is simplest to not use includes and excludes at the same time.
+> Είναι δυνατή η εξαίρεση ενός περιλαμβανόμενου φακέλου. Το απλούστερο είναι να μη χρησιμοποιείτε ταυτόχρονα συμπεριλήψεις και εξαιρέσεις.
 :end
 
 :cachedirs_adaptive_depth_plug:
-> If adaptive is enabled the depth will be automatically adjusted but will never exceed max level depth.
-> It will start at depth 1 and keep increasing the scan depth towards maximum level as long as scans do not take too long to complete (see scan timeout).
-> If adaptive is disabled then 'cache_dirs' will always scan to the max level.
+> Αν είναι ενεργό το προσαρμοστικό, το βάθος προσαρμόζεται αυτόματα αλλά δεν ξεπερνά ποτέ το μέγιστο βάθος επιπέδων.
+> Ξεκινά από βάθος 1 και αυξάνει το βάθος σάρωσης προς το μέγιστο επίπεδο, όσο οι σαρώσεις δεν διαρκούν πολύ (δείτε το χρονικό όριο σάρωσης).
+> Αν το προσαρμοστικό είναι ανενεργό, το 'cache_dirs' σαρώνει πάντα έως το μέγιστο επίπεδο.
 :end
 
 :cachedirs_min_level_plug:
-> Sets the minimum folder level for the adaptive scan (user-share > child folder > grand child is two levels). Default is 4.
+> Ορίζει το ελάχιστο επίπεδο φακέλων για την προσαρμοστική σάρωση (user-share > υποφάκελος > υπο-υποφάκελος είναι δύο επίπεδα). Η προεπιλογή είναι 4.
 :end
 
 :cachedirs_max_level_plug:
-> Sets the maximum folder levels for the scan (parent > child folder > grand child). Set to 'unlimited' (or 0) to remove maximum
+> Ορίζει τα μέγιστα επίπεδα φακέλων για τη σάρωση (γονικός > υποφάκελος > υπο-υποφάκελος). Ορίστε 'απεριόριστο' (ή 0) για κατάργηση του μέγιστου
 :end
 
 :cachedirs_idle_timer_plug:
-> When the disks have been idle this long, 'cache_dirs' adaptive scan starts working towards building the cache.
+> Όταν οι δίσκοι είναι αδρανείς για τόσο χρόνο, η προσαρμοστική σάρωση του 'cache_dirs' αρχίζει να χτίζει την cache.
 :end
 
 :cachedirs_timeout_scan_plug:
-> Scan timeout is the maximum duration that a single scan through all directories at the current level of depth (which may change adaptively).
-> Increase it if 'cache_dirs' fails in caching all your files. This timeout is always used if adaptive is disabled.
+> Το χρονικό όριο σάρωσης είναι η μέγιστη διάρκεια μιας σάρωσης όλων των φακέλων στο τρέχον βάθος (που μπορεί να αλλάζει προσαρμοστικά).
+> Αυξήστε το αν το 'cache_dirs' δεν καταφέρνει να κρατήσει όλα τα αρχεία σας στην cache. Αυτό το χρονικό όριο χρησιμοποιείται πάντα αν το προσαρμοστικό είναι ανενεργό.
 :end
 
 :cachedirs_timeout_initial_plug:
-> Increase it if you want 'cache_dirs' too give more time in initial scan, and when filesystem may be busy.
+> Αυξήστε το αν θέλετε το 'cache_dirs' να δίνει περισσότερο χρόνο στην αρχική σάρωση και όταν το σύστημα αρχείων μπορεί να είναι απασχολημένο.
 :end
 
 :cachedirs_timeout_cached_plug:
-> Decrease it if you want 'cache_dirs' to put less load on system when cache is evicted from memory, and disks are not idle.
-> Increase if you want 'cache_dirs' to have a greater chance af getting directories back into memory.
+> Μειώστε το αν θέλετε το 'cache_dirs' να επιβαρύνει λιγότερο το σύστημα όταν η cache αποβάλλεται από τη μνήμη και οι δίσκοι δεν είναι αδρανείς.
+> Αυξήστε το αν θέλετε το 'cache_dirs' να έχει περισσότερες πιθανότητες να ξαναφέρει τους φακέλους στη μνήμη.
 :end
 
 :cachedirs_min_interval_plug:
-> Tweaking of the caching interval can be done for slower systems. Default value is 1 second, should be alright for most systems.
+> Σε πιο αργά συστήματα μπορεί να ρυθμιστεί το διάστημα caching. Η προεπιλογή είναι 1 δευτερόλεπτο και είναι εντάξει για τα περισσότερα συστήματα.
 :end
 
 :cachedirs_max_interval_plug:
-> Tweaking of the caching interval can be done for slower systems. Default value is 10 seconds, should be alright for most systems.
+> Σε πιο αργά συστήματα μπορεί να ρυθμιστεί το διάστημα caching. Η προεπιλογή είναι 10 δευτερόλεπτα και είναι εντάξει για τα περισσότερα συστήματα.
 :end
 
 :cachedirs_scan_disk_plug:
-> Each disk will be scanned in a separate thread, so the disks will be read concurrently. If user share is also scanned the user
-> share will be scanned in a single thread after all disks scans are completed, to avoid thrashing disks.
+> Κάθε δίσκος σαρώνεται σε ξεχωριστό νήμα, ώστε οι δίσκοι να διαβάζονται ταυτόχρονα. Αν σαρώνεται και το user share, το user
+> share σαρώνεται σε ένα νήμα αφού ολοκληρωθούν όλες οι σαρώσεις δίσκων, για να μην υπερφορτώνονται οι δίσκοι.
 :end
 
 :cachedirs_limit_memory_plug:
-> set ulimit to NN to limit memory used by script (default=50000), '-U 0' sets no ulimit at all and inherits the shells default.
+> ορίστε ulimit σε NN για περιορισμό της μνήμης που χρησιμοποιεί το script (προεπιλογή=50000)· το '-U 0' δεν ορίζει καθόλου ulimit και κληρονομεί την προεπιλογή του shell.
 :end
 
 :cachedirs_logging_plug:
-> Select whether logging is enabled or disabled. Logging will be written to '/var/log/cache_dirs.log' and '/var/log/cache_dirs_lost_cache.csv'.
-> Be aware that the 'cache_dirs' logs are stored in memory on Unraid and are not automatically rotated.
+> Επιλέξτε αν η καταγραφή είναι ενεργή ή ανενεργή. Η καταγραφή γράφεται στα '/var/log/cache_dirs.log' και '/var/log/cache_dirs_lost_cache.csv'.
+> Λάβετε υπόψη ότι τα logs του 'cache_dirs' αποθηκεύονται στη μνήμη του Unraid και δεν εναλλάσσονται αυτόματα.
 :end
 
 :cachedirs_user_defined_plug:
-> The 'cache_dirs' script has additional options which may be used.
-> Refer to the online documentation to use these as needed,
-> or see the 'cache_dirs' script itself located under '/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'.
+> Το script 'cache_dirs' έχει πρόσθετες επιλογές που μπορούν να χρησιμοποιηθούν.
+> Δείτε την online τεκμηρίωση για να τις χρησιμοποιήσετε ανάλογα,
+> ή δείτε το ίδιο το script 'cache_dirs' στο '/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'.
 >
-> You can instruct 'cache_dirs' to avoid traversing directories by name. For example, the following excludes '.Recycle.Bin', 'temp', and 'log' folders:
+> Μπορείτε να ορίσετε στο 'cache_dirs' να μη διασχίζει φακέλους με συγκεκριμένο όνομα. Για παράδειγμα, το παρακάτω εξαιρεί τους φακέλους '.Recycle.Bin', 'temp' και 'log':
 >
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 >
-> Note that the single quotes around the argument to -a are important. Double quotes do not work in the current version, so it’s not currently possible to filter with '-name "*Old" -prune'.
+> Σημειώστε ότι τα μονά εισαγωγικά γύρω από το όρισμα του -a είναι σημαντικά. Τα διπλά εισαγωγικά δεν λειτουργούν στην τρέχουσα έκδοση, οπότε προς το παρόν δεν είναι δυνατό φιλτράρισμα με '-name "*Old" -prune'.
 :end

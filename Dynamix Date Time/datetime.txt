@@ -1,41 +1,41 @@
-Current date and time=
-Hide map=
-New date and time=
-NTP server=
-Show map=
-Time zone=
-Use NTP=
+Current date and time=Τρέχουσα ημερομηνία και ώρα
+Hide map=Απόκρυψη χάρτη
+New date and time=Νέα ημερομηνία και ώρα
+NTP server=Διακομιστής NTP
+Show map=Εμφάνιση χάρτη
+Time zone=Ζώνη ώρας
+Use NTP=Χρήση NTP
 
 :timezone_plug:
-> Select your applicable time zone from the drop-down list.
+> Επιλέξτε τη ζώνη ώρας σας από την αναπτυσσόμενη λίστα.
 :end
 
 :datetime_map_plug:
-> The world map highlights the current selected time zone.
+> Ο παγκόσμιος χάρτης επισημαίνει την τρέχουσα επιλεγμένη ζώνη ώρας.
 >
-> Use your mouse to move over the map and click on the country for which you want to set the time zone. The appropriate zone is automatically selected in the drop-down list.
+> Μετακινήστε το ποντίκι πάνω στον χάρτη και κάντε κλικ στη χώρα για την οποία θέλετε να ορίσετε τη ζώνη ώρας. Η κατάλληλη ζώνη επιλέγεται αυτόματα στην αναπτυσσόμενη λίστα.
 :end
 
 :use_ntp_plug:
-> Select 'Yes' to use Network Time Protocol to keep your server time accurate.
-> We **highly** recommend the use of a network time server, especially if you plan on using Active Directory.
+> Επιλέξτε 'Ναι' για να χρησιμοποιείται το Network Time Protocol ώστε η ώρα του διακομιστή να είναι ακριβής.
+> Συνιστούμε **έντονα** τη χρήση διακομιστή ώρας δικτύου, ειδικά αν σκοπεύετε να χρησιμοποιήσετε Active Directory.
 :end
 
 :ntp_server1_plug:
-> This is the primary NTP server to use.  Enter a FQDN or an IP address.
+> Αυτός είναι ο κύριος διακομιστής NTP. Εισαγάγετε FQDN ή διεύθυνση IP.
 :end
 
 :ntp_server2_plug:
-> This is the alternate NTP server to use if NTP Server 1 is down.
+> Αυτός είναι ο εναλλακτικός διακομιστής NTP αν ο Διακομιστής NTP 1 είναι εκτός λειτουργίας.
 :end
 
 :ntp_server3_plug:
-> This is the alternate NTP Server to use if NTP Servers 1 and 2 are both down.
+> Αυτός είναι ο εναλλακτικός διακομιστής NTP αν οι Διακομιστές NTP 1 και 2 είναι και οι δύο εκτός λειτουργίας.
 :end
 
 :ntp_server4_plug:
-> This is the alternate NTP Server to use if NTP Servers 1, 2, and 3 are all down.
+> Αυτός είναι ο εναλλακτικός διακομιστής NTP αν οι Διακομιστές NTP 1, 2 και 3 είναι όλοι εκτός λειτουργίας.
 :end
 :current_time_plug:
-> Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
+> Εισαγάγετε την τρέχουσα ώρα. Χρησιμοποιήστε τη μορφή YYYY-MM-DD HH:MM:SS. Είναι ανενεργό όταν χρησιμοποιείται NTP.
 :end

@@ -1,117 +1,117 @@
-Console=
-Counters only=
-Custom commands after wake-up=
-Custom commands before sleep=
-Device activity monitoring=
-DHCP renewal after wake-up=
-Enable DEBUG mode=
-Enter custom commands here=
-Ethernet interface=
-Excluded days=
-Excluded hours=
-Execute function=
-Extra delay after array inactivity=
-Force gigabit speed after wake-up=
-High traffic=
-IP address=
-Local Remote=Local & Remote
-Local=
-Log will be stored in bootlogss3_sleeplog=Log will be stored in **/boot/logs/s3_sleep.log**
-Low traffic=
-Medium traffic=
-Mega traffic=
-Monitor disks outside array=
-Network idle threshold=
-no host=
-Remote=
-Set WOL options before sleep=
-Silent traffic=
-Status counters=Status & counters
-Status only=
-Syslog and flash=
-Syslog=
-Wait for array inactivity=
-Wait for host inactivity=
-Wait for network inactivity=
-Wait for user login inactivity=
-Yes, exclude Cache=
+Console=Κονσόλα
+Counters only=Μόνο μετρητές
+Custom commands after wake-up=Προσαρμοσμένες εντολές μετά την αφύπνιση
+Custom commands before sleep=Προσαρμοσμένες εντολές πριν την αναστολή
+Device activity monitoring=Παρακολούθηση δραστηριότητας συσκευών
+DHCP renewal after wake-up=Ανανέωση DHCP μετά την αφύπνιση
+Enable DEBUG mode=Ενεργοποίηση λειτουργίας DEBUG
+Enter custom commands here=Εισαγάγετε εδώ προσαρμοσμένες εντολές
+Ethernet interface=Διεπαφή Ethernet
+Excluded days=Εξαιρούμενες ημέρες
+Excluded hours=Εξαιρούμενες ώρες
+Execute function=Εκτέλεση λειτουργίας
+Extra delay after array inactivity=Επιπλέον καθυστέρηση μετά την αδράνεια του array
+Force gigabit speed after wake-up=Επιβολή ταχύτητας gigabit μετά την αφύπνιση
+High traffic=Υψηλή κίνηση
+IP address=Διεύθυνση IP
+Local Remote=Τοπικά & Απομακρυσμένα
+Local=Τοπικά
+Log will be stored in bootlogss3_sleeplog=Το log θα αποθηκεύεται στο **/boot/logs/s3_sleep.log**
+Low traffic=Χαμηλή κίνηση
+Medium traffic=Μέτρια κίνηση
+Mega traffic=Πολύ υψηλή κίνηση
+Monitor disks outside array=Παρακολούθηση δίσκων εκτός array
+Network idle threshold=Όριο αδράνειας δικτύου
+no host=κανένας host
+Remote=Απομακρυσμένα
+Set WOL options before sleep=Ορισμός επιλογών WOL πριν την αναστολή
+Silent traffic=Ελάχιστη κίνηση
+Status counters=Κατάσταση & μετρητές
+Status only=Μόνο κατάσταση
+Syslog and flash=Syslog και flash
+Syslog=Syslog
+Wait for array inactivity=Αναμονή για αδράνεια array
+Wait for host inactivity=Αναμονή για αδράνεια host
+Wait for network inactivity=Αναμονή για αδράνεια δικτύου
+Wait for user login inactivity=Αναμονή για αδράνεια συνδέσεων χρηστών
+Yes, exclude Cache=Ναι, εξαίρεση Cache
 
 :s3sleep_function_plug:
-> Select the mode of operation. The system can be either put to sleep (and wake-up) or completely shutdown.
+> Επιλέξτε τον τρόπο λειτουργίας. Το σύστημα μπορεί είτε να τεθεί σε αναστολή (και αφύπνιση) είτε να τερματιστεί πλήρως.
 >
-> The next settings determine the conditions under which the system will be put to sleep or shutdown.
+> Οι επόμενες ρυθμίσεις καθορίζουν τις συνθήκες υπό τις οποίες το σύστημα θα τεθεί σε αναστολή ή θα τερματιστεί.
 :end
 
 :s3sleep_excluded_days_plug:
-> By default all days are included, select here the days that sleep or shutdown is not effective. This setting works in combination with excluded hours.
+> Από προεπιλογή περιλαμβάνονται όλες οι ημέρες· επιλέξτε εδώ τις ημέρες κατά τις οποίες δεν ισχύει η αναστολή ή ο τερματισμός. Η ρύθμιση λειτουργεί σε συνδυασμό με τις εξαιρούμενες ώρες.
 :end
 
 :s3sleep_excluded_hours_plug:
-> By default all hours are included, select here the hours that sleep or shutdown is not effective. This setting works in combination with excluded days.
+> Από προεπιλογή περιλαμβάνονται όλες οι ώρες· επιλέξτε εδώ τις ώρες κατά τις οποίες δεν ισχύει η αναστολή ή ο τερματισμός. Η ρύθμιση λειτουργεί σε συνδυασμό με τις εξαιρούμενες ημέρες.
 :end
 
 :s3sleep_inactivity_plug:
-> Select whether the array must be completely inactive (all disks are spun down) before sleep or shutdown can take place.
+> Επιλέξτε αν το array πρέπει να είναι εντελώς ανενεργό (όλοι οι δίσκοι σε spin down) πριν γίνει αναστολή ή τερματισμός.
 >
-> The Cache disk can be included or excluded in this setting, e.g. when the Cache disk is used continuously and never spins down.
+> Ο δίσκος Cache μπορεί να συμπεριληφθεί ή να εξαιρεθεί σε αυτή τη ρύθμιση, π.χ. όταν ο δίσκος Cache χρησιμοποιείται συνεχώς και δεν κάνει ποτέ spin down.
 :end
 
 :s3sleep_activity_plug:
-> *Status* monitors the hardware status of the device
+> Η *Κατάσταση* παρακολουθεί την κατάσταση υλικού της συσκευής
 >
-> *Counters* monitors the read/write counters of the device
+> Οι *Μετρητές* παρακολουθούν τους μετρητές ανάγνωσης/εγγραφής της συσκευής
 :end
 
 :s3sleep_outside_plug:
-> If there any other disks present outside the array, then these can be monitored separately.
+> Αν υπάρχουν άλλοι δίσκοι εκτός του array, μπορούν να παρακολουθούνται ξεχωριστά.
 :end
 
 :s3sleep_extra_delay_plug:
-> Specify an additional delay after the array has become inactive. Value may be 0 for no delay.
+> Ορίστε πρόσθετη καθυστέρηση αφού το array γίνει ανενεργό. Η τιμή 0 σημαίνει χωρίς καθυστέρηση.
 :end
 
 :s3sleep_network_plug:
-> Select whether network activity must be taken as a condition before going to sleep or shutdown.
+> Επιλέξτε αν η δραστηριότητα δικτύου θα λαμβάνεται ως συνθήκη πριν την αναστολή ή τον τερματισμό.
 :end
 
 :s3sleep_ethernet_plug:
-> In case of multiple network interfaces, select here the interface to use for checking the network activity.
+> Σε περίπτωση πολλών διεπαφών δικτύου, επιλέξτε εδώ τη διεπαφή για τον έλεγχο της δραστηριότητας δικτύου.
 :end
 
 :s3sleep_idle_plug:
-> Network activity is evaluated against thresholds, from Silent to Mega traffic. Experiment to find the right balance for your environment.
+> Η δραστηριότητα δικτύου αξιολογείται με βάση όρια, από Ελάχιστη έως Πολύ υψηλή κίνηση. Πειραματιστείτε για να βρείτε τη σωστή ισορροπία για το περιβάλλον σας.
 :end
 
 :s3sleep_host_plug:
-> Select whether external hosts need to be monitored and non-responding as a sleep or shutdown condition.
+> Επιλέξτε αν θα παρακολουθούνται εξωτερικοί hosts και αν η μη απόκρισή τους θα αποτελεί συνθήκη αναστολής ή τερματισμού.
 >
-> Specify external hosts by IP address; separate multiple IPs with commas. If any host responds to ping, sleep or shutdown will not occur.
+> Ορίστε τους εξωτερικούς hosts με διεύθυνση IP· χωρίστε πολλές IPs με κόμματα. Αν κάποιος host απαντά σε ping, δεν θα γίνει αναστολή ή τερματισμός.
 :end
 
 :s3sleep_login_plug:
-> Select whether local (console) or remote (telnet or ssh) logged in users need to log out first before sleep or shutdown can proceed.
+> Επιλέξτε αν οι τοπικά (κονσόλα) ή απομακρυσμένα (telnet ή ssh) συνδεδεμένοι χρήστες πρέπει πρώτα να αποσυνδεθούν πριν γίνει αναστολή ή τερματισμός.
 :end
 
 :s3sleep_wol_plug:
-> Set additional WOL options for proper support of S3 sleep. Refer to your system documentation for possibilities.
+> Ορίστε πρόσθετες επιλογές WOL για σωστή υποστήριξη της αναστολής S3. Δείτε την τεκμηρίωση του συστήματός σας για τις δυνατότητες.
 :end
 
 :s3sleep_before_plug:
-> Enter additional commands to run before sleep or shutdown here (e.g., cleanup or other tasks).
+> Εισαγάγετε εδώ πρόσθετες εντολές που θα εκτελούνται πριν την αναστολή ή τον τερματισμό (π.χ. καθαρισμός ή άλλες εργασίες).
 :end
 
 :s3sleep_after_plug:
-> Enter additional commands to run after wake-up here. This can help restore the previous state.
+> Εισαγάγετε εδώ πρόσθετες εντολές που θα εκτελούνται μετά την αφύπνιση. Μπορεί να βοηθήσει στην επαναφορά της προηγούμενης κατάστασης.
 :end
 
 :s3sleep_gigabit_plug:
-> Leave this OFF by default. If the interface doesn’t start properly after wake-up, try enabling this setting.
+> Αφήστε το OFF από προεπιλογή. Αν η διεπαφή δεν ξεκινά σωστά μετά την αφύπνιση, δοκιμάστε να ενεργοποιήσετε αυτή τη ρύθμιση.
 :end
 
 :s3sleep_dhcp_plug:
-> Leave this OFF by default. If the system doesn’t start properly after wake-up, try enabling this setting.
+> Αφήστε το OFF από προεπιλογή. Αν το σύστημα δεν ξεκινά σωστά μετά την αφύπνιση, δοκιμάστε να ενεργοποιήσετε αυτή τη ρύθμιση.
 :end
 
 :s3sleep_debug_plug:
-> By default debug is OFF. Use this setting only in case of troubleshooting, it will generate additional messages to report the various stages within the s3_sleep script.
+> Από προεπιλογή το debug είναι OFF. Χρησιμοποιήστε αυτή τη ρύθμιση μόνο για αντιμετώπιση προβλημάτων· θα δημιουργεί πρόσθετα μηνύματα για τα διάφορα στάδια του script s3_sleep.
 :end

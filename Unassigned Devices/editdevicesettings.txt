@@ -1,102 +1,102 @@
-Abort Device Script=
-Attach=
-Attach This Disk=
-Attaching=
-Automount=
-Click to select file or click Default button for the Device Script File=
-Default=
-Delete Device Script File=
-Detach=
-Detach This Disk=
-Detaching=
-Device Script=
-Device Script content=
-Disable Mount and Unmount Button=
-Disable Mount Button=
-Disk Name=
-Disk Serial=
-Edit Device Script=
-Enter Device Script File Name=
-Enter and Edit the Device Script that runs when a udev or operator event occurs=
-Enter the User Script File Name=
-Enter the User Script that will be using this device=
-Enter the volume to mount on this apfs partition=
-Load the default Device Script=
-Run in background=
-Mark this Device as passed through to a VM or Docker=
-Mount Device Read only=
-Mount Device when Plugged in or Array is Started=
-Mount ISO File when Array is Started=
-Mount Point=
-Mount Remote Share Read only=
-Mount Remote SMB or NFS Share when Array is Started=
-Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=
-Passed Through=
-Read Only=
-Run Device Script File in the background=
-Save your Device Script File=
-Save your Device Script File changes=
-Share Device with SMB and NFS=
-Share Remote Mount with SMB and NFS=
-Show all partitions on this device by default=
-Show Partitions=
-Source=
-Unassigned Devices Settings=
-Undo your changes since last Save=
-User Script=
-Volume=
-ZFS Volume=
+Abort Device Script=Ακύρωση Device Script
+Attach=Σύνδεση
+Attach This Disk=Σύνδεση Αυτού του Δίσκου
+Attaching=Σύνδεση
+Automount=Αυτοπροσάρτηση
+Click to select file or click Default button for the Device Script File=Κλικ για επιλογή αρχείου ή πατήστε Προεπιλογή για το αρχείο Device Script
+Default=Προεπιλογή
+Delete Device Script File=Διαγραφή Αρχείου Device Script
+Detach=Αποσύνδεση
+Detach This Disk=Αποσύνδεση Αυτού του Δίσκου
+Detaching=Αποσύνδεση
+Device Script=Device Script
+Device Script content=Περιεχόμενο Device Script
+Disable Mount and Unmount Button=Απενεργοποίηση Κουμπιού Προσάρτησης και Αποπροσάρτησης
+Disable Mount Button=Απενεργοποίηση Κουμπιού Προσάρτησης
+Disk Name=Όνομα Δίσκου
+Disk Serial=Σειριακός Δίσκου
+Edit Device Script=Επεξεργασία Device Script
+Enter Device Script File Name=Εισαγάγετε Όνομα Αρχείου Device Script
+Enter and Edit the Device Script that runs when a udev or operator event occurs=Εισαγάγετε και επεξεργαστείτε το Device Script που εκτελείται όταν συμβαίνει γεγονός udev ή χειριστή
+Enter the User Script File Name=Εισαγάγετε Όνομα Αρχείου User Script
+Enter the User Script that will be using this device=Εισαγάγετε το User Script που θα χρησιμοποιεί αυτή τη συσκευή
+Enter the volume to mount on this apfs partition=Εισαγάγετε τον τόμο προς προσάρτηση σε αυτό το διαμέρισμα apfs
+Load the default Device Script=Φόρτωση του προεπιλεγμένου Device Script
+Run in background=Εκτέλεση στο παρασκήνιο
+Mark this Device as passed through to a VM or Docker=Σήμανση αυτής της συσκευής ως passed through σε VM ή Docker
+Mount Device Read only=Προσάρτηση συσκευής μόνο για ανάγνωση
+Mount Device when Plugged in or Array is Started=Προσάρτηση συσκευής όταν συνδεθεί ή ξεκινήσει το Array
+Mount ISO File when Array is Started=Προσάρτηση αρχείου ISO όταν ξεκινήσει το Array
+Mount Point=Σημείο Προσάρτησης
+Mount Remote Share Read only=Προσάρτηση απομακρυσμένου Share μόνο για ανάγνωση
+Mount Remote SMB or NFS Share when Array is Started=Προσάρτηση απομακρυσμένου SMB ή NFS Share όταν ξεκινήσει το Array
+Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=Σημείωση: Ενεργοποιήστε την κοινή χρήση SMB ή την εξαγωγή NFS στις Ρυθμίσεις Unassigned Devices για να μοιραστείτε αυτή τη συσκευή
+Passed Through=Passed Through
+Read Only=Μόνο Ανάγνωση
+Run Device Script File in the background=Εκτέλεση αρχείου Device Script στο παρασκήνιο
+Save your Device Script File=Αποθηκεύστε το αρχείο Device Script
+Save your Device Script File changes=Αποθηκεύστε τις αλλαγές του αρχείου Device Script
+Share Device with SMB and NFS=Κοινή Χρήση Συσκευής με SMB και NFS
+Share Remote Mount with SMB and NFS=Κοινή Χρήση Απομακρυσμένης Προσάρτησης με SMB και NFS
+Show all partitions on this device by default=Εμφάνιση όλων των διαμερισμάτων αυτής της συσκευής από προεπιλογή
+Show Partitions=Εμφάνιση Διαμερισμάτων
+Source=Πηγή
+Unassigned Devices Settings=Ρυθμίσεις Unassigned Devices
+Undo your changes since last Save=Αναίρεση αλλαγών από την τελευταία Αποθήκευση
+User Script=User Script
+Volume=Τόμος
+ZFS Volume=Τόμος ZFS
 
 ;
 ; Help
 ;
 :ud_edit_script_device_settings_plug:
-> Select the options for this device and mount point.
+> Επιλέξτε τις επιλογές για αυτή τη συσκευή και το σημείο προσάρτησης.
 :end
 
 :ud_edit_script_detach_plug:
-> Click **Detach** to detach the device. The device will then show in Historical Devices and can be Attached from the device settings there.
+> Πατήστε **Αποσύνδεση** για να αποσυνδέσετε τη συσκευή. Η συσκευή θα εμφανίζεται στις Historical Devices και μπορεί να συνδεθεί ξανά από τις ρυθμίσεις συσκευής εκεί.
 :end
 
 :ud_edit_script_attach_plug:
-> Click **Attach** to attach a device that has been detached. This will act like the device was just installed and will auto mount if 'Auto Mount' is on. It will take a while for the device to show up in UD.
+> Πατήστε **Σύνδεση** για να συνδέσετε μια συσκευή που έχει αποσυνδεθεί. Θα λειτουργήσει σαν να εγκαταστάθηκε μόλις η συσκευή και θα προσαρτηθεί αυτόματα αν είναι ενεργή η 'Αυτόματη προσάρτηση'. Θα χρειαστεί λίγος χρόνος για να εμφανιστεί η συσκευή στο UD.
 :end
 
 :ud_edit_script_abort_plug:
-> Click **Abort** to abort the device script.
+> Πατήστε **Ακύρωση** για να ακυρώσετε το device script.
 :end
 
 :ud_disk_name_plug:
-> Enter the alias name for this device. This is the name you want to use to refer to this drive. Leave the name blank and the 'devX' will be assigned.
+> Εισαγάγετε ψευδώνυμο για αυτή τη συσκευή. Είναι το όνομα με το οποίο θέλετε να αναφέρεστε σε αυτόν τον δίσκο. Αφήστε το όνομα κενό για να οριστεί το 'devX'.
 >
-> **Name:** 8 characters max, spaces converted to '_', minimal special characters allowed, name is case sensitive.
+> **Όνομα:** έως 8 χαρακτήρες, τα κενά μετατρέπονται σε '_', επιτρέπονται ελάχιστοι ειδικοί χαρακτήρες, το όνομα κάνει διάκριση πεζών-κεφαλαίων.
 >
-> **Note:** Cannot contain "dev" as the first characters. This is reserved for the 'devX' devices.
+> **Σημείωση:** Δεν μπορεί να ξεκινά με "dev". Αυτό είναι δεσμευμένο για τις συσκευές 'devX'.
 :end
 
 :ud_edit_script_choose_name_plug:
-> This is the Script File that runs when the device is mounted. Choose your Script File name from the file selection dropdown, or enter your desired script.
+> Αυτό είναι το αρχείο Script που εκτελείται όταν προσαρτάται η συσκευή. Επιλέξτε το όνομα του αρχείου Script από τη λίστα επιλογής αρχείων ή εισαγάγετε το script που θέλετε.
 :end
 
 :ud_edit_user_script_choose_name_plug:
-> If you have the User Scripts plugin installed, you can have
-Unassigned Devices show the running status of the User Script that will be using this device. This field will only be enabled when a Device Script File exists.
+> Αν έχετε εγκατεστημένο το plugin User Scripts, το
+Unassigned Devices μπορεί να εμφανίζει την κατάσταση εκτέλεσης του User Script που θα χρησιμοποιεί αυτή τη συσκευή. Το πεδίο ενεργοποιείται μόνο όταν υπάρχει αρχείο Device Script.
 :end
 
 :ud_edit_script_run_background_plug:
-> Set to **Yes** to have the Device Script run as a background task. This can keep the Unassigned Devices UI from hanging when the script is run from the UI.
+> Ορίστε **Ναι** για να εκτελείται το Device Script ως εργασία παρασκηνίου. Έτσι το UI του Unassigned Devices δεν "κολλάει" όταν το script εκτελείται από το UI.
 :end
 
 :ud_edit_script_buttons_plug:
-> Click **Default** to initialize the edit box with a default Device Script. You still need to click **Save** in order to commit the change.
+> Πατήστε **Προεπιλογή** για να γεμίσει το πλαίσιο επεξεργασίας με ένα προεπιλεγμένο Device Script. Πρέπει ακόμα να πατήσετε **Αποθήκευση** για να αποθηκευτεί η αλλαγή.
 >
-> Click **Save** to save your Device Script file.
+> Πατήστε **Αποθήκευση** για να αποθηκεύσετε το αρχείο Device Script.
 >
-> Click **Delete** to delete the Device Script file.
+> Πατήστε **Διαγραφή** για να διαγράψετε το αρχείο Device Script.
 >
-> Click **Reset** to undo any changes you make (before Saving).
+> Πατήστε **Επαναφορά** για να αναιρέσετε τις αλλαγές σας (πριν την Αποθήκευση).
 >
-> Click **Apply** to commit the current edits.
+> Πατήστε **Εφαρμογή** για να αποθηκεύσετε τις τρέχουσες αλλαγές.
 >
-> Click **Done** to exit this page.
+> Πατήστε **Τέλος** για έξοδο από αυτή τη σελίδα.
 :end
